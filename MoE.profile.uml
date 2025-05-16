@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7LrGQC-oEfCi-dDc7XsS6w" name="MoE" metaclassReference="_7Ls7cS-oEfCi-dDc7XsS6w">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7LuJky-oEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_Zrgs0S-pEfCi-dDc7XsS6w" name="MoE" nsURI="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" nsPrefix="MoE">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zrgs4C-pEfCi-dDc7XsS6w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZrhT4C-pEfCi-dDc7XsS6w" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZrhT4S-pEfCi-dDc7XsS6w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZrhT4i-pEfCi-dDc7XsS6w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZrhT4y-pEfCi-dDc7XsS6w" key="Date" value="13.05.25, 05:21"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZrhT5C-pEfCi-dDc7XsS6w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Zrgs0i-pEfCi-dDc7XsS6w" name="MoE">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zrgs0y-pEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7Ls7cC-oEfCi-dDc7XsS6w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Zrgs1C-pEfCi-dDc7XsS6w" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Zrgs1i-pEfCi-dDc7XsS6w" name="MoE" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Zrgs2C-pEfCi-dDc7XsS6w" name="MoE">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zrgs2S-pEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZrgFwC-pEfCi-dDc7XsS6w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Zrgs2i-pEfCi-dDc7XsS6w" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Zrgs3C-pEfCi-dDc7XsS6w" name="MoE" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_7LuJlC-oEfCi-dDc7XsS6w" name="MoE" nsURI="http:///schemas/MoE/_7LuJki-oEfCi-dDc7XsS6w/0" nsPrefix="MoE">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7LuJnC-oEfCi-dDc7XsS6w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LuJnS-oEfCi-dDc7XsS6w" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LuJni-oEfCi-dDc7XsS6w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LuJny-oEfCi-dDc7XsS6w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LuJoC-oEfCi-dDc7XsS6w" key="Date" value="13.05.25, 05:18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LuJoS-oEfCi-dDc7XsS6w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7LuJlS-oEfCi-dDc7XsS6w" name="MoE">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7LuJli-oEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7Ls7cC-oEfCi-dDc7XsS6w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7LuJly-oEfCi-dDc7XsS6w" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_7LuJmS-oEfCi-dDc7XsS6w" name="MoE" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_7Ls7cS-oEfCi-dDc7XsS6w">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7Ls7cC-oEfCi-dDc7XsS6w" name="MoE">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7LuJkC-oEfCi-dDc7XsS6w" name="base_Class" association="_7Ls7ci-oEfCi-dDc7XsS6w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7LuJkS-oEfCi-dDc7XsS6w" name="MoE">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_7Ls7ci-oEfCi-dDc7XsS6w" name="Class_MoE" memberEnd="_7Ls7cy-oEfCi-dDc7XsS6w _7LuJkC-oEfCi-dDc7XsS6w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_7Ls7cy-oEfCi-dDc7XsS6w" name="extension_MoE" type="_7Ls7cC-oEfCi-dDc7XsS6w" aggregation="composite" association="_7Ls7ci-oEfCi-dDc7XsS6w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ZrgFwC-pEfCi-dDc7XsS6w" name="MoE">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZrgFwy-pEfCi-dDc7XsS6w" name="base_Class" association="_ZrgFwS-pEfCi-dDc7XsS6w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZrgFxC-pEfCi-dDc7XsS6w" name="MoE">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_ZrgFwS-pEfCi-dDc7XsS6w" name="Class_MoE" memberEnd="_ZrgFwi-pEfCi-dDc7XsS6w _ZrgFwy-pEfCi-dDc7XsS6w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_ZrgFwi-pEfCi-dDc7XsS6w" name="extension_MoE" type="_ZrgFwC-pEfCi-dDc7XsS6w" aggregation="composite" association="_ZrgFwS-pEfCi-dDc7XsS6w"/>
+  </packagedElement>
+</uml:Profile>
