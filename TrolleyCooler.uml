@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MoE="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1 MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MoE="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1 MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_bkD1wC-cEfCi-dDc7XsS6w" name="TrolleyCooler">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bmKHgi-cEfCi-dDc7XsS6w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -93,7 +93,9 @@
         <generalization xmi:type="uml:Generalization" xmi:id="_bFe8AC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hb2IADNLEfCCcN8HfExtzQ" name="Requirement1"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_g5cJkC-dEfCi-dDc7XsS6w" name="Systemgoal">
       <packagedElement xmi:type="uml:Class" xmi:id="_ANea8C-jEfCi-dDc7XsS6w" name="GoalWeight: 15kg" visibility="public">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_NqQhcC-pEfCi-dDc7XsS6w" name="GoalWeight: 15kg" visibility="public"/>
@@ -275,4 +277,5 @@
   <Blocks:Block xmi:id="_nydckC-tEfCi-dDc7XsS6w" base_Class="_nybnYC-tEfCi-dDc7XsS6w"/>
   <Blocks:Block xmi:id="_1uQpEC-tEfCi-dDc7XsS6w" base_Class="_1uOz4C-tEfCi-dDc7XsS6w"/>
   <Blocks:Block xmi:id="_5uOekC-tEfCi-dDc7XsS6w" base_Class="_5uNQcC-tEfCi-dDc7XsS6w"/>
+  <Requirements:Requirement xmi:id="_hcEKcDNLEfCCcN8HfExtzQ" base_NamedElement="_hb2IADNLEfCCcN8HfExtzQ" id="01" base_Class="_hb2IADNLEfCCcN8HfExtzQ"/>
 </xmi:XMI>
