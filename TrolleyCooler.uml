@@ -231,7 +231,137 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_y4yNwDchEfCqFuETt3x8NQ" name="Dirty Food Trays and Trolley" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_FIpYsDO6EfCCcN8HfExtzQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_5uNQcC-tEfCi-dDc7XsS6w" name="Trolley Cooler (System of Interest)"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5uNQcC-tEfCi-dDc7XsS6w" name="Trolley Cooler (System of Interest)" useCase="_kNiZ8DckEfCqFuETt3x8NQ _s8Jv4DckEfCqFuETt3x8NQ _5TVH8DckEfCqFuETt3x8NQ _7LQ58DckEfCqFuETt3x8NQ _MwiHgDclEfCqFuETt3x8NQ _NB6ycDclEfCqFuETt3x8NQ _atGJADclEfCqFuETt3x8NQ _h_-EQDcmEfCqFuETt3x8NQ _kO_gkDcmEfCqFuETt3x8NQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cH92cDcjEfCqFuETt3x8NQ" name="Use Cases">
+      <packagedElement xmi:type="uml:Association" xmi:id="_pupSEDckEfCqFuETt3x8NQ" memberEnd="_putjgDckEfCqFuETt3x8NQ _puuKkDckEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pusVYDckEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pusVYTckEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_putjgDckEfCqFuETt3x8NQ" name="serve food/drinks" type="_kNiZ8DckEfCqFuETt3x8NQ" association="_pupSEDckEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_puuKkDckEfCqFuETt3x8NQ" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_pupSEDckEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_y4cIIDckEfCqFuETt3x8NQ" memberEnd="_y4d9UjckEfCqFuETt3x8NQ _y4ekYDckEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4d9UDckEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y4d9UTckEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_y4d9UjckEfCqFuETt3x8NQ" name="move trolley" type="_s8Jv4DckEfCqFuETt3x8NQ" association="_y4cIIDckEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_y4ekYDckEfCqFuETt3x8NQ" type="_pupSEDckEfCqFuETt3x8NQ" association="_y4cIIDckEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_k8NBUDclEfCqFuETt3x8NQ" memberEnd="_k8QEoDclEfCqFuETt3x8NQ _k8QrsDclEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k8PdkDclEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k8PdkTclEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_k8QEoDclEfCqFuETt3x8NQ" name="maintenance works on cooling system" type="_MwiHgDclEfCqFuETt3x8NQ" association="_k8NBUDclEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_k8QrsDclEfCqFuETt3x8NQ" name="maintenance crew" type="_OuxeAC-fEfCi-dDc7XsS6w" association="_k8NBUDclEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_l4EMoDclEfCqFuETt3x8NQ" memberEnd="_l4GB0DclEfCqFuETt3x8NQ _l4GB0TclEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4FawDclEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4FawTclEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_l4GB0DclEfCqFuETt3x8NQ" name="maintenance work on moveable parts" type="_NB6ycDclEfCqFuETt3x8NQ" association="_l4EMoDclEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_l4GB0TclEfCqFuETt3x8NQ" name="maintenance crew" type="_OuxeAC-fEfCi-dDc7XsS6w" association="_l4EMoDclEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_n50zkDcmEfCqFuETt3x8NQ" memberEnd="_n52owjcmEfCqFuETt3x8NQ _n53P0DcmEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52owDcmEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n52owTcmEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_n52owjcmEfCqFuETt3x8NQ" name="fill trolley" type="_h_-EQDcmEfCqFuETt3x8NQ" association="_n50zkDcmEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_n53P0DcmEfCqFuETt3x8NQ" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_n50zkDcmEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o4NHYDcmEfCqFuETt3x8NQ" memberEnd="_o4NucjcmEfCqFuETt3x8NQ _o4OVgDcmEfCqFuETt3x8NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o4NucDcmEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o4NucTcmEfCqFuETt3x8NQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_o4NucjcmEfCqFuETt3x8NQ" name="clean trolley" type="_kO_gkDcmEfCqFuETt3x8NQ" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_o4OVgDcmEfCqFuETt3x8NQ" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kNiZ8DckEfCqFuETt3x8NQ" name="Serve Food/Drinks" visibility="public" classifierBehavior="_rFHC0DcxEfCqFuETt3x8NQ" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_rFHC0DcxEfCqFuETt3x8NQ" name="^" node="_6AKs4DcxEfCqFuETt3x8NQ _8E0sQDcxEfCqFuETt3x8NQ _ABNpUDcyEfCqFuETt3x8NQ _DwrksDcyEfCqFuETt3x8NQ _J-aSQDcyEfCqFuETt3x8NQ _N42HgDcyEfCqFuETt3x8NQ _W95ngDcyEfCqFuETt3x8NQ _a3OpgDcyEfCqFuETt3x8NQ _dmlLsDcyEfCqFuETt3x8NQ _k7SvcDcyEfCqFuETt3x8NQ _DJsAsDczEfCqFuETt3x8NQ _hBRUcDczEfCqFuETt3x8NQ _k_BjcDczEfCqFuETt3x8NQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ogZN4DcyEfCqFuETt3x8NQ" target="_ABNpUDcyEfCqFuETt3x8NQ" source="_6AKs4DcxEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_piGigDcyEfCqFuETt3x8NQ" target="_DwrksDcyEfCqFuETt3x8NQ" source="_ABNpUDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_seD9UDcyEfCqFuETt3x8NQ" target="_J-aSQDcyEfCqFuETt3x8NQ" source="_DwrksDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8tQv0DcyEfCqFuETt3x8NQ" target="_a3OpgDcyEfCqFuETt3x8NQ" source="_DwrksDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__V_FkDcyEfCqFuETt3x8NQ" target="_dmlLsDcyEfCqFuETt3x8NQ" source="_a3OpgDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_AUIv4DczEfCqFuETt3x8NQ" target="_k7SvcDcyEfCqFuETt3x8NQ" source="_dmlLsDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_GR8LEDczEfCqFuETt3x8NQ" target="_DJsAsDczEfCqFuETt3x8NQ" source="_k7SvcDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_KBK14DczEfCqFuETt3x8NQ" target="_N42HgDcyEfCqFuETt3x8NQ" source="_J-aSQDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_L5Px0DczEfCqFuETt3x8NQ" target="_W95ngDcyEfCqFuETt3x8NQ" source="_N42HgDcyEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_q2HSoDczEfCqFuETt3x8NQ" target="_hBRUcDczEfCqFuETt3x8NQ" source="_DJsAsDczEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_sWFQkDczEfCqFuETt3x8NQ" target="_k7SvcDcyEfCqFuETt3x8NQ" source="_hBRUcDczEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_v4CUYDczEfCqFuETt3x8NQ" target="_k_BjcDczEfCqFuETt3x8NQ" source="_DJsAsDczEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_1N9QMDczEfCqFuETt3x8NQ" target="_8E0sQDcxEfCqFuETt3x8NQ" source="_k_BjcDczEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_6AKs4DcxEfCqFuETt3x8NQ" name="Start" outgoing="_ogZN4DcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_8E0sQDcxEfCqFuETt3x8NQ" name="End" incoming="_1N9QMDczEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ABNpUDcyEfCqFuETt3x8NQ" name="Check Temperature" incoming="_ogZN4DcyEfCqFuETt3x8NQ" outgoing="_piGigDcyEfCqFuETt3x8NQ" behavior="_A9z0cDcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_DwrksDcyEfCqFuETt3x8NQ" name="Temperature OK?" incoming="_piGigDcyEfCqFuETt3x8NQ" outgoing="_seD9UDcyEfCqFuETt3x8NQ _8tQv0DcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_J-aSQDcyEfCqFuETt3x8NQ" name="Cooling Chain is broken" incoming="_seD9UDcyEfCqFuETt3x8NQ" outgoing="_KBK14DczEfCqFuETt3x8NQ" behavior="_MBvb8DcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_N42HgDcyEfCqFuETt3x8NQ" name="Discard Food" incoming="_KBK14DczEfCqFuETt3x8NQ" outgoing="_L5Px0DczEfCqFuETt3x8NQ" behavior="_RuHv8DcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_W95ngDcyEfCqFuETt3x8NQ" name="End" incoming="_L5Px0DczEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_a3OpgDcyEfCqFuETt3x8NQ" name="OpenDoor" incoming="_8tQv0DcyEfCqFuETt3x8NQ" outgoing="__V_FkDcyEfCqFuETt3x8NQ" behavior="_cqRUcDcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_dmlLsDcyEfCqFuETt3x8NQ" name="TakeOutFood" incoming="__V_FkDcyEfCqFuETt3x8NQ" outgoing="_AUIv4DczEfCqFuETt3x8NQ" behavior="_etvBADcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_k7SvcDcyEfCqFuETt3x8NQ" name="Close Door" incoming="_AUIv4DczEfCqFuETt3x8NQ _sWFQkDczEfCqFuETt3x8NQ" outgoing="_GR8LEDczEfCqFuETt3x8NQ" behavior="_l3xl0DcyEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_DJsAsDczEfCqFuETt3x8NQ" name="Door closed correctly?" incoming="_GR8LEDczEfCqFuETt3x8NQ" outgoing="_q2HSoDczEfCqFuETt3x8NQ _v4CUYDczEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_hBRUcDczEfCqFuETt3x8NQ" name="Warning Door not closed" incoming="_q2HSoDczEfCqFuETt3x8NQ" outgoing="_sWFQkDczEfCqFuETt3x8NQ" behavior="_irZ7ADczEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_k_BjcDczEfCqFuETt3x8NQ" name="Indicator Door Closed" incoming="_v4CUYDczEfCqFuETt3x8NQ" outgoing="_1N9QMDczEfCqFuETt3x8NQ" behavior="_oUlKADczEfCqFuETt3x8NQ"/>
+        </ownedBehavior>
+        <include xmi:type="uml:Include" xmi:id="_-SfwoDckEfCqFuETt3x8NQ" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
+        <include xmi:type="uml:Include" xmi:id="__wXc0DckEfCqFuETt3x8NQ" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_9QQloDcmEfCqFuETt3x8NQ" name="Move Trolley_Activity" node="_IsAQMDcnEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_Y9JRgDcpEfCqFuETt3x8NQ" name="Activity6"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_MBOl8DcvEfCqFuETt3x8NQ" name="Activity9"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_qPWKYDcvEfCqFuETt3x8NQ" name="Break release pedal engages"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_ya854DcvEfCqFuETt3x8NQ" name="break pedal released"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_7DF0YDcvEfCqFuETt3x8NQ" name="breake released"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_B88oIDcwEfCqFuETt3x8NQ" name="moveTrolley"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_SNjI0DcwEfCqFuETt3x8NQ" name="push Brake pedal"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_Z8UyYDcwEfCqFuETt3x8NQ" name="break pedal locked"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_k-ccADcwEfCqFuETt3x8NQ" name="Break release pedal engaged"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_x5TI4DcwEfCqFuETt3x8NQ" name="Break locked"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_A9z0cDcyEfCqFuETt3x8NQ" name="Check Temperature"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_MBvb8DcyEfCqFuETt3x8NQ" name="Cooling Chain is broken"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_RuHv8DcyEfCqFuETt3x8NQ" name="Discard Food"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_cqRUcDcyEfCqFuETt3x8NQ" name="OpenDoor"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_etvBADcyEfCqFuETt3x8NQ" name="TakeOutFood"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_l3xl0DcyEfCqFuETt3x8NQ" name="Close Door"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_irZ7ADczEfCqFuETt3x8NQ" name="Warning Door not closed"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_oUlKADczEfCqFuETt3x8NQ" name="Indicator Door Closed"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_InxhYDcwEfCqFuETt3x8NQ" target="_b0DNMDcpEfCqFuETt3x8NQ" source="_IsAQMDcnEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_J4rvoDcwEfCqFuETt3x8NQ" target="_oHftEDcvEfCqFuETt3x8NQ" source="_b0DNMDcpEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Llf2wDcwEfCqFuETt3x8NQ" target="_wEQvUDcvEfCqFuETt3x8NQ" source="_oHftEDcvEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Mp6hIDcwEfCqFuETt3x8NQ" target="_5C5eQDcvEfCqFuETt3x8NQ" source="_wEQvUDcvEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_NZiAMDcwEfCqFuETt3x8NQ" target="_AmADUDcwEfCqFuETt3x8NQ" source="_5C5eQDcvEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__rFdwDcwEfCqFuETt3x8NQ" target="_QGDQ0DcwEfCqFuETt3x8NQ" source="_AmADUDcwEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_BNtHEDcxEfCqFuETt3x8NQ" target="_Ue4SQDcwEfCqFuETt3x8NQ" source="_QGDQ0DcwEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_CegnoDcxEfCqFuETt3x8NQ" target="_iRnpYDcwEfCqFuETt3x8NQ" source="_Ue4SQDcwEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_D0OdYDcxEfCqFuETt3x8NQ" target="_w9FYQDcwEfCqFuETt3x8NQ" source="_iRnpYDcwEfCqFuETt3x8NQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FTa_QDcxEfCqFuETt3x8NQ" target="_0-a10DcnEfCqFuETt3x8NQ" source="_w9FYQDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_IsAQMDcnEfCqFuETt3x8NQ" name="Start" outgoing="_InxhYDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_0-a10DcnEfCqFuETt3x8NQ" name="End" incoming="_FTa_QDcxEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_b0DNMDcpEfCqFuETt3x8NQ" name="Disable Breaks" incoming="_InxhYDcwEfCqFuETt3x8NQ" outgoing="_J4rvoDcwEfCqFuETt3x8NQ" behavior="_MBOl8DcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_oHftEDcvEfCqFuETt3x8NQ" name="Break release pedal engaged" incoming="_J4rvoDcwEfCqFuETt3x8NQ" outgoing="_Llf2wDcwEfCqFuETt3x8NQ" behavior="_qPWKYDcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_wEQvUDcvEfCqFuETt3x8NQ" name="break pedal disengaged" incoming="_Llf2wDcwEfCqFuETt3x8NQ" outgoing="_Mp6hIDcwEfCqFuETt3x8NQ" behavior="_ya854DcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_5C5eQDcvEfCqFuETt3x8NQ" name="breake released" incoming="_Mp6hIDcwEfCqFuETt3x8NQ" outgoing="_NZiAMDcwEfCqFuETt3x8NQ" behavior="_7DF0YDcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_AmADUDcwEfCqFuETt3x8NQ" name="moveTrolley" incoming="_NZiAMDcwEfCqFuETt3x8NQ" outgoing="__rFdwDcwEfCqFuETt3x8NQ" behavior="_B88oIDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_QGDQ0DcwEfCqFuETt3x8NQ" name="push Brake pedal" incoming="__rFdwDcwEfCqFuETt3x8NQ" outgoing="_BNtHEDcxEfCqFuETt3x8NQ" behavior="_SNjI0DcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_Ue4SQDcwEfCqFuETt3x8NQ" name="break pedal locked" incoming="_BNtHEDcxEfCqFuETt3x8NQ" outgoing="_CegnoDcxEfCqFuETt3x8NQ" behavior="_Z8UyYDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_iRnpYDcwEfCqFuETt3x8NQ" name="break release pedal disengaged" incoming="_CegnoDcxEfCqFuETt3x8NQ" outgoing="_D0OdYDcxEfCqFuETt3x8NQ" behavior="_k-ccADcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_w9FYQDcwEfCqFuETt3x8NQ" name="Break locked" incoming="_D0OdYDcxEfCqFuETt3x8NQ" outgoing="_FTa_QDcxEfCqFuETt3x8NQ" behavior="_x5TI4DcwEfCqFuETt3x8NQ"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+        <include xmi:type="uml:Include" xmi:id="_f4AusDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+        <include xmi:type="uml:Include" xmi:id="_g5YsIDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bk4VIC-cEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
