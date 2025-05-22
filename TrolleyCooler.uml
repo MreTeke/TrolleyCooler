@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MoE="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SystemOfInterest="http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1 MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1 SystemOfInterest.profile.uml#_a4fT0TO7EfCCcN8HfExtzQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MoE="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SystemOfInterest="http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1 MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1 SystemOfInterest.profile.uml">
   <uml:Model xmi:id="_bkD1wC-cEfCi-dDc7XsS6w" name="TrolleyCooler">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bmKHgi-cEfCi-dDc7XsS6w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bmQ1MC-cEfCi-dDc7XsS6w">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5NQUDbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5OecDbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5OecTbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5OecjbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5OeczbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5PFgDbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5PFgTbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5PFgjbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_-5PFgzbtEfCqFuETt3x8NQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_WhAWIC-dEfCi-dDc7XsS6w" name="Stakeholder">
       <packagedElement xmi:type="uml:Actor" xmi:id="_r1a5gC-eEfCi-dDc7XsS6w" name="Customer (Airline)"/>
@@ -190,7 +217,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_oS2_gDPBEfCCcN8HfExtzQ" name="Cold Food Trays, Status Information" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_AMQ-QjO6EfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_w8M-cDPCEfCCcN8HfExtzQ" name="Status Information, Requests" client="_gUB9MDPAEfCCcN8HfExtzQ" supplier="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_2SJvcDPCEfCCcN8HfExtzQ" name="Status Information, Requests" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_gUB9MDPAEfCCcN8HfExtzQ"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_8auQMDPCEfCCcN8HfExtzQ" name="Power" client="_YdBksDPAEfCCcN8HfExtzQ" supplier="_fUhsMzO5EfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_8auQMDPCEfCCcN8HfExtzQ" name="Power" client="_YdBksDPAEfCCcN8HfExtzQ" supplier="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_fFrzYDPDEfCCcN8HfExtzQ" name="Air Extraction" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_fUhsMzO5EfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_hTJJcDPDEfCCcN8HfExtzQ" name="Power, Stowage" client="_fUhsMzO5EfCCcN8HfExtzQ" supplier="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_aMWQcDPEEfCCcN8HfExtzQ" name="Defect Parts" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_I0xsMjO6EfCCcN8HfExtzQ"/>
@@ -202,6 +229,7 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_FuiTADPFEfCCcN8HfExtzQ" name="trolley cooler context" type="_1uOz4C-tEfCi-dDc7XsS6w" association="_FuhE4DPFEfCCcN8HfExtzQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_y4yNwDchEfCqFuETt3x8NQ" name="Dirty Food Trays and Trolley" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_FIpYsDO6EfCCcN8HfExtzQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_5uNQcC-tEfCi-dDc7XsS6w" name="Trolley Cooler (System of Interest)"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
