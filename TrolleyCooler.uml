@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MoE="http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SystemOfInterest="http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/MoE/_Zrgs0C-pEfCi-dDc7XsS6w/1 MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1 SystemOfInterest.profile.uml">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ConstraintBlocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks" xmlns:MWPProfile="http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23" xmlns:MWPProfile.Properties="http:///MWPProfile/Properties.ecore" xmlns:MWPProfile.Requirements="http:///MWPProfile/Requirements.ecore" xmlns:MWPProfile.Stakeholders="http:///MWPProfile/Stakeholders.ecore" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SystemOfInterest="http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23 ../MWPProfile/MWPProfile.profile.uml#_rkDwUNisEe6N_aISTl-5xw http:///MWPProfile/Properties.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwktisEe6N_aISTl-5xw http:///MWPProfile/Requirements.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwVdisEe6N_aISTl-5xw http:///MWPProfile/Stakeholders.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwgdisEe6N_aISTl-5xw http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SystemOfInterest/_a4fT0DO7EfCCcN8HfExtzQ/1 SystemOfInterest.profile.uml">
   <uml:Model xmi:id="_bkD1wC-cEfCi-dDc7XsS6w" name="TrolleyCooler">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bmKHgi-cEfCi-dDc7XsS6w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -35,15 +35,21 @@
       <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_WhAWIC-dEfCi-dDc7XsS6w" name="Stakeholder">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_r1a5gC-eEfCi-dDc7XsS6w" name="Customer (Airline)"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_5ggwgC-eEfCi-dDc7XsS6w" name="Actors"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_r1a5gC-eEfCi-dDc7XsS6w" name="Customer (Airline)">
+        <generalization xmi:type="uml:Generalization" xmi:id="_qnVosD43EfCGb_dmBhWPaQ" general="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_5ggwgC-eEfCi-dDc7XsS6w" name="Actors">
+        <generalization xmi:type="uml:Generalization" xmi:id="_pXdVMD43EfCGb_dmBhWPaQ" general="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_t_LJYC-gEfCi-dDc7XsS6w" name="Finance(Airline)">
         <generalization xmi:type="uml:Generalization" xmi:id="_zrUz4C-gEfCi-dDc7XsS6w" general="_r1a5gC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_v6Y44C-gEfCi-dDc7XsS6w" name="Marketing (Airline)">
         <generalization xmi:type="uml:Generalization" xmi:id="_0XvN8C-gEfCi-dDc7XsS6w" general="_r1a5gC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_lAxD8C-gEfCi-dDc7XsS6w" name="Marketing"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_lAxD8C-gEfCi-dDc7XsS6w" name="Marketing">
+        <generalization xmi:type="uml:Generalization" xmi:id="_5ysjID44EfCGb_dmBhWPaQ" general="_tfYEcC-fEfCi-dDc7XsS6w"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_jacmYC-gEfCi-dDc7XsS6w" name="Finance">
         <generalization xmi:type="uml:Generalization" xmi:id="_qheTcC-gEfCi-dDc7XsS6w" general="_tfYEcC-fEfCi-dDc7XsS6w"/>
       </packagedElement>
@@ -53,14 +59,18 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_cD4BcC-gEfCi-dDc7XsS6w" name="Passanger">
         <generalization xmi:type="uml:Generalization" xmi:id="_gesm8C-gEfCi-dDc7XsS6w" general="_Mtvk8C-gEfCi-dDc7XsS6w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_Mtvk8C-gEfCi-dDc7XsS6w" name="Passive"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_Mtvk8C-gEfCi-dDc7XsS6w" name="Passive">
+        <generalization xmi:type="uml:Generalization" xmi:id="_rbJrQD43EfCGb_dmBhWPaQ" general="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_LRgQcC-gEfCi-dDc7XsS6w" name="Zulassungsstelle">
         <generalization xmi:type="uml:Generalization" xmi:id="_SO_nAC-gEfCi-dDc7XsS6w" general="_56ln8C-fEfCi-dDc7XsS6w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_I6IwcC-gEfCi-dDc7XsS6w" name="Gesetzesgeber">
         <generalization xmi:type="uml:Generalization" xmi:id="_TDsaYC-gEfCi-dDc7XsS6w" general="_56ln8C-fEfCi-dDc7XsS6w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_56ln8C-fEfCi-dDc7XsS6w" name="Regulators"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_56ln8C-fEfCi-dDc7XsS6w" name="Regulators">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ssmFAD43EfCGb_dmBhWPaQ" general="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_2q-4YC-fEfCi-dDc7XsS6w" name="Galley Supplier">
         <generalization xmi:type="uml:Generalization" xmi:id="_pda1cC-gEfCi-dDc7XsS6w" general="_tfYEcC-fEfCi-dDc7XsS6w"/>
       </packagedElement>
@@ -73,7 +83,9 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_xJEH8C-fEfCi-dDc7XsS6w" name="Manufacturer">
         <generalization xmi:type="uml:Generalization" xmi:id="_p_Xr8C-gEfCi-dDc7XsS6w" general="_tfYEcC-fEfCi-dDc7XsS6w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_tfYEcC-fEfCi-dDc7XsS6w" name="Producer"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_tfYEcC-fEfCi-dDc7XsS6w" name="Producer">
+        <generalization xmi:type="uml:Generalization" xmi:id="_qAcn0D43EfCGb_dmBhWPaQ" general="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_TQ_sAC-fEfCi-dDc7XsS6w" name="Catering Crew">
         <generalization xmi:type="uml:Generalization" xmi:id="_eJjxAC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
@@ -83,61 +95,26 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_NECagC-fEfCi-dDc7XsS6w" name="Cabin Crew">
         <generalization xmi:type="uml:Generalization" xmi:id="_bFe8AC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_uFyPIDO7EfCCcN8HfExtzQ" memberEnd="_uFy2MjO7EfCCcN8HfExtzQ _uFy2MzO7EfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uFy2MDO7EfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uFy2MTO7EfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_uFy2MjO7EfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_uFyPIDO7EfCCcN8HfExtzQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_uFy2MzO7EfCCcN8HfExtzQ" name="producer" type="_tfYEcC-fEfCi-dDc7XsS6w" association="_uFyPIDO7EfCCcN8HfExtzQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_u_YwoDO7EfCCcN8HfExtzQ" memberEnd="_u_YwozO7EfCCcN8HfExtzQ _u_YwpDO7EfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u_YwoTO7EfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u_YwojO7EfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_u_YwozO7EfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_u_YwoDO7EfCCcN8HfExtzQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_u_YwpDO7EfCCcN8HfExtzQ" name="regulators" type="_56ln8C-fEfCi-dDc7XsS6w" association="_u_YwoDO7EfCCcN8HfExtzQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_wgRUkDO7EfCCcN8HfExtzQ" memberEnd="_wgR7oTO7EfCCcN8HfExtzQ _wgR7ojO7EfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wgRUkTO7EfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wgR7oDO7EfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_wgR7oTO7EfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_wgRUkDO7EfCCcN8HfExtzQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_wgR7ojO7EfCCcN8HfExtzQ" name="actors" type="_5ggwgC-eEfCi-dDc7XsS6w" association="_wgRUkDO7EfCCcN8HfExtzQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_xzvHkDO7EfCCcN8HfExtzQ" memberEnd="_xzvuojO7EfCCcN8HfExtzQ _xzvuozO7EfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xzvuoDO7EfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xzvuoTO7EfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_xzvuojO7EfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_xzvHkDO7EfCCcN8HfExtzQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_xzvuozO7EfCCcN8HfExtzQ" name="customer (airline)" type="_r1a5gC-eEfCi-dDc7XsS6w" association="_xzvHkDO7EfCCcN8HfExtzQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_yf1YkDO7EfCCcN8HfExtzQ" memberEnd="_yf1YkzO7EfCCcN8HfExtzQ _yf1_oDO7EfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yf1YkTO7EfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yf1YkjO7EfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_yf1YkzO7EfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_yf1YkDO7EfCCcN8HfExtzQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_yf1_oDO7EfCCcN8HfExtzQ" name="passive" type="_Mtvk8C-gEfCi-dDc7XsS6w" association="_yf1YkDO7EfCCcN8HfExtzQ"/>
-      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements">
-      <packagedElement xmi:type="uml:Class" xmi:id="_hb2IADNLEfCCcN8HfExtzQ" name="Requirement1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FqmlcD5eEfCIqJH4kx29iQ" name="CleaningInstructions"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_g5cJkC-dEfCi-dDc7XsS6w" name="Systemgoal">
-      <packagedElement xmi:type="uml:Class" xmi:id="_ANea8C-jEfCi-dDc7XsS6w" name="GoalWeight: 15kg" visibility="public">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_NqQhcC-pEfCi-dDc7XsS6w" name="GoalWeight: 15kg" visibility="public"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_OPFFwC-pEfCi-dDc7XsS6w" name="CopyOf_GoalWeight: 15kg_1" visibility="public"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_P_t88C-pEfCi-dDc7XsS6w" name="GoalCost: 10k€"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_lOWd4C-pEfCi-dDc7XsS6w" name="GoalCoolingPower: 600W"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_CX0HYC-qEfCi-dDc7XsS6w" name="GoalPowerUsage: 400 VA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_BuZW8C-qEfCi-dDc7XsS6w" name="GoalCoolingTemperature: 04°C "/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_aRbn4C-qEfCi-dDc7XsS6w" name="GoalFlexibility: Shall be mobile"/>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7LuJoi-oEfCi-dDc7XsS6w">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7LuwoC-oEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w"/>
-        </eAnnotations>
-        <appliedProfile xmi:type="uml:Profile" href="MoE.profile.uml#_7LrGQC-oEfCi-dDc7XsS6w"/>
-      </profileApplication>
+    <packagedElement xmi:type="uml:Package" xmi:id="_g5cJkC-dEfCi-dDc7XsS6w" name="Systemgoal" URI="">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GiD4ED5BEfCGb_dmBhWPaQ" name="Power[Watt]"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ZR8eoD5BEfCGb_dmBhWPaQ" name="Watt"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_d6RUoD5BEfCGb_dmBhWPaQ" name="Power"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_U8ZlQD5CEfCGb_dmBhWPaQ" name="kg"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_YGaqMD5CEfCGb_dmBhWPaQ" name="Weight"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_kHjg0D5CEfCGb_dmBhWPaQ" name="Weight[kg]"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_7AiDsD5CEfCGb_dmBhWPaQ" name="Cost"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_88y8ED5CEfCGb_dmBhWPaQ" name="Euro"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_DYM5QD5DEfCGb_dmBhWPaQ" name="Cost[Euro]"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_pzFicD5REfCGb_dmBhWPaQ" name="Temperature"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_sPsHwD5REfCGb_dmBhWPaQ" name="Celsius"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_v41_wD5REfCGb_dmBhWPaQ" name="Temperature[Celsius]"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_D-ZYwD5SEfCGb_dmBhWPaQ" name="hours"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_F_ZnMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KhxmMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime [hours]"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_9SIKgC-qEfCi-dDc7XsS6w" name="Systemborders">
       <packagedElement xmi:type="uml:Class" xmi:id="_gC6W8C-tEfCi-dDc7XsS6w" name="Power Network"/>
@@ -168,12 +145,8 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_num1NDO8EfCCcN8HfExtzQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_YdBksDPAEfCCcN8HfExtzQ" name="power Network" type="_gC6W8C-tEfCi-dDc7XsS6w"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_dzq5QDPAEfCCcN8HfExtzQ" name="trolley Cooler (System of Interest)" type="_5uNQcC-tEfCi-dDc7XsS6w"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_dzq5QDPAEfCCcN8HfExtzQ" name="trolley Cooler (System of Interest)"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_gUB9MDPAEfCCcN8HfExtzQ" name="CIDS" type="_g-74MDO8EfCCcN8HfExtzQ"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Fuhr8jPFEfCCcN8HfExtzQ" name="trolley cooler (system of interest)" type="_5uNQcC-tEfCi-dDc7XsS6w" association="_FuhE4DPFEfCCcN8HfExtzQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fuhr8zPFEfCCcN8HfExtzQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fuhr9DPFEfCCcN8HfExtzQ" value="1"/>
-        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_CZvdMC-uEfCi-dDc7XsS6w"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_fUhsMDO5EfCCcN8HfExtzQ" memberEnd="_fUhsMzO5EfCCcN8HfExtzQ _fUiTQjO5EfCCcN8HfExtzQ">
@@ -223,15 +196,8 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_aMWQcDPEEfCCcN8HfExtzQ" name="Defect Parts" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_I0xsMjO6EfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_czRPYDPEEfCCcN8HfExtzQ" name="Repairments" client="_I0xsMjO6EfCCcN8HfExtzQ" supplier="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_rCJI4DPEEfCCcN8HfExtzQ" name="Cleaning Food Trays, Charging" client="_FIpYsDO6EfCCcN8HfExtzQ" supplier="_dzq5QDPAEfCCcN8HfExtzQ"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_FuhE4DPFEfCCcN8HfExtzQ" memberEnd="_Fuhr8jPFEfCCcN8HfExtzQ _FuiTADPFEfCCcN8HfExtzQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fuhr8DPFEfCCcN8HfExtzQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fuhr8TPFEfCCcN8HfExtzQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_FuiTADPFEfCCcN8HfExtzQ" name="trolley cooler context" type="_1uOz4C-tEfCi-dDc7XsS6w" association="_FuhE4DPFEfCCcN8HfExtzQ"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_y4yNwDchEfCqFuETt3x8NQ" name="Dirty Food Trays and Trolley" client="_dzq5QDPAEfCCcN8HfExtzQ" supplier="_FIpYsDO6EfCCcN8HfExtzQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_5uNQcC-tEfCi-dDc7XsS6w" name="Trolley Cooler (System of Interest)" useCase="_kNiZ8DckEfCqFuETt3x8NQ _s8Jv4DckEfCqFuETt3x8NQ _5TVH8DckEfCqFuETt3x8NQ _7LQ58DckEfCqFuETt3x8NQ _MwiHgDclEfCqFuETt3x8NQ _NB6ycDclEfCqFuETt3x8NQ _atGJADclEfCqFuETt3x8NQ _h_-EQDcmEfCqFuETt3x8NQ _kO_gkDcmEfCqFuETt3x8NQ"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_cH92cDcjEfCqFuETt3x8NQ" name="Use Cases">
       <packagedElement xmi:type="uml:Association" xmi:id="_pupSEDckEfCqFuETt3x8NQ" memberEnd="_putjgDckEfCqFuETt3x8NQ _puuKkDckEfCqFuETt3x8NQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pusVYDckEfCqFuETt3x8NQ" source="org.eclipse.papyrus">
@@ -275,39 +241,43 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_o4NucjcmEfCqFuETt3x8NQ" name="clean trolley" type="_kO_gkDcmEfCqFuETt3x8NQ" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_o4OVgDcmEfCqFuETt3x8NQ" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_kNiZ8DckEfCqFuETt3x8NQ" name="Serve Food/Drinks" visibility="public" classifierBehavior="_rFHC0DcxEfCqFuETt3x8NQ" subject="_5uNQcC-tEfCi-dDc7XsS6w">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_rFHC0DcxEfCqFuETt3x8NQ" name="^" node="_6AKs4DcxEfCqFuETt3x8NQ _8E0sQDcxEfCqFuETt3x8NQ _ABNpUDcyEfCqFuETt3x8NQ _DwrksDcyEfCqFuETt3x8NQ _J-aSQDcyEfCqFuETt3x8NQ _N42HgDcyEfCqFuETt3x8NQ _W95ngDcyEfCqFuETt3x8NQ _a3OpgDcyEfCqFuETt3x8NQ _dmlLsDcyEfCqFuETt3x8NQ _k7SvcDcyEfCqFuETt3x8NQ _DJsAsDczEfCqFuETt3x8NQ _hBRUcDczEfCqFuETt3x8NQ _k_BjcDczEfCqFuETt3x8NQ">
-          <edge xmi:type="uml:ControlFlow" xmi:id="_ogZN4DcyEfCqFuETt3x8NQ" target="_ABNpUDcyEfCqFuETt3x8NQ" source="_6AKs4DcxEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_piGigDcyEfCqFuETt3x8NQ" target="_DwrksDcyEfCqFuETt3x8NQ" source="_ABNpUDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_seD9UDcyEfCqFuETt3x8NQ" target="_J-aSQDcyEfCqFuETt3x8NQ" source="_DwrksDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_8tQv0DcyEfCqFuETt3x8NQ" target="_a3OpgDcyEfCqFuETt3x8NQ" source="_DwrksDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="__V_FkDcyEfCqFuETt3x8NQ" target="_dmlLsDcyEfCqFuETt3x8NQ" source="_a3OpgDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_AUIv4DczEfCqFuETt3x8NQ" target="_k7SvcDcyEfCqFuETt3x8NQ" source="_dmlLsDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_GR8LEDczEfCqFuETt3x8NQ" target="_DJsAsDczEfCqFuETt3x8NQ" source="_k7SvcDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_KBK14DczEfCqFuETt3x8NQ" target="_N42HgDcyEfCqFuETt3x8NQ" source="_J-aSQDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_L5Px0DczEfCqFuETt3x8NQ" target="_W95ngDcyEfCqFuETt3x8NQ" source="_N42HgDcyEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_q2HSoDczEfCqFuETt3x8NQ" target="_hBRUcDczEfCqFuETt3x8NQ" source="_DJsAsDczEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_sWFQkDczEfCqFuETt3x8NQ" target="_k7SvcDcyEfCqFuETt3x8NQ" source="_hBRUcDczEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_v4CUYDczEfCqFuETt3x8NQ" target="_k_BjcDczEfCqFuETt3x8NQ" source="_DJsAsDczEfCqFuETt3x8NQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_1N9QMDczEfCqFuETt3x8NQ" target="_8E0sQDcxEfCqFuETt3x8NQ" source="_k_BjcDczEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:InitialNode" xmi:id="_6AKs4DcxEfCqFuETt3x8NQ" name="Start" outgoing="_ogZN4DcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:ActivityFinalNode" xmi:id="_8E0sQDcxEfCqFuETt3x8NQ" name="End" incoming="_1N9QMDczEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ABNpUDcyEfCqFuETt3x8NQ" name="Check Temperature" incoming="_ogZN4DcyEfCqFuETt3x8NQ" outgoing="_piGigDcyEfCqFuETt3x8NQ" behavior="_A9z0cDcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_DwrksDcyEfCqFuETt3x8NQ" name="Temperature OK?" incoming="_piGigDcyEfCqFuETt3x8NQ" outgoing="_seD9UDcyEfCqFuETt3x8NQ _8tQv0DcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_J-aSQDcyEfCqFuETt3x8NQ" name="Cooling Chain is broken" incoming="_seD9UDcyEfCqFuETt3x8NQ" outgoing="_KBK14DczEfCqFuETt3x8NQ" behavior="_MBvb8DcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_N42HgDcyEfCqFuETt3x8NQ" name="Discard Food" incoming="_KBK14DczEfCqFuETt3x8NQ" outgoing="_L5Px0DczEfCqFuETt3x8NQ" behavior="_RuHv8DcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:ActivityFinalNode" xmi:id="_W95ngDcyEfCqFuETt3x8NQ" name="End" incoming="_L5Px0DczEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_a3OpgDcyEfCqFuETt3x8NQ" name="OpenDoor" incoming="_8tQv0DcyEfCqFuETt3x8NQ" outgoing="__V_FkDcyEfCqFuETt3x8NQ" behavior="_cqRUcDcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_dmlLsDcyEfCqFuETt3x8NQ" name="TakeOutFood" incoming="__V_FkDcyEfCqFuETt3x8NQ" outgoing="_AUIv4DczEfCqFuETt3x8NQ" behavior="_etvBADcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_k7SvcDcyEfCqFuETt3x8NQ" name="Close Door" incoming="_AUIv4DczEfCqFuETt3x8NQ _sWFQkDczEfCqFuETt3x8NQ" outgoing="_GR8LEDczEfCqFuETt3x8NQ" behavior="_l3xl0DcyEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_DJsAsDczEfCqFuETt3x8NQ" name="Door closed correctly?" incoming="_GR8LEDczEfCqFuETt3x8NQ" outgoing="_q2HSoDczEfCqFuETt3x8NQ _v4CUYDczEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_hBRUcDczEfCqFuETt3x8NQ" name="Warning Door not closed" incoming="_q2HSoDczEfCqFuETt3x8NQ" outgoing="_sWFQkDczEfCqFuETt3x8NQ" behavior="_irZ7ADczEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_k_BjcDczEfCqFuETt3x8NQ" name="Indicator Door Closed" incoming="_v4CUYDczEfCqFuETt3x8NQ" outgoing="_1N9QMDczEfCqFuETt3x8NQ" behavior="_oUlKADczEfCqFuETt3x8NQ"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kNiZ8DckEfCqFuETt3x8NQ" name="Serve Food/Drinks" visibility="public" classifierBehavior="_rFHC0DcxEfCqFuETt3x8NQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_rFHC0DcxEfCqFuETt3x8NQ" name="Serve Food Activity" node="_WX9pgD4wEfCGb_dmBhWPaQ _hLrDsD4wEfCGb_dmBhWPaQ _1TGPgD4xEfCGb_dmBhWPaQ _ALVkYD4yEfCGb_dmBhWPaQ _N5MbgD4yEfCGb_dmBhWPaQ _YBm18D4yEfCGb_dmBhWPaQ _dB5gAD4yEfCGb_dmBhWPaQ _mKSA0D4yEfCGb_dmBhWPaQ _w8PHgD4yEfCGb_dmBhWPaQ _5i1w8D4yEfCGb_dmBhWPaQ _AAETED4zEfCGb_dmBhWPaQ _WL2_0D4zEfCGb_dmBhWPaQ _c5RTAD4zEfCGb_dmBhWPaQ" group="_R-4l4D4vEfCGb_dmBhWPaQ _ir4usD4vEfCGb_dmBhWPaQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_p57-4D4xEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ" target="_hLrDsD4wEfCGb_dmBhWPaQ" source="_WX9pgD4wEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_94yS8D4xEfCGb_dmBhWPaQ" target="_1TGPgD4xEfCGb_dmBhWPaQ" source="_hLrDsD4wEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_HVIRkD4yEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ" target="_ALVkYD4yEfCGb_dmBhWPaQ" source="_1TGPgD4xEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_WYlpsD4yEfCGb_dmBhWPaQ" target="_N5MbgD4yEfCGb_dmBhWPaQ" source="_ALVkYD4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_bBLlcD4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ" target="_YBm18D4yEfCGb_dmBhWPaQ" source="_N5MbgD4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_gOHkYD4yEfCGb_dmBhWPaQ" target="_dB5gAD4yEfCGb_dmBhWPaQ" source="_1TGPgD4xEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rgbmID4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ" target="_mKSA0D4yEfCGb_dmBhWPaQ" source="_dB5gAD4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_0lfGID4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ" target="_w8PHgD4yEfCGb_dmBhWPaQ" source="_mKSA0D4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_-6UL8D4yEfCGb_dmBhWPaQ" target="_5i1w8D4yEfCGb_dmBhWPaQ" source="_w8PHgD4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_IDAOwD4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ" target="_AAETED4zEfCGb_dmBhWPaQ" source="_5i1w8D4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M3FBwD4zEfCGb_dmBhWPaQ" target="_w8PHgD4yEfCGb_dmBhWPaQ" source="_AAETED4zEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Z1rmMD4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ" target="_WL2_0D4zEfCGb_dmBhWPaQ" source="_5i1w8D4yEfCGb_dmBhWPaQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ec7eID4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ" target="_c5RTAD4zEfCGb_dmBhWPaQ" source="_WL2_0D4zEfCGb_dmBhWPaQ"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_R-4l4D4vEfCGb_dmBhWPaQ" name="Trolley" node="_1TGPgD4xEfCGb_dmBhWPaQ _ALVkYD4yEfCGb_dmBhWPaQ _5i1w8D4yEfCGb_dmBhWPaQ _AAETED4zEfCGb_dmBhWPaQ _WL2_0D4zEfCGb_dmBhWPaQ _c5RTAD4zEfCGb_dmBhWPaQ" edge="_HVIRkD4yEfCGb_dmBhWPaQ _IDAOwD4zEfCGb_dmBhWPaQ _Z1rmMD4zEfCGb_dmBhWPaQ _ec7eID4zEfCGb_dmBhWPaQ"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_ir4usD4vEfCGb_dmBhWPaQ" name="User" node="_WX9pgD4wEfCGb_dmBhWPaQ _hLrDsD4wEfCGb_dmBhWPaQ _N5MbgD4yEfCGb_dmBhWPaQ _YBm18D4yEfCGb_dmBhWPaQ _dB5gAD4yEfCGb_dmBhWPaQ _mKSA0D4yEfCGb_dmBhWPaQ _w8PHgD4yEfCGb_dmBhWPaQ" edge="_p57-4D4xEfCGb_dmBhWPaQ _bBLlcD4yEfCGb_dmBhWPaQ _rgbmID4yEfCGb_dmBhWPaQ _0lfGID4yEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_WX9pgD4wEfCGb_dmBhWPaQ" name="Start" outgoing="_p57-4D4xEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_hLrDsD4wEfCGb_dmBhWPaQ" name="Check Temperature" incoming="_p57-4D4xEfCGb_dmBhWPaQ" outgoing="_94yS8D4xEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ">
+            <handler xmi:type="uml:ExceptionHandler" xmi:id="_33X_kD4wEfCGb_dmBhWPaQ"/>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_1TGPgD4xEfCGb_dmBhWPaQ" name="Temperature  Sufficient?" incoming="_94yS8D4xEfCGb_dmBhWPaQ" outgoing="_HVIRkD4yEfCGb_dmBhWPaQ _gOHkYD4yEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ALVkYD4yEfCGb_dmBhWPaQ" name="Warning cooling chain interrupted" incoming="_HVIRkD4yEfCGb_dmBhWPaQ" outgoing="_WYlpsD4yEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_N5MbgD4yEfCGb_dmBhWPaQ" name="Sort out wasted food" incoming="_WYlpsD4yEfCGb_dmBhWPaQ" outgoing="_bBLlcD4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_YBm18D4yEfCGb_dmBhWPaQ" name="End" incoming="_bBLlcD4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_dB5gAD4yEfCGb_dmBhWPaQ" name="Open Door" incoming="_gOHkYD4yEfCGb_dmBhWPaQ" outgoing="_rgbmID4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_mKSA0D4yEfCGb_dmBhWPaQ" name="Take out Food and Beverages" incoming="_rgbmID4yEfCGb_dmBhWPaQ" outgoing="_0lfGID4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_w8PHgD4yEfCGb_dmBhWPaQ" name="Close Door" incoming="_0lfGID4yEfCGb_dmBhWPaQ _M3FBwD4zEfCGb_dmBhWPaQ" outgoing="_-6UL8D4yEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_5i1w8D4yEfCGb_dmBhWPaQ" name="Door Correctly Closed?" incoming="_-6UL8D4yEfCGb_dmBhWPaQ" outgoing="_IDAOwD4zEfCGb_dmBhWPaQ _Z1rmMD4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_AAETED4zEfCGb_dmBhWPaQ" name="Warning Door not Closed" incoming="_IDAOwD4zEfCGb_dmBhWPaQ" outgoing="_M3FBwD4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_WL2_0D4zEfCGb_dmBhWPaQ" name="Display Door is Closed" incoming="_Z1rmMD4zEfCGb_dmBhWPaQ" outgoing="_ec7eID4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_c5RTAD4zEfCGb_dmBhWPaQ" name="End" incoming="_ec7eID4zEfCGb_dmBhWPaQ" inPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
         </ownedBehavior>
         <include xmi:type="uml:Include" xmi:id="_-SfwoDckEfCqFuETt3x8NQ" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
         <include xmi:type="uml:Include" xmi:id="__wXc0DckEfCqFuETt3x8NQ" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_9QQloDcmEfCqFuETt3x8NQ" name="Move Trolley_Activity" node="_IsAQMDcnEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ">
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_Y9JRgDcpEfCqFuETt3x8NQ" name="Activity6"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_MBOl8DcvEfCqFuETt3x8NQ" name="Activity9"/>
@@ -350,17 +320,51 @@
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_w9FYQDcwEfCqFuETt3x8NQ" name="Break locked" incoming="_D0OdYDcxEfCqFuETt3x8NQ" outgoing="_FTa_QDcxEfCqFuETt3x8NQ" behavior="_x5TI4DcwEfCqFuETt3x8NQ"/>
         </ownedBehavior>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system">
         <include xmi:type="uml:Include" xmi:id="_f4AusDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts" subject="_5uNQcC-tEfCi-dDc7XsS6w">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts">
         <include xmi:type="uml:Include" xmi:id="_g5YsIDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley" subject="_5uNQcC-tEfCi-dDc7XsS6w"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_09SrsD4-EfCGb_dmBhWPaQ" name="Weight" type="_kHjg0D5CEfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_pmAEgD5YEfCGb_dmBhWPaQ">
+          <body>The final weight of the System in kg without any food trays inserted. </body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IzuOID5AEfCGb_dmBhWPaQ" name="Cost" type="_DYM5QD5DEfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_qsMQgD5YEfCGb_dmBhWPaQ">
+          <body>The final cost of production per piece in Euros. 
+</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MudlYD5AEfCGb_dmBhWPaQ" name="CoolingPower" type="_GiD4ED5BEfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_De4HAD5ZEfCGb_dmBhWPaQ">
+          <body>The calculated cooling power that the system has at normal ambient conditions.
+</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TuG4ED5AEfCGb_dmBhWPaQ" name="PowerUsage" type="_GiD4ED5BEfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_IvGqgD5ZEfCGb_dmBhWPaQ">
+          <body>The highest consumed energy of the system.</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YxJ7MD5AEfCGb_dmBhWPaQ" name="CoolingTemperature" type="_v41_wD5REfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Q4B5cD5ZEfCGb_dmBhWPaQ">
+          <body>Lowest possible temperature that the inner cavity of the system can reach at normal ambient conditions.</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gNUx0D5AEfCGb_dmBhWPaQ" name="Mobility" type="_KhxmMD5SEfCGb_dmBhWPaQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_X4nnUD5ZEfCGb_dmBhWPaQ">
+          <body>hours in which the system can cool independently</body>
+        </ownedComment>
+      </ownedAttribute>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bk4VIC-cEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -422,52 +426,62 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZrhT5S-pEfCi-dDc7XsS6w">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZrhT5i-pEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="MoE.profile.uml#_Zrgs0S-pEfCi-dDc7XsS6w"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_F9eJ0D4sEfCGb_dmBhWPaQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F9f_AD4sEfCGb_dmBhWPaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../MWPProfile/MWPProfile.profile.uml#_rkDwUNisEe6N_aISTl-5xw"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="MoE.profile.uml#_7LrGQC-oEfCi-dDc7XsS6w"/>
+      <appliedProfile xmi:type="uml:Profile" href="../MWPProfile/MWPProfile.profile.uml#_I-C_sJBMEe6yzuvYELj6Eg"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oennxjO6EfCCcN8HfExtzQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oepc8DO6EfCCcN8HfExtzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="SystemOfInterest.profile.uml#_a4fT0TO7EfCCcN8HfExtzQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sdUOsD4-EfCGb_dmBhWPaQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sdU1wD4-EfCGb_dmBhWPaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="SystemOfInterest.profile.uml#_oecooDO6EfCCcN8HfExtzQ"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
-  <ModelElements:Stakeholder xmi:id="_J0iCgC-oEfCi-dDc7XsS6w" base_Classifier="_NECagC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_Q4emYC-oEfCi-dDc7XsS6w" base_Classifier="_t_LJYC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_SEqssC-oEfCi-dDc7XsS6w" base_Classifier="_v6Y44C-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_Tw3v0C-oEfCi-dDc7XsS6w" base_Classifier="_cD4BcC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_Ul89sC-oEfCi-dDc7XsS6w" base_Classifier="_d9BUYC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_ViYJsC-oEfCi-dDc7XsS6w" base_Classifier="_Mtvk8C-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_WVV3sC-oEfCi-dDc7XsS6w" base_Classifier="_r1a5gC-eEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_XdXPsC-oEfCi-dDc7XsS6w" base_Classifier="_2q-4YC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_YeTIQC-oEfCi-dDc7XsS6w" base_Classifier="_xJEH8C-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_ZksvoC-oEfCi-dDc7XsS6w" base_Classifier="_jacmYC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_a-OHUC-oEfCi-dDc7XsS6w" base_Classifier="_zUFOAC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_byZWQC-oEfCi-dDc7XsS6w" base_Classifier="_02WSAC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_czF-QC-oEfCi-dDc7XsS6w" base_Classifier="_lAxD8C-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_dthmMC-oEfCi-dDc7XsS6w" base_Classifier="_tfYEcC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_e-e3wC-oEfCi-dDc7XsS6w" base_Classifier="_56ln8C-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_f23RQC-oEfCi-dDc7XsS6w" base_Classifier="_I6IwcC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_grfzMC-oEfCi-dDc7XsS6w" base_Classifier="_LRgQcC-gEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_h4P6MC-oEfCi-dDc7XsS6w" base_Classifier="_5ggwgC-eEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_imuw0C-oEfCi-dDc7XsS6w" base_Classifier="_OuxeAC-fEfCi-dDc7XsS6w"/>
-  <ModelElements:Stakeholder xmi:id="_jQ5vMC-oEfCi-dDc7XsS6w" base_Classifier="_TQ_sAC-fEfCi-dDc7XsS6w"/>
-  <MoE:MoE xmi:id="_7LuwoS-oEfCi-dDc7XsS6w" base_Class="_ANea8C-jEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_NqRvkC-pEfCi-dDc7XsS6w" base_Class="_NqQhcC-pEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_OPFs0C-pEfCi-dDc7XsS6w" base_Class="_OPFFwC-pEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_ZrjwIC-pEfCi-dDc7XsS6w" base_Class="_P_t88C-pEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_lOXsEi-pEfCi-dDc7XsS6w" base_Class="_lOWd4C-pEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_BuZ-Ei-qEfCi-dDc7XsS6w" base_Class="_BuZW8C-qEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_CX0ucC-qEfCi-dDc7XsS6w" base_Class="_CX0HYC-qEfCi-dDc7XsS6w" MoE="defaultValue"/>
-  <MoE:MoE xmi:id="_aRcO8C-qEfCi-dDc7XsS6w" base_Class="_aRbn4C-qEfCi-dDc7XsS6w" MoE="defaultValue"/>
   <Blocks:Block xmi:id="_gC7lEC-tEfCi-dDc7XsS6w" base_Class="_gC6W8C-tEfCi-dDc7XsS6w"/>
   <Blocks:Block xmi:id="_nydckC-tEfCi-dDc7XsS6w" base_Class="_nybnYC-tEfCi-dDc7XsS6w"/>
   <Blocks:Block xmi:id="_1uQpEC-tEfCi-dDc7XsS6w" base_Class="_1uOz4C-tEfCi-dDc7XsS6w"/>
-  <Requirements:Requirement xmi:id="_hcEKcDNLEfCCcN8HfExtzQ" base_NamedElement="_hb2IADNLEfCCcN8HfExtzQ" id="01" base_Class="_hb2IADNLEfCCcN8HfExtzQ"/>
   <SystemOfInterest:SystemOfInterest xmi:id="_oeqrEDO6EfCCcN8HfExtzQ" base_Model="_bkD1wC-cEfCi-dDc7XsS6w"/>
   <SystemOfInterest:SystemOfInterest xmi:id="_a4i-MDO7EfCCcN8HfExtzQ" base_Class="_5uNQcC-tEfCi-dDc7XsS6w"/>
   <Blocks:Block xmi:id="_g-9tYDO8EfCCcN8HfExtzQ" base_Class="_g-74MDO8EfCCcN8HfExtzQ"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_sYlvcD4tEfCGb_dmBhWPaQ" relevance="HIGH" interests="Easy Use of the System Of Interest. Making Work as easy as possible." base_Actor="_5ggwgC-eEfCi-dDc7XsS6w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_mkD6ID4vEfCGb_dmBhWPaQ" base_ActivityPartition="_ir4usD4vEfCGb_dmBhWPaQ"/>
+  <Allocations:AllocateActivityPartition xmi:id="_nlwnsD4vEfCGb_dmBhWPaQ" base_ActivityPartition="_R-4l4D4vEfCGb_dmBhWPaQ"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_Ge4pQD42EfCGb_dmBhWPaQ"/>
+  <Blocks:Block xmi:id="_QGgOUD43EfCGb_dmBhWPaQ" base_Class="_QGaHsD43EfCGb_dmBhWPaQ"/>
+  <MWPProfile:SystemOfInterest xmi:id="_TufosD43EfCGb_dmBhWPaQ" base_Class="_QGaHsD43EfCGb_dmBhWPaQ"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_1bJJgD43EfCGb_dmBhWPaQ" relevance="HIGH" interests="Correct implementation of Rules and Laws, Safety of the Product" base_Actor="_56ln8C-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_FjEPUD44EfCGb_dmBhWPaQ" relevance="HIGH" interests="Correct implementation of Rules and Laws, Safety of the Product" base_Actor="_I6IwcC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_MUjKMD44EfCGb_dmBhWPaQ" relevance="HIGH" interests="Correct implementation of Rules and Laws, Safety of the Product" base_Actor="_LRgQcC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_b0zMAD44EfCGb_dmBhWPaQ" relevance="HIGH" interests="Easy Use of the System Of Interest. Making Work in the cabin as easy as possible." base_Actor="_NECagC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_dd20gD44EfCGb_dmBhWPaQ" relevance="MID" interests="Easy Use of the System Of Interest. Making maintenance works as easy as possible." base_Actor="_OuxeAC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_wi5ywD44EfCGb_dmBhWPaQ" relevance="HIGH" interests="Easy Use of the System Of Interest. Making cleaning and filling of the Trolley as easy as possible." base_Actor="_TQ_sAC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_8Nz6sD44EfCGb_dmBhWPaQ" relevance="MID" interests="Easy and cheap production" base_Actor="_tfYEcC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_BwNzUD45EfCGb_dmBhWPaQ" relevance="MID" interests="As small changes as possible to the Galley." base_Actor="_2q-4YC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_MuKHkD45EfCGb_dmBhWPaQ" interests="easy and cheap manufacturing" base_Actor="_xJEH8C-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_W7oBID45EfCGb_dmBhWPaQ" interests="low production cost" base_Actor="_jacmYC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_dANZwD45EfCGb_dmBhWPaQ" interests="easy assembly" base_Actor="_zUFOAC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_6KxPcD45EfCGb_dmBhWPaQ" relevance="MID" interests="simple and easy design" base_Actor="_02WSAC-fEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_AjDnMD46EfCGb_dmBhWPaQ" interests="good marketing capability of the product" base_Actor="_lAxD8C-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_WsarAD46EfCGb_dmBhWPaQ" relevance="MID" interests="Low purchase cost" base_Actor="_t_LJYC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_pgU18D46EfCGb_dmBhWPaQ" interests="good marketing capability of the product" base_Actor="_v6Y44C-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_5kYvcD46EfCGb_dmBhWPaQ" relevance="MID" interests="Low Cost" base_Actor="_r1a5gC-eEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_A5q68D47EfCGb_dmBhWPaQ" relevance="MID" interests="No danger for others or the enviroment" base_Actor="_Mtvk8C-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_JbsmYD47EfCGb_dmBhWPaQ" relevance="HIGH" interests="No danger for passengers" base_Actor="_cD4BcC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Stakeholders:ExtendedStakeholder xmi:id="_PZKqYD47EfCGb_dmBhWPaQ" interests="No danger for others or the enviroment" base_Actor="_d9BUYC-gEfCi-dDc7XsS6w"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_Fd46wD5AEfCGb_dmBhWPaQ" base_Property="_09SrsD4-EfCGb_dmBhWPaQ"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_LF66QD5AEfCGb_dmBhWPaQ" base_Property="_IzuOID5AEfCGb_dmBhWPaQ"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_QMdWQD5AEfCGb_dmBhWPaQ" base_Property="_MudlYD5AEfCGb_dmBhWPaQ"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_WS6-MD5AEfCGb_dmBhWPaQ" base_Property="_TuG4ED5AEfCGb_dmBhWPaQ"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_dHMuYD5AEfCGb_dmBhWPaQ" base_Property="_YxJ7MD5AEfCGb_dmBhWPaQ"/>
+  <MWPProfile.Properties:MeasureOfEffectiveness xmi:id="_is2vUD5AEfCGb_dmBhWPaQ" base_Property="_gNUx0D5AEfCGb_dmBhWPaQ"/>
+  <Blocks:ValueType xmi:id="_GiHicD5BEfCGb_dmBhWPaQ" base_DataType="_GiD4ED5BEfCGb_dmBhWPaQ" quantityKind="_d6RUoD5BEfCGb_dmBhWPaQ" unit="_ZR8eoD5BEfCGb_dmBhWPaQ"/>
+  <Blocks:ValueType xmi:id="_kHl9ED5CEfCGb_dmBhWPaQ" base_DataType="_kHjg0D5CEfCGb_dmBhWPaQ" quantityKind="_YGaqMD5CEfCGb_dmBhWPaQ" unit="_U8ZlQD5CEfCGb_dmBhWPaQ"/>
+  <Blocks:ValueType xmi:id="_DYPVgD5DEfCGb_dmBhWPaQ" base_DataType="_DYM5QD5DEfCGb_dmBhWPaQ" quantityKind="_7AiDsD5CEfCGb_dmBhWPaQ" unit="_88y8ED5CEfCGb_dmBhWPaQ"/>
+  <Blocks:ValueType xmi:id="_v43N4D5REfCGb_dmBhWPaQ" base_DataType="_v41_wD5REfCGb_dmBhWPaQ" quantityKind="_pzFicD5REfCGb_dmBhWPaQ" unit="_sPsHwD5REfCGb_dmBhWPaQ"/>
+  <Blocks:ValueType xmi:id="_Kh0CcD5SEfCGb_dmBhWPaQ" base_DataType="_KhxmMD5SEfCGb_dmBhWPaQ" quantityKind="_F_ZnMD5SEfCGb_dmBhWPaQ" unit="_D-ZYwD5SEfCGb_dmBhWPaQ"/>
+  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_JlefkD5eEfCIqJH4kx29iQ" base_Class="_FqmlcD5eEfCIqJH4kx29iQ"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_Jlg70D5eEfCIqJH4kx29iQ" base_Class="_FqmlcD5eEfCIqJH4kx29iQ"/>
+  <Requirements:Requirement xmi:id="_Fq6HcD5eEfCIqJH4kx29iQ" base_NamedElement="_FqmlcD5eEfCIqJH4kx29iQ" base_Class="_FqmlcD5eEfCIqJH4kx29iQ"/>
 </xmi:XMI>
