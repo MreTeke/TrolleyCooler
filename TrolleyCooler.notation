@@ -1538,12 +1538,56 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_bv-xYDNLEfCCcN8HfExtzQ" type="PapyrusUMLClassDiagram" name="StakeholderRequirements" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_2u60YD7NEfC-p4myUfuAug" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2vAT8D7NEfC-p4myUfuAug" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2vAT8T7NEfC-p4myUfuAug" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2vAT8j7NEfC-p4myUfuAug" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2vA7AD7NEfC-p4myUfuAug" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2vA7AT7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2vA7Aj7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2vA7Az7NEfC-p4myUfuAug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vA7BD7NEfC-p4myUfuAug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2vA7BT7NEfC-p4myUfuAug" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2vA7Bj7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2vA7Bz7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2vA7CD7NEfC-p4myUfuAug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vA7CT7NEfC-p4myUfuAug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2vA7Cj7NEfC-p4myUfuAug" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2vA7Cz7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2vA7DD7NEfC-p4myUfuAug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2vA7DT7NEfC-p4myUfuAug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vA7Dj7NEfC-p4myUfuAug"/>
+      </children>
+      <element xmi:type="uml:Class" href="TrolleyCooler.uml#_FqmlcD5eEfCIqJH4kx29iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2u60YT7NEfC-p4myUfuAug" x="378" y="352"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_2x4o0D7NEfC-p4myUfuAug" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2x4o0T7NEfC-p4myUfuAug"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2x4o0z7NEfC-p4myUfuAug" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="TrolleyCooler.uml#_FqmlcD5eEfCIqJH4kx29iQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2x4o0j7NEfC-p4myUfuAug" x="200"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_bv-xYTNLEfCCcN8HfExtzQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_bv-xYjNLEfCCcN8HfExtzQ"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bv-xYzNLEfCCcN8HfExtzQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
       <owner xmi:type="uml:Package" href="TrolleyCooler.uml#_X1YIEC-dEfCi-dDc7XsS6w"/>
     </styles>
     <element xmi:type="uml:Package" href="TrolleyCooler.uml#_X1YIEC-dEfCi-dDc7XsS6w"/>
+    <edges xmi:type="notation:Connector" xmi:id="_2x4o1D7NEfC-p4myUfuAug" type="StereotypeCommentLink" source="_2u60YD7NEfC-p4myUfuAug" target="_2x4o0D7NEfC-p4myUfuAug">
+      <styles xmi:type="notation:FontStyle" xmi:id="_2x4o1T7NEfC-p4myUfuAug"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2x5P4j7NEfC-p4myUfuAug" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="TrolleyCooler.uml#_FqmlcD5eEfCIqJH4kx29iQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2x4o1j7NEfC-p4myUfuAug" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2x5P4D7NEfC-p4myUfuAug"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2x5P4T7NEfC-p4myUfuAug"/>
+    </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_8Dc2IDO2EfCCcN8HfExtzQ" name="StakeholderTable" currentRowAxisProvider="_8Dc2IjO2EfCCcN8HfExtzQ" currentColumnAxisProvider="_8Dc2ITO2EfCCcN8HfExtzQ" tableKindId="org.eclipse.papyrus.sysml16.table.generic">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8DfSYDO2EfCCcN8HfExtzQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
@@ -2941,16 +2985,6 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_djhNRD5cEfCIqJH4kx29iQ"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="_OST3kD5dEfCIqJH4kx29iQ" name="Generic Table" currentRowAxisProvider="_OST3kj5dEfCIqJH4kx29iQ" currentColumnAxisProvider="_OST3kT5dEfCIqJH4kx29iQ" tableKindId="org.eclipse.papyrus.sysml16.table.generic">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OSVFsD5dEfCIqJH4kx29iQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OSVFsT5dEfCIqJH4kx29iQ" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <context xmi:type="uml:Package" href="TrolleyCooler.uml#_g5cJkC-dEfCi-dDc7XsS6w"/>
-    <owner xmi:type="uml:Package" href="TrolleyCooler.uml#_g5cJkC-dEfCi-dDc7XsS6w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_OST3kT5dEfCIqJH4kx29iQ" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_OST3kj5dEfCIqJH4kx29iQ" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
-  </nattable:Table>
   <nattable:Table xmi:id="__3CrYD5dEfCIqJH4kx29iQ" name="StakeHolderRequirements" currentRowAxisProvider="__3CrYj5dEfCIqJH4kx29iQ" currentColumnAxisProvider="__3CrYT5dEfCIqJH4kx29iQ" tableKindId="org.eclipse.papyrus.sysml16.table.generic">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__3EgkD5dEfCIqJH4kx29iQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__3EgkT5dEfCIqJH4kx29iQ" key="version" value="1.3.0"/>
@@ -2964,5 +2998,15 @@
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="__3CrYj5dEfCIqJH4kx29iQ" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_b2tRQD7MEfC-p4myUfuAug" name="MoETable" currentRowAxisProvider="_b2t4UD7MEfC-p4myUfuAug" currentColumnAxisProvider="_b2tRQT7MEfC-p4myUfuAug" tableKindId="org.eclipse.papyrus.sysml16.table.generic">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2wUkD7MEfC-p4myUfuAug" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b2wUkT7MEfC-p4myUfuAug" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Package" href="TrolleyCooler.uml#_g5cJkC-dEfCi-dDc7XsS6w"/>
+    <owner xmi:type="uml:Package" href="TrolleyCooler.uml#_g5cJkC-dEfCi-dDc7XsS6w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_b2tRQT7MEfC-p4myUfuAug" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_b2t4UD7MEfC-p4myUfuAug" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
   </nattable:Table>
 </xmi:XMI>
