@@ -96,36 +96,6 @@
         <generalization xmi:type="uml:Generalization" xmi:id="_bFe8AC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements">
-      <packagedElement xmi:type="uml:Class" xmi:id="_FqmlcD5eEfCIqJH4kx29iQ" name="Cleaning Instructions"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_nWn3UD5iEfCIqJH4kx29iQ" name="Equipment"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_v3Dx4D5jEfCIqJH4kx29iQ" name="Doors"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_PRsMwD5kEfCIqJH4kx29iQ" name="Sealing"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_5G03oD5kEfCIqJH4kx29iQ" name="Interface Characteristics"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_aYxZcD5lEfCIqJH4kx29iQ" name="Fit into Galley Stowage room"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_J3pUAD5mEfCIqJH4kx29iQ" name="Finish and Color"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_k2CNED5mEfCIqJH4kx29iQ" name="Maximum Load "/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fYhmED5nEfCIqJH4kx29iQ" name="Injury Prevention"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_MrcmcD5oEfCIqJH4kx29iQ" name="Material Coating Corrosion"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_g38U8D5oEfCIqJH4kx29iQ" name="Material Surfaces Food-Contact"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_7Kc_cD5oEfCIqJH4kx29iQ" name="Interchangeability"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3urdsD7MEfC-p4myUfuAug" name="Placards Protection"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Zu9sMD7NEfC-p4myUfuAug" name="Placards Size"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Nm1AQD7OEfC-p4myUfuAug" name="Operating Temperatures"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_327v4D7OEfC-p4myUfuAug" name="Atmospheric Pressure/Altitude"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KpZJUD7PEfC-p4myUfuAug" name="Humidity"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_qFb5cD7PEfC-p4myUfuAug" name="Waterproofness"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_LyoM0D7QEfC-p4myUfuAug" name="Fluid Susceptibility"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_5wPwAD7QEfC-p4myUfuAug" name="Fungus resistance"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fWweUD7REfC-p4myUfuAug" name="Flammability"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-DX8oD7REfC-p4myUfuAug" name="Vibrations"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_T9ttAD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_sq5YcD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_FLkR4D7TEfC-p4myUfuAug" name="Maintenance Concept"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_aH8lMD7TEfC-p4myUfuAug" name="Maintenance Plan"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yVtwwD7TEfC-p4myUfuAug" name="Design for maintainability"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_FHo-sD7UEfC-p4myUfuAug" name="Airworthiness"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_g5cJkC-dEfCi-dDc7XsS6w" name="Systemgoal" URI="">
       <packagedElement xmi:type="uml:DataType" xmi:id="_GiD4ED5BEfCGb_dmBhWPaQ" name="Power[Watt]"/>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ZR8eoD5BEfCGb_dmBhWPaQ" name="Watt"/>
@@ -143,6 +113,46 @@
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_F_ZnMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_KhxmMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime [hours]"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_ZAXggExlEfCPhKwMmVgj0Q" name="Information"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_EgX8UExnEfCPhKwMmVgj0Q" name="Stowage"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_BSr4UExnEfCPhKwMmVgj0Q" name="Air"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_lx6OcExnEfCPhKwMmVgj0Q" name="Defect Parts"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_FqmlcD5eEfCIqJH4kx29iQ" name="Cleaning Instructions"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nWn3UD5iEfCIqJH4kx29iQ" name="Equipment"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_v3Dx4D5jEfCIqJH4kx29iQ" name="Doors"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PRsMwD5kEfCIqJH4kx29iQ" name="Sealing"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5G03oD5kEfCIqJH4kx29iQ" name="Interface Characteristics"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aYxZcD5lEfCIqJH4kx29iQ" name="Fit into Galley Stowage room"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J3pUAD5mEfCIqJH4kx29iQ" name="Finish and Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_k2CNED5mEfCIqJH4kx29iQ" name="Maximum Load "/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fYhmED5nEfCIqJH4kx29iQ" name="Injury Prevention"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MrcmcD5oEfCIqJH4kx29iQ" name="Material Coating Corrosion"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_g38U8D5oEfCIqJH4kx29iQ" name="Material Surfaces Food-Contact"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7Kc_cD5oEfCIqJH4kx29iQ" name="Interchangeability"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3urdsD7MEfC-p4myUfuAug" name="Placards Protection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Zu9sMD7NEfC-p4myUfuAug" name="Placards Size"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Nm1AQD7OEfC-p4myUfuAug" name="Operating Temperatures"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_327v4D7OEfC-p4myUfuAug" name="Atmospheric Pressure/Altitude"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KpZJUD7PEfC-p4myUfuAug" name="Humidity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFb5cD7PEfC-p4myUfuAug" name="Waterproofness"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LyoM0D7QEfC-p4myUfuAug" name="Fluid Susceptibility"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5wPwAD7QEfC-p4myUfuAug" name="Fungus resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fWweUD7REfC-p4myUfuAug" name="Flammability"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-DX8oD7REfC-p4myUfuAug" name="Vibrations"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_T9ttAD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sq5YcD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FLkR4D7TEfC-p4myUfuAug" name="Maintenance Concept"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aH8lMD7TEfC-p4myUfuAug" name="Maintenance Plan"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yVtwwD7TEfC-p4myUfuAug" name="Design for maintainability"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FHo-sD7UEfC-p4myUfuAug" name="Airworthiness"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_v-JY8ExnEfCPhKwMmVgj0Q" name="Cleaning"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_yFguEExnEfCPhKwMmVgj0Q" name="Charging"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_0j5cEExnEfCPhKwMmVgj0Q" name="Dirty Food Trays"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_3Cx5UExnEfCPhKwMmVgj0Q" name="User Request"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_8JcRIExnEfCPhKwMmVgj0Q" name="Food Trays"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_FARH4ExoEfCPhKwMmVgj0Q" name="Repairments"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_RGg2EExqEfCPhKwMmVgj0Q" name="User Input"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_9SIKgC-qEfCi-dDc7XsS6w" name="Systemborders">
       <packagedElement xmi:type="uml:Class" xmi:id="_gC6W8C-tEfCi-dDc7XsS6w" name="Power Network"/>
@@ -227,6 +237,14 @@
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_ApvT4ExlEfCPhKwMmVgj0Q" conveyed="_GiD4ED5BEfCGb_dmBhWPaQ" informationSource="_YdBksDPAEfCCcN8HfExtzQ" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PlEqwExlEfCPhKwMmVgj0Q" conveyed="_ZAXggExlEfCPhKwMmVgj0Q" informationSource="_gUB9MDPAEfCCcN8HfExtzQ" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_QpJ98ExlEfCPhKwMmVgj0Q" conveyed="_ZAXggExlEfCPhKwMmVgj0Q" informationSource="_dzq5QDPAEfCCcN8HfExtzQ" informationTarget="_gUB9MDPAEfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_0ioGMExmEfCPhKwMmVgj0Q" visibility="package" conveyed="_BSr4UExnEfCPhKwMmVgj0Q" informationSource="_dzq5QDPAEfCCcN8HfExtzQ" informationTarget="_QglGMkxkEfCPhKwMmVgj0Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1RIyAExmEfCPhKwMmVgj0Q" visibility="package" conveyed="_EgX8UExnEfCPhKwMmVgj0Q" informationSource="_QglGMkxkEfCPhKwMmVgj0Q" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_-ppkEExnEfCPhKwMmVgj0Q" visibility="protected" conveyed="_lx6OcExnEfCPhKwMmVgj0Q" informationSource="_dzq5QDPAEfCCcN8HfExtzQ" informationTarget="_Y1cfYUxkEfCPhKwMmVgj0Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_SxVrEExoEfCPhKwMmVgj0Q" visibility="package" conveyed="_FARH4ExoEfCPhKwMmVgj0Q" informationSource="_Y1cfYUxkEfCPhKwMmVgj0Q" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_X40iQExoEfCPhKwMmVgj0Q" visibility="public" conveyed="_0j5cEExnEfCPhKwMmVgj0Q" informationSource="_dzq5QDPAEfCCcN8HfExtzQ" informationTarget="_VhfbUkxkEfCPhKwMmVgj0Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Yfqf0ExoEfCPhKwMmVgj0Q" visibility="public" conveyed="_yFguEExnEfCPhKwMmVgj0Q _v-JY8ExnEfCPhKwMmVgj0Q" informationSource="_VhfbUkxkEfCPhKwMmVgj0Q" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_A3m-gExqEfCPhKwMmVgj0Q" conveyed="_8JcRIExnEfCPhKwMmVgj0Q _ZAXggExlEfCPhKwMmVgj0Q" informationSource="_LhsxYExkEfCPhKwMmVgj0Q" informationTarget="_dzq5QDPAEfCCcN8HfExtzQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MjjBMExqEfCPhKwMmVgj0Q" conveyed="_8JcRIExnEfCPhKwMmVgj0Q _RGg2EExqEfCPhKwMmVgj0Q" informationSource="_dzq5QDPAEfCCcN8HfExtzQ" informationTarget="_LhsxYExkEfCPhKwMmVgj0Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_cH92cDcjEfCqFuETt3x8NQ" name="Use Cases">
       <packagedElement xmi:type="uml:Association" xmi:id="_pupSEDckEfCqFuETt3x8NQ" memberEnd="_putjgDckEfCqFuETt3x8NQ _puuKkDckEfCqFuETt3x8NQ">
@@ -362,7 +380,7 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public">
+    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_09SrsD4-EfCGb_dmBhWPaQ" name="Weight" type="_kHjg0D5CEfCGb_dmBhWPaQ">
         <ownedComment xmi:type="uml:Comment" xmi:id="_pmAEgD5YEfCGb_dmBhWPaQ">
           <body>The final weight of the System in kg without any food trays inserted. </body>
@@ -395,6 +413,48 @@
           <body>hours in which the system can cool independently</body>
         </ownedComment>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_yaKrQExuEfCPhKwMmVgj0Q" name="StateMachine7">
+        <region xmi:type="uml:Region" xmi:id="_zWyEgExuEfCPhKwMmVgj0Q" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_G9izQExwEfCPhKwMmVgj0Q" name="Error Detected" source="_hSEscExvEfCPhKwMmVgj0Q" target="_l-G9wExvEfCPhKwMmVgj0Q"/>
+          <transition xmi:type="uml:Transition" xmi:id="_VgCzYExwEfCPhKwMmVgj0Q" name="Power detected" source="_XX_B4ExvEfCPhKwMmVgj0Q" target="_PjOPoExwEfCPhKwMmVgj0Q"/>
+          <transition xmi:type="uml:Transition" xmi:id="_x8yg0ExwEfCPhKwMmVgj0Q" name="Loss of Power" source="_hSEscExvEfCPhKwMmVgj0Q" target="_XX_B4ExvEfCPhKwMmVgj0Q"/>
+          <subvertex xmi:type="uml:State" xmi:id="_XX_B4ExvEfCPhKwMmVgj0Q" name="Off"/>
+          <subvertex xmi:type="uml:State" xmi:id="_hSEscExvEfCPhKwMmVgj0Q" name="On">
+            <region xmi:type="uml:Region" xmi:id="_l-FvoExvEfCPhKwMmVgj0Q" name="Region1">
+              <transition xmi:type="uml:Transition" xmi:id="_lEzhwExwEfCPhKwMmVgj0Q" name="Self Check OK" source="_PjOPoExwEfCPhKwMmVgj0Q" target="_KsE6gExwEfCPhKwMmVgj0Q"/>
+              <transition xmi:type="uml:Transition" xmi:id="_s9iYkExwEfCPhKwMmVgj0Q" name="Maintenance Mode Activated" source="_PjOPoExwEfCPhKwMmVgj0Q" target="_nWiwUExvEfCPhKwMmVgj0Q"/>
+              <transition xmi:type="uml:Transition" xmi:id="_1r5P0ExwEfCPhKwMmVgj0Q" source="_KsE6gExwEfCPhKwMmVgj0Q" target="_OlxTcExxEfCPhKwMmVgj0Q"/>
+              <transition xmi:type="uml:Transition" xmi:id="_3H1CUExwEfCPhKwMmVgj0Q" source="_KsE6gExwEfCPhKwMmVgj0Q" target="_WOIL8ExxEfCPhKwMmVgj0Q"/>
+              <subvertex xmi:type="uml:State" xmi:id="_l-G9wExvEfCPhKwMmVgj0Q" name="Error"/>
+              <subvertex xmi:type="uml:State" xmi:id="_nWiwUExvEfCPhKwMmVgj0Q" name="Maintenance"/>
+              <subvertex xmi:type="uml:State" xmi:id="_xuZ8AExvEfCPhKwMmVgj0Q" name="Battery Mode">
+                <region xmi:type="uml:Region" xmi:id="_M02IYkxxEfCPhKwMmVgj0Q" name="Region1">
+                  <subvertex xmi:type="uml:State" xmi:id="_OlxTcExxEfCPhKwMmVgj0Q" name="On / Cooling"/>
+                </region>
+              </subvertex>
+              <subvertex xmi:type="uml:State" xmi:id="_0dXcoExvEfCPhKwMmVgj0Q" name="Plug In Mode">
+                <region xmi:type="uml:Region" xmi:id="_UZiB0ExxEfCPhKwMmVgj0Q" name="Region1">
+                  <transition xmi:type="uml:Transition" xmi:id="_uouSkExxEfCPhKwMmVgj0Q" name="Button Pressed" source="_WOIL8ExxEfCPhKwMmVgj0Q" target="_o8JxUExxEfCPhKwMmVgj0Q"/>
+                  <transition xmi:type="uml:Transition" xmi:id="_1lZJwExxEfCPhKwMmVgj0Q" name="Button Pressed" source="_0zWo0ExxEfCPhKwMmVgj0Q" target="_WOIL8ExxEfCPhKwMmVgj0Q"/>
+                  <transition xmi:type="uml:Transition" xmi:id="_XxltUExyEfCPhKwMmVgj0Q" name="Button Pressed" source="_o8JxUExxEfCPhKwMmVgj0Q" target="_ORpoIExyEfCPhKwMmVgj0Q"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_WOIL8ExxEfCPhKwMmVgj0Q" name="Standby/Idle"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_o8JxUExxEfCPhKwMmVgj0Q" name="On/Cooling">
+                    <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_0zWo0ExxEfCPhKwMmVgj0Q" name="ExitPoint1" kind="exitPoint"/>
+                    <region xmi:type="uml:Region" xmi:id="_Jgb74ExyEfCPhKwMmVgj0Q" name="Region1">
+                      <transition xmi:type="uml:Transition" xmi:id="_RJ6OsExyEfCPhKwMmVgj0Q" name="Goal Temperature Reached" source="_ORpoIExyEfCPhKwMmVgj0Q" target="_PZcWoExyEfCPhKwMmVgj0Q"/>
+                      <transition xmi:type="uml:Transition" xmi:id="_aAyv0ExyEfCPhKwMmVgj0Q" name="Button Pressed" source="_PZcWoExyEfCPhKwMmVgj0Q" target="_0zWo0ExxEfCPhKwMmVgj0Q"/>
+                      <subvertex xmi:type="uml:State" xmi:id="_ORpoIExyEfCPhKwMmVgj0Q" name="Cooling"/>
+                      <subvertex xmi:type="uml:State" xmi:id="_PZcWoExyEfCPhKwMmVgj0Q" name="Holding Temperature"/>
+                    </region>
+                  </subvertex>
+                </region>
+              </subvertex>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_KsE6gExwEfCPhKwMmVgj0Q" name="Power Source?" kind="choice"/>
+              <subvertex xmi:type="uml:State" xmi:id="_PjOPoExwEfCPhKwMmVgj0Q" name="Self Check"/>
+            </region>
+          </subvertex>
+        </region>
+      </ownedBehavior>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bk4VIC-cEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -588,4 +648,22 @@
   <PortsAndFlows:ItemFlow xmi:id="_PlIVIExlEfCPhKwMmVgj0Q" base_InformationFlow="_PlEqwExlEfCPhKwMmVgj0Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_QpMaMExlEfCPhKwMmVgj0Q" base_InformationFlow="_QpJ98ExlEfCPhKwMmVgj0Q"/>
   <Blocks:ValueType xmi:id="_ZAZ8wExlEfCPhKwMmVgj0Q" base_DataType="_ZAXggExlEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_0ip7YExmEfCPhKwMmVgj0Q" base_InformationFlow="_0ioGMExmEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_1RLOQExmEfCPhKwMmVgj0Q" base_InformationFlow="_1RIyAExmEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_BSttgExnEfCPhKwMmVgj0Q" base_DataType="_BSr4UExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_EgZxgExnEfCPhKwMmVgj0Q" base_DataType="_EgX8UExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_lx940ExnEfCPhKwMmVgj0Q" base_DataType="_lx6OcExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_v-LOIExnEfCPhKwMmVgj0Q" base_DataType="_v-JY8ExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_yFjKUExnEfCPhKwMmVgj0Q" base_DataType="_yFguEExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_0j7RQExnEfCPhKwMmVgj0Q" base_DataType="_0j5cEExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_3CzHcExnEfCPhKwMmVgj0Q" base_DataType="_3Cx5UExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_8JeGUExnEfCPhKwMmVgj0Q" base_DataType="_8JcRIExnEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_-psnYExnEfCPhKwMmVgj0Q" base_InformationFlow="_-ppkEExnEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_FATkIExoEfCPhKwMmVgj0Q" base_DataType="_FARH4ExoEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_SxW5MExoEfCPhKwMmVgj0Q" base_InformationFlow="_SxVrEExoEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_X42XcExoEfCPhKwMmVgj0Q" base_InformationFlow="_X40iQExoEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Yfrt8ExoEfCPhKwMmVgj0Q" base_InformationFlow="_Yfqf0ExoEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_A3pawExqEfCPhKwMmVgj0Q" base_InformationFlow="_A3m-gExqEfCPhKwMmVgj0Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Mjk2YExqEfCPhKwMmVgj0Q" base_InformationFlow="_MjjBMExqEfCPhKwMmVgj0Q"/>
+  <Blocks:ValueType xmi:id="_RGirQExqEfCPhKwMmVgj0Q" base_DataType="_RGg2EExqEfCPhKwMmVgj0Q"/>
 </xmi:XMI>
