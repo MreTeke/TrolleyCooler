@@ -324,9 +324,10 @@
         </ownedBehavior>
         <include xmi:type="uml:Include" xmi:id="_-SfwoDckEfCqFuETt3x8NQ" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
         <include xmi:type="uml:Include" xmi:id="__wXc0DckEfCqFuETt3x8NQ" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
+        <include xmi:type="uml:Include" xmi:id="_Ia_rgE6bEfCK1sKa9aUuHg" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_9QQloDcmEfCqFuETt3x8NQ" name="Move Trolley_Activity" node="_IsAQMDcnEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_9QQloDcmEfCqFuETt3x8NQ" name="Move Trolley_Activity" node="_IsAQMDcnEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ" group="_2FuZ0E6ZEfCK1sKa9aUuHg _576BME6ZEfCK1sKa9aUuHg">
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_Y9JRgDcpEfCqFuETt3x8NQ" name="Activity6"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_MBOl8DcvEfCqFuETt3x8NQ" name="Activity9"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_qPWKYDcvEfCqFuETt3x8NQ" name="Break release pedal engages"/>
@@ -355,32 +356,162 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_CegnoDcxEfCqFuETt3x8NQ" target="_iRnpYDcwEfCqFuETt3x8NQ" source="_Ue4SQDcwEfCqFuETt3x8NQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_D0OdYDcxEfCqFuETt3x8NQ" target="_w9FYQDcwEfCqFuETt3x8NQ" source="_iRnpYDcwEfCqFuETt3x8NQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_FTa_QDcxEfCqFuETt3x8NQ" target="_0-a10DcnEfCqFuETt3x8NQ" source="_w9FYQDcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:InitialNode" xmi:id="_IsAQMDcnEfCqFuETt3x8NQ" name="Start" outgoing="_InxhYDcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:ActivityFinalNode" xmi:id="_0-a10DcnEfCqFuETt3x8NQ" name="End" incoming="_FTa_QDcxEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_b0DNMDcpEfCqFuETt3x8NQ" name="Disable Breaks" incoming="_InxhYDcwEfCqFuETt3x8NQ" outgoing="_J4rvoDcwEfCqFuETt3x8NQ" behavior="_MBOl8DcvEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_oHftEDcvEfCqFuETt3x8NQ" name="Break release pedal engaged" incoming="_J4rvoDcwEfCqFuETt3x8NQ" outgoing="_Llf2wDcwEfCqFuETt3x8NQ" behavior="_qPWKYDcvEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_wEQvUDcvEfCqFuETt3x8NQ" name="break pedal disengaged" incoming="_Llf2wDcwEfCqFuETt3x8NQ" outgoing="_Mp6hIDcwEfCqFuETt3x8NQ" behavior="_ya854DcvEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_5C5eQDcvEfCqFuETt3x8NQ" name="breake released" incoming="_Mp6hIDcwEfCqFuETt3x8NQ" outgoing="_NZiAMDcwEfCqFuETt3x8NQ" behavior="_7DF0YDcvEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_AmADUDcwEfCqFuETt3x8NQ" name="moveTrolley" incoming="_NZiAMDcwEfCqFuETt3x8NQ" outgoing="__rFdwDcwEfCqFuETt3x8NQ" behavior="_B88oIDcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_QGDQ0DcwEfCqFuETt3x8NQ" name="push Brake pedal" incoming="__rFdwDcwEfCqFuETt3x8NQ" outgoing="_BNtHEDcxEfCqFuETt3x8NQ" behavior="_SNjI0DcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_Ue4SQDcwEfCqFuETt3x8NQ" name="break pedal locked" incoming="_BNtHEDcxEfCqFuETt3x8NQ" outgoing="_CegnoDcxEfCqFuETt3x8NQ" behavior="_Z8UyYDcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_iRnpYDcwEfCqFuETt3x8NQ" name="break release pedal disengaged" incoming="_CegnoDcxEfCqFuETt3x8NQ" outgoing="_D0OdYDcxEfCqFuETt3x8NQ" behavior="_k-ccADcwEfCqFuETt3x8NQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_w9FYQDcwEfCqFuETt3x8NQ" name="Break locked" incoming="_D0OdYDcxEfCqFuETt3x8NQ" outgoing="_FTa_QDcxEfCqFuETt3x8NQ" behavior="_x5TI4DcwEfCqFuETt3x8NQ"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_2FuZ0E6ZEfCK1sKa9aUuHg" name="User" node="_IsAQMDcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_576BME6ZEfCK1sKa9aUuHg" name="Cooler Trolley" node="_oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_IsAQMDcnEfCqFuETt3x8NQ" name="Start" outgoing="_InxhYDcwEfCqFuETt3x8NQ" inPartition="_2FuZ0E6ZEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_0-a10DcnEfCqFuETt3x8NQ" name="End" incoming="_FTa_QDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_b0DNMDcpEfCqFuETt3x8NQ" name="Disable Breaks" incoming="_InxhYDcwEfCqFuETt3x8NQ" outgoing="_J4rvoDcwEfCqFuETt3x8NQ" inPartition="_2FuZ0E6ZEfCK1sKa9aUuHg" behavior="_MBOl8DcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_oHftEDcvEfCqFuETt3x8NQ" name="Break release pedal engaged" incoming="_J4rvoDcwEfCqFuETt3x8NQ" outgoing="_Llf2wDcwEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_qPWKYDcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_wEQvUDcvEfCqFuETt3x8NQ" name="break pedal disengaged" incoming="_Llf2wDcwEfCqFuETt3x8NQ" outgoing="_Mp6hIDcwEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_ya854DcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_5C5eQDcvEfCqFuETt3x8NQ" name="breake released" incoming="_Mp6hIDcwEfCqFuETt3x8NQ" outgoing="_NZiAMDcwEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_7DF0YDcvEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_AmADUDcwEfCqFuETt3x8NQ" name="moveTrolley" incoming="_NZiAMDcwEfCqFuETt3x8NQ" outgoing="__rFdwDcwEfCqFuETt3x8NQ" inPartition="_2FuZ0E6ZEfCK1sKa9aUuHg" behavior="_B88oIDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_QGDQ0DcwEfCqFuETt3x8NQ" name="push Brake pedal" incoming="__rFdwDcwEfCqFuETt3x8NQ" outgoing="_BNtHEDcxEfCqFuETt3x8NQ" inPartition="_2FuZ0E6ZEfCK1sKa9aUuHg" behavior="_SNjI0DcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_Ue4SQDcwEfCqFuETt3x8NQ" name="break pedal locked" incoming="_BNtHEDcxEfCqFuETt3x8NQ" outgoing="_CegnoDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_Z8UyYDcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_iRnpYDcwEfCqFuETt3x8NQ" name="break release pedal disengaged" incoming="_CegnoDcxEfCqFuETt3x8NQ" outgoing="_D0OdYDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_k-ccADcwEfCqFuETt3x8NQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_w9FYQDcwEfCqFuETt3x8NQ" name="Break locked" incoming="_D0OdYDcxEfCqFuETt3x8NQ" outgoing="_FTa_QDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_x5TI4DcwEfCqFuETt3x8NQ"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system">
-        <include xmi:type="uml:Include" xmi:id="_f4AusDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system" classifierBehavior="_t5GkYE6eEfCK1sKa9aUuHg">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_t5GkYE6eEfCK1sKa9aUuHg" name="Maintenance on Cooling System " node="_SFs5cE6fEfCK1sKa9aUuHg _V-gXAE6fEfCK1sKa9aUuHg _b7NmAE6fEfCK1sKa9aUuHg _hSyHoE6fEfCK1sKa9aUuHg _xWnXoE6fEfCK1sKa9aUuHg _24vjcE6fEfCK1sKa9aUuHg _A7rA8E6gEfCK1sKa9aUuHg _GkoNgE6gEfCK1sKa9aUuHg _KyFFYE6gEfCK1sKa9aUuHg _cRVxkE6gEfCK1sKa9aUuHg _m_NCcE6gEfCK1sKa9aUuHg _vVXcIE6gEfCK1sKa9aUuHg _23kpUE6gEfCK1sKa9aUuHg _8D3IAE6gEfCK1sKa9aUuHg" group="_zlopYE6eEfCK1sKa9aUuHg _0lzF4E6eEfCK1sKa9aUuHg">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Yvl-kE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_V-gXAE6fEfCK1sKa9aUuHg" source="_SFs5cE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_d7pMsE6fEfCK1sKa9aUuHg" target="_b7NmAE6fEfCK1sKa9aUuHg" source="_V-gXAE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_k489EE6fEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg" target="_hSyHoE6fEfCK1sKa9aUuHg" source="_b7NmAE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_nsT1gE6fEfCK1sKa9aUuHg" target="_V-gXAE6fEfCK1sKa9aUuHg" source="_b7NmAE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_1ffRgE6fEfCK1sKa9aUuHg" target="_xWnXoE6fEfCK1sKa9aUuHg" source="_hSyHoE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_6yjGkE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_24vjcE6fEfCK1sKa9aUuHg" source="_xWnXoE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FXMKAE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_A7rA8E6gEfCK1sKa9aUuHg" source="_24vjcE6fEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_J6adkE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_GkoNgE6gEfCK1sKa9aUuHg" source="_A7rA8E6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_N-f-EE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_KyFFYE6gEfCK1sKa9aUuHg" source="_GkoNgE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_e9SacE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_cRVxkE6gEfCK1sKa9aUuHg" source="_GkoNgE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_frPsoE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_cRVxkE6gEfCK1sKa9aUuHg" source="_KyFFYE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_p4sYEE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_m_NCcE6gEfCK1sKa9aUuHg" source="_cRVxkE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_6DsnEE6gEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg" target="_23kpUE6gEfCK1sKa9aUuHg" source="_vVXcIE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_-MzKcE6gEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg" target="_8D3IAE6gEfCK1sKa9aUuHg" source="_23kpUE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__UrYgE6gEfCK1sKa9aUuHg" target="_vVXcIE6gEfCK1sKa9aUuHg" source="_m_NCcE6gEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_DccfIE6hEfCK1sKa9aUuHg" target="_V-gXAE6fEfCK1sKa9aUuHg" source="_vVXcIE6gEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_zlopYE6eEfCK1sKa9aUuHg" name="User" node="_SFs5cE6fEfCK1sKa9aUuHg _V-gXAE6fEfCK1sKa9aUuHg _xWnXoE6fEfCK1sKa9aUuHg _24vjcE6fEfCK1sKa9aUuHg _A7rA8E6gEfCK1sKa9aUuHg _GkoNgE6gEfCK1sKa9aUuHg _KyFFYE6gEfCK1sKa9aUuHg _cRVxkE6gEfCK1sKa9aUuHg _m_NCcE6gEfCK1sKa9aUuHg" edge="_Yvl-kE6fEfCK1sKa9aUuHg _6yjGkE6fEfCK1sKa9aUuHg _FXMKAE6gEfCK1sKa9aUuHg _J6adkE6gEfCK1sKa9aUuHg _N-f-EE6gEfCK1sKa9aUuHg _e9SacE6gEfCK1sKa9aUuHg _frPsoE6gEfCK1sKa9aUuHg _p4sYEE6gEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_0lzF4E6eEfCK1sKa9aUuHg" name="Cooler Trolely" node="_b7NmAE6fEfCK1sKa9aUuHg _hSyHoE6fEfCK1sKa9aUuHg _vVXcIE6gEfCK1sKa9aUuHg _23kpUE6gEfCK1sKa9aUuHg _8D3IAE6gEfCK1sKa9aUuHg" edge="_k489EE6fEfCK1sKa9aUuHg _6DsnEE6gEfCK1sKa9aUuHg _-MzKcE6gEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_SFs5cE6fEfCK1sKa9aUuHg" name="Start" outgoing="_Yvl-kE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_V-gXAE6fEfCK1sKa9aUuHg" name="Turn Off Cooling" incoming="_Yvl-kE6fEfCK1sKa9aUuHg _nsT1gE6fEfCK1sKa9aUuHg _DccfIE6hEfCK1sKa9aUuHg" outgoing="_d7pMsE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_b7NmAE6fEfCK1sKa9aUuHg" name="Cooling Off?" incoming="_d7pMsE6fEfCK1sKa9aUuHg" outgoing="_k489EE6fEfCK1sKa9aUuHg _nsT1gE6fEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_hSyHoE6fEfCK1sKa9aUuHg" name="Warning Cooling Off" incoming="_k489EE6fEfCK1sKa9aUuHg" outgoing="_1ffRgE6fEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_xWnXoE6fEfCK1sKa9aUuHg" name="Remove Cover of Cooling System" incoming="_1ffRgE6fEfCK1sKa9aUuHg" outgoing="_6yjGkE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_24vjcE6fEfCK1sKa9aUuHg" name="Remove Screws and remove Cooling System" incoming="_6yjGkE6fEfCK1sKa9aUuHg" outgoing="_FXMKAE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_A7rA8E6gEfCK1sKa9aUuHg" name="Clan Condensator Coils" incoming="_FXMKAE6gEfCK1sKa9aUuHg" outgoing="_J6adkE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_GkoNgE6gEfCK1sKa9aUuHg" name="Seals OK?" incoming="_J6adkE6gEfCK1sKa9aUuHg" outgoing="_N-f-EE6gEfCK1sKa9aUuHg _e9SacE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_KyFFYE6gEfCK1sKa9aUuHg" name="Change Seals" incoming="_N-f-EE6gEfCK1sKa9aUuHg" outgoing="_frPsoE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_cRVxkE6gEfCK1sKa9aUuHg" name="Reinstall all parts" incoming="_e9SacE6gEfCK1sKa9aUuHg _frPsoE6gEfCK1sKa9aUuHg" outgoing="_p4sYEE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_m_NCcE6gEfCK1sKa9aUuHg" name="Turn On Cooling System" incoming="_p4sYEE6gEfCK1sKa9aUuHg" outgoing="__UrYgE6gEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_vVXcIE6gEfCK1sKa9aUuHg" name="Self Check" incoming="__UrYgE6gEfCK1sKa9aUuHg" outgoing="_6DsnEE6gEfCK1sKa9aUuHg _DccfIE6hEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_23kpUE6gEfCK1sKa9aUuHg" name="Display: Cooling On" incoming="_6DsnEE6gEfCK1sKa9aUuHg" outgoing="_-MzKcE6gEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_8D3IAE6gEfCK1sKa9aUuHg" name="End" incoming="_-MzKcE6gEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+        </ownedBehavior>
+        <include xmi:type="uml:Include" xmi:id="_DfC5cE6cEfCK1sKa9aUuHg" addition="_atGJADclEfCqFuETt3x8NQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts">
         <include xmi:type="uml:Include" xmi:id="_g5YsIDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
+        <include xmi:type="uml:Include" xmi:id="_D6oCME6cEfCK1sKa9aUuHg" addition="_atGJADclEfCqFuETt3x8NQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Y8dSsE6bEfCK1sKa9aUuHg" name="Cool Food and Drinks" subject="_QGaHsD43EfCGb_dmBhWPaQ">
+        <include xmi:type="uml:Include" xmi:id="_limT0E6bEfCK1sKa9aUuHg" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_qIEDEE6bEfCK1sKa9aUuHg" name="Loading Battery" classifierBehavior="_RthxYE6cEfCK1sKa9aUuHg" subject="_QGaHsD43EfCGb_dmBhWPaQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_RthxYE6cEfCK1sKa9aUuHg" name="Loading Battery Activity" node="_jzyMIE6cEfCK1sKa9aUuHg _zrXv4E6cEfCK1sKa9aUuHg _9A5U0E6cEfCK1sKa9aUuHg _Bo9sIE6dEfCK1sKa9aUuHg _F2_y0E6dEfCK1sKa9aUuHg _NMDU0E6dEfCK1sKa9aUuHg _U4I2wE6dEfCK1sKa9aUuHg _eLFo0E6dEfCK1sKa9aUuHg _j6hQ0E6dEfCK1sKa9aUuHg _J8t1kE6eEfCK1sKa9aUuHg _Qr_J8E6eEfCK1sKa9aUuHg _XgwpYE6eEfCK1sKa9aUuHg _cDlUUE6eEfCK1sKa9aUuHg" group="_Y6MMYE6cEfCK1sKa9aUuHg _abNTME6cEfCK1sKa9aUuHg">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_2Cc8AE6cEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg" target="_zrXv4E6cEfCK1sKa9aUuHg" source="_jzyMIE6cEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_AcQBYE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_9A5U0E6cEfCK1sKa9aUuHg" source="_zrXv4E6cEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_D2q50E6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_Bo9sIE6dEfCK1sKa9aUuHg" source="_9A5U0E6cEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_MHOawE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_F2_y0E6dEfCK1sKa9aUuHg" source="_9A5U0E6cEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_RQCusE6dEfCK1sKa9aUuHg" target="_NMDU0E6dEfCK1sKa9aUuHg" source="_F2_y0E6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Ytk3QE6dEfCK1sKa9aUuHg" target="_U4I2wE6dEfCK1sKa9aUuHg" source="_NMDU0E6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_hM2JoE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_eLFo0E6dEfCK1sKa9aUuHg" source="_U4I2wE6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_nDS_oE6dEfCK1sKa9aUuHg" target="_j6hQ0E6dEfCK1sKa9aUuHg" source="_eLFo0E6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_pbJn0E6dEfCK1sKa9aUuHg" target="_U4I2wE6dEfCK1sKa9aUuHg" source="_j6hQ0E6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_OJHkkE6eEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_J8t1kE6eEfCK1sKa9aUuHg" source="_eLFo0E6dEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_TW7tQE6eEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_Qr_J8E6eEfCK1sKa9aUuHg" source="_J8t1kE6eEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_a0dOwE6eEfCK1sKa9aUuHg" target="_XgwpYE6eEfCK1sKa9aUuHg" source="_Qr_J8E6eEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_dVN7UE6eEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg" target="_cDlUUE6eEfCK1sKa9aUuHg" source="_XgwpYE6eEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_Y6MMYE6cEfCK1sKa9aUuHg" name="User" node="_NMDU0E6dEfCK1sKa9aUuHg _j6hQ0E6dEfCK1sKa9aUuHg _XgwpYE6eEfCK1sKa9aUuHg _cDlUUE6eEfCK1sKa9aUuHg" edge="_2Cc8AE6cEfCK1sKa9aUuHg _dVN7UE6eEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_abNTME6cEfCK1sKa9aUuHg" name="Cooler Trolley" node="_zrXv4E6cEfCK1sKa9aUuHg _jzyMIE6cEfCK1sKa9aUuHg _9A5U0E6cEfCK1sKa9aUuHg _Bo9sIE6dEfCK1sKa9aUuHg _F2_y0E6dEfCK1sKa9aUuHg _U4I2wE6dEfCK1sKa9aUuHg _eLFo0E6dEfCK1sKa9aUuHg _J8t1kE6eEfCK1sKa9aUuHg _Qr_J8E6eEfCK1sKa9aUuHg" edge="_AcQBYE6dEfCK1sKa9aUuHg _D2q50E6dEfCK1sKa9aUuHg _MHOawE6dEfCK1sKa9aUuHg _hM2JoE6dEfCK1sKa9aUuHg _OJHkkE6eEfCK1sKa9aUuHg _TW7tQE6eEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_jzyMIE6cEfCK1sKa9aUuHg" name="Start" outgoing="_2Cc8AE6cEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_zrXv4E6cEfCK1sKa9aUuHg" name="Check Battery" incoming="_2Cc8AE6cEfCK1sKa9aUuHg" outgoing="_AcQBYE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_9A5U0E6cEfCK1sKa9aUuHg" name="Battery insufficient?" incoming="_AcQBYE6dEfCK1sKa9aUuHg" outgoing="_D2q50E6dEfCK1sKa9aUuHg _MHOawE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_Bo9sIE6dEfCK1sKa9aUuHg" name="End" incoming="_D2q50E6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_F2_y0E6dEfCK1sKa9aUuHg" name="Warning Low Battery" incoming="_MHOawE6dEfCK1sKa9aUuHg" outgoing="_RQCusE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_NMDU0E6dEfCK1sKa9aUuHg" name="Put Trolley in Loading Station" incoming="_RQCusE6dEfCK1sKa9aUuHg" outgoing="_Ytk3QE6dEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_U4I2wE6dEfCK1sKa9aUuHg" name="Battery Loading?" incoming="_Ytk3QE6dEfCK1sKa9aUuHg _pbJn0E6dEfCK1sKa9aUuHg" outgoing="_hM2JoE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_eLFo0E6dEfCK1sKa9aUuHg" name="Display Battery Loading" incoming="_hM2JoE6dEfCK1sKa9aUuHg" outgoing="_nDS_oE6dEfCK1sKa9aUuHg _OJHkkE6eEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_j6hQ0E6dEfCK1sKa9aUuHg" name="Reinsert Trolley correctly" incoming="_nDS_oE6dEfCK1sKa9aUuHg" outgoing="_pbJn0E6dEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_J8t1kE6eEfCK1sKa9aUuHg" name="Battery Full?" incoming="_OJHkkE6eEfCK1sKa9aUuHg" outgoing="_TW7tQE6eEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_Qr_J8E6eEfCK1sKa9aUuHg" name="Display Battery Full" incoming="_TW7tQE6eEfCK1sKa9aUuHg" outgoing="_a0dOwE6eEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_XgwpYE6eEfCK1sKa9aUuHg" name="Remove Trolley from Loading Station" incoming="_a0dOwE6eEfCK1sKa9aUuHg" outgoing="_dVN7UE6eEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_cDlUUE6eEfCK1sKa9aUuHg" name="End" incoming="_dVN7UE6eEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
+        </ownedBehavior>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley" classifierBehavior="_R7uzME6hEfCK1sKa9aUuHg">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_R7uzME6hEfCK1sKa9aUuHg" name="Clean Trolely Activity" node="__3xpEE6hEfCK1sKa9aUuHg _E_LAsE6iEfCK1sKa9aUuHg _NK_yoE6iEfCK1sKa9aUuHg _ZxvQsE6iEfCK1sKa9aUuHg _e6tVoE6iEfCK1sKa9aUuHg _qO4_oE6iEfCK1sKa9aUuHg _vdDtoE6iEfCK1sKa9aUuHg _0PErIE6iEfCK1sKa9aUuHg _4GawIE6iEfCK1sKa9aUuHg" group="_WaYIwE6hEfCK1sKa9aUuHg _YK-jsE6hEfCK1sKa9aUuHg">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_P0BDUE6iEfCK1sKa9aUuHg" target="_NK_yoE6iEfCK1sKa9aUuHg" source="_E_LAsE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_RD7zEE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_E_LAsE6iEfCK1sKa9aUuHg" source="__3xpEE6hEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_UbasQE6iEfCK1sKa9aUuHg" target="_E_LAsE6iEfCK1sKa9aUuHg" source="_NK_yoE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_dR5kwE6iEfCK1sKa9aUuHg" inPartition="_YK-jsE6hEfCK1sKa9aUuHg" target="_ZxvQsE6iEfCK1sKa9aUuHg" source="_NK_yoE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_iVBgYE6iEfCK1sKa9aUuHg" target="_e6tVoE6iEfCK1sKa9aUuHg" source="_ZxvQsE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_tflUUE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_qO4_oE6iEfCK1sKa9aUuHg" source="_e6tVoE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_zEP2wE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_vdDtoE6iEfCK1sKa9aUuHg" source="_qO4_oE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_21KjoE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_0PErIE6iEfCK1sKa9aUuHg" source="_vdDtoE6iEfCK1sKa9aUuHg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_6aAjYE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_4GawIE6iEfCK1sKa9aUuHg" source="_0PErIE6iEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_WaYIwE6hEfCK1sKa9aUuHg" name="User" node="__3xpEE6hEfCK1sKa9aUuHg _E_LAsE6iEfCK1sKa9aUuHg _e6tVoE6iEfCK1sKa9aUuHg _qO4_oE6iEfCK1sKa9aUuHg _vdDtoE6iEfCK1sKa9aUuHg _0PErIE6iEfCK1sKa9aUuHg _4GawIE6iEfCK1sKa9aUuHg" edge="_RD7zEE6iEfCK1sKa9aUuHg _tflUUE6iEfCK1sKa9aUuHg _zEP2wE6iEfCK1sKa9aUuHg _21KjoE6iEfCK1sKa9aUuHg _6aAjYE6iEfCK1sKa9aUuHg"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_YK-jsE6hEfCK1sKa9aUuHg" name="Cooler Trolley" node="_NK_yoE6iEfCK1sKa9aUuHg _ZxvQsE6iEfCK1sKa9aUuHg" edge="_dR5kwE6iEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:InitialNode" xmi:id="__3xpEE6hEfCK1sKa9aUuHg" name="Start" outgoing="_RD7zEE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_E_LAsE6iEfCK1sKa9aUuHg" name="Turn Off Cooling System" incoming="_RD7zEE6iEfCK1sKa9aUuHg _UbasQE6iEfCK1sKa9aUuHg" outgoing="_P0BDUE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_NK_yoE6iEfCK1sKa9aUuHg" name="Cooling Off?" incoming="_P0BDUE6iEfCK1sKa9aUuHg" outgoing="_UbasQE6iEfCK1sKa9aUuHg _dR5kwE6iEfCK1sKa9aUuHg" inPartition="_YK-jsE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ZxvQsE6iEfCK1sKa9aUuHg" name="Warning Cooling Off" incoming="_dR5kwE6iEfCK1sKa9aUuHg" outgoing="_iVBgYE6iEfCK1sKa9aUuHg" inPartition="_YK-jsE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_e6tVoE6iEfCK1sKa9aUuHg" name="Open Doors and remove Trays" incoming="_iVBgYE6iEfCK1sKa9aUuHg" outgoing="_tflUUE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_qO4_oE6iEfCK1sKa9aUuHg" name="Empty everything from Trolley" incoming="_tflUUE6iEfCK1sKa9aUuHg" outgoing="_zEP2wE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_vdDtoE6iEfCK1sKa9aUuHg" name="Put Trolley into Cleaning Machine" incoming="_zEP2wE6iEfCK1sKa9aUuHg" outgoing="_21KjoE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_0PErIE6iEfCK1sKa9aUuHg" name="Dry Trolley" incoming="_21KjoE6iEfCK1sKa9aUuHg" outgoing="_6aAjYE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_4GawIE6iEfCK1sKa9aUuHg" name="End" incoming="_6aAjYE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_StNiME6bEfCK1sKa9aUuHg" memberEnd="_StRzoE6bEfCK1sKa9aUuHg _StSasE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_StQlgE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_StQlgU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_StRzoE6bEfCK1sKa9aUuHg" name="move trolley" type="_s8Jv4DckEfCqFuETt3x8NQ" association="_StNiME6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_StSasE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_StNiME6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_lCqPgE6bEfCK1sKa9aUuHg" memberEnd="_lCq2kk6bEfCK1sKa9aUuHg _lCrdoE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lCq2kE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lCq2kU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lCq2kk6bEfCK1sKa9aUuHg" name="cool food and drinks" type="_Y8dSsE6bEfCK1sKa9aUuHg" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lCrdoE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tjgPME6bEfCK1sKa9aUuHg" memberEnd="_tjg2QE6bEfCK1sKa9aUuHg _tjg2QU6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tjgPMU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tjgPMk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QE6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_tjgPME6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QU6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_tjgPME6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_v5U3EE6bEfCK1sKa9aUuHg" memberEnd="_v5WFMU6bEfCK1sKa9aUuHg _v5WFMk6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5VeIE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5WFME6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMU6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMk6bEfCK1sKa9aUuHg" name="maintenance crew" type="_OuxeAC-fEfCi-dDc7XsS6w" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yipCsE6bEfCK1sKa9aUuHg" memberEnd="_yipCs06bEfCK1sKa9aUuHg _yipCtE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yipCsU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yipCsk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCs06bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_yipCsE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCtE6bEfCK1sKa9aUuHg" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_yipCsE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
+    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public" useCase="_Y8dSsE6bEfCK1sKa9aUuHg _qIEDEE6bEfCK1sKa9aUuHg" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_09SrsD4-EfCGb_dmBhWPaQ" name="Weight" type="_kHjg0D5CEfCGb_dmBhWPaQ">
         <ownedComment xmi:type="uml:Comment" xmi:id="_pmAEgD5YEfCGb_dmBhWPaQ">
           <body>The final weight of the System in kg without any food trays inserted. </body>
@@ -666,4 +797,12 @@
   <PortsAndFlows:ItemFlow xmi:id="_A3pawExqEfCPhKwMmVgj0Q" base_InformationFlow="_A3m-gExqEfCPhKwMmVgj0Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_Mjk2YExqEfCPhKwMmVgj0Q" base_InformationFlow="_MjjBMExqEfCPhKwMmVgj0Q"/>
   <Blocks:ValueType xmi:id="_RGirQExqEfCPhKwMmVgj0Q" base_DataType="_RGg2EExqEfCPhKwMmVgj0Q"/>
+  <Allocations:AllocateActivityPartition xmi:id="_2F71ME6ZEfCK1sKa9aUuHg" base_ActivityPartition="_2FuZ0E6ZEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_579rkE6ZEfCK1sKa9aUuHg" base_ActivityPartition="_576BME6ZEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_Y6UvQE6cEfCK1sKa9aUuHg" base_ActivityPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_abSywE6cEfCK1sKa9aUuHg" base_ActivityPartition="_abNTME6cEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_zlvXEE6eEfCK1sKa9aUuHg" base_ActivityPartition="_zlopYE6eEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_0l3-YE6eEfCK1sKa9aUuHg" base_ActivityPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_WadBQE6hEfCK1sKa9aUuHg" base_ActivityPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_YLC1IE6hEfCK1sKa9aUuHg" base_ActivityPartition="_YK-jsE6hEfCK1sKa9aUuHg"/>
 </xmi:XMI>
