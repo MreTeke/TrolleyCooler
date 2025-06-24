@@ -289,7 +289,44 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_o4NucjcmEfCqFuETt3x8NQ" name="clean trolley" type="_kO_gkDcmEfCqFuETt3x8NQ" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_o4OVgDcmEfCqFuETt3x8NQ" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_o4NHYDcmEfCqFuETt3x8NQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_kNiZ8DckEfCqFuETt3x8NQ" name="Serve Food/Drinks" visibility="public" classifierBehavior="_rFHC0DcxEfCqFuETt3x8NQ">
+      <packagedElement xmi:type="uml:Association" xmi:id="_StNiME6bEfCK1sKa9aUuHg" memberEnd="_StRzoE6bEfCK1sKa9aUuHg _StSasE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_StQlgE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_StQlgU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_StRzoE6bEfCK1sKa9aUuHg" name="move trolley" type="_s8Jv4DckEfCqFuETt3x8NQ" association="_StNiME6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_StSasE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_StNiME6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_lCqPgE6bEfCK1sKa9aUuHg" memberEnd="_lCq2kk6bEfCK1sKa9aUuHg _lCrdoE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lCq2kE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lCq2kU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lCq2kk6bEfCK1sKa9aUuHg" name="cool food and drinks" type="_Y8dSsE6bEfCK1sKa9aUuHg" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lCrdoE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tjgPME6bEfCK1sKa9aUuHg" memberEnd="_tjg2QE6bEfCK1sKa9aUuHg _tjg2QU6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tjgPMU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tjgPMk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QE6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_tjgPME6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QU6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_tjgPME6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_v5U3EE6bEfCK1sKa9aUuHg" memberEnd="_v5WFMU6bEfCK1sKa9aUuHg _v5WFMk6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5VeIE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5WFME6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMU6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMk6bEfCK1sKa9aUuHg" name="maintenance crew" type="_OuxeAC-fEfCi-dDc7XsS6w" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yipCsE6bEfCK1sKa9aUuHg" memberEnd="_yipCs06bEfCK1sKa9aUuHg _yipCtE6bEfCK1sKa9aUuHg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yipCsU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yipCsk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCs06bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_yipCsE6bEfCK1sKa9aUuHg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCtE6bEfCK1sKa9aUuHg" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_yipCsE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="private" useCase="_Y8dSsE6bEfCK1sKa9aUuHg _qIEDEE6bEfCK1sKa9aUuHg" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kNiZ8DckEfCqFuETt3x8NQ" name="Serve Food/Drinks" visibility="public" classifierBehavior="_rFHC0DcxEfCqFuETt3x8NQ">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_rFHC0DcxEfCqFuETt3x8NQ" name="Serve Food Activity" node="_WX9pgD4wEfCGb_dmBhWPaQ _hLrDsD4wEfCGb_dmBhWPaQ _1TGPgD4xEfCGb_dmBhWPaQ _ALVkYD4yEfCGb_dmBhWPaQ _N5MbgD4yEfCGb_dmBhWPaQ _YBm18D4yEfCGb_dmBhWPaQ _dB5gAD4yEfCGb_dmBhWPaQ _mKSA0D4yEfCGb_dmBhWPaQ _w8PHgD4yEfCGb_dmBhWPaQ _5i1w8D4yEfCGb_dmBhWPaQ _AAETED4zEfCGb_dmBhWPaQ _WL2_0D4zEfCGb_dmBhWPaQ _c5RTAD4zEfCGb_dmBhWPaQ" group="_R-4l4D4vEfCGb_dmBhWPaQ _ir4usD4vEfCGb_dmBhWPaQ">
           <edge xmi:type="uml:ControlFlow" xmi:id="_p57-4D4xEfCGb_dmBhWPaQ" inPartition="_ir4usD4vEfCGb_dmBhWPaQ" target="_hLrDsD4wEfCGb_dmBhWPaQ" source="_WX9pgD4wEfCGb_dmBhWPaQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_94yS8D4xEfCGb_dmBhWPaQ" target="_1TGPgD4xEfCGb_dmBhWPaQ" source="_hLrDsD4wEfCGb_dmBhWPaQ"/>
@@ -325,8 +362,8 @@
         <include xmi:type="uml:Include" xmi:id="_-SfwoDckEfCqFuETt3x8NQ" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
         <include xmi:type="uml:Include" xmi:id="__wXc0DckEfCqFuETt3x8NQ" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
         <include xmi:type="uml:Include" xmi:id="_Ia_rgE6bEfCK1sKa9aUuHg" addition="_5TVH8DckEfCqFuETt3x8NQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s8Jv4DckEfCqFuETt3x8NQ" name="Move Trolley" classifierBehavior="_9QQloDcmEfCqFuETt3x8NQ">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_9QQloDcmEfCqFuETt3x8NQ" name="Move Trolley_Activity" node="_IsAQMDcnEfCqFuETt3x8NQ _0-a10DcnEfCqFuETt3x8NQ _b0DNMDcpEfCqFuETt3x8NQ _oHftEDcvEfCqFuETt3x8NQ _wEQvUDcvEfCqFuETt3x8NQ _5C5eQDcvEfCqFuETt3x8NQ _AmADUDcwEfCqFuETt3x8NQ _QGDQ0DcwEfCqFuETt3x8NQ _Ue4SQDcwEfCqFuETt3x8NQ _iRnpYDcwEfCqFuETt3x8NQ _w9FYQDcwEfCqFuETt3x8NQ" group="_2FuZ0E6ZEfCK1sKa9aUuHg _576BME6ZEfCK1sKa9aUuHg">
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_Y9JRgDcpEfCqFuETt3x8NQ" name="Activity6"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_MBOl8DcvEfCqFuETt3x8NQ" name="Activity9"/>
@@ -370,10 +407,10 @@
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_iRnpYDcwEfCqFuETt3x8NQ" name="break release pedal disengaged" incoming="_CegnoDcxEfCqFuETt3x8NQ" outgoing="_D0OdYDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_k-ccADcwEfCqFuETt3x8NQ"/>
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_w9FYQDcwEfCqFuETt3x8NQ" name="Break locked" incoming="_D0OdYDcxEfCqFuETt3x8NQ" outgoing="_FTa_QDcxEfCqFuETt3x8NQ" inPartition="_576BME6ZEfCK1sKa9aUuHg" behavior="_x5TI4DcwEfCqFuETt3x8NQ"/>
         </ownedBehavior>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system" classifierBehavior="_t5GkYE6eEfCK1sKa9aUuHg">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5TVH8DckEfCqFuETt3x8NQ" name="Open and close door"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7LQ58DckEfCqFuETt3x8NQ" name="Activate cooling system"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MwiHgDclEfCqFuETt3x8NQ" name="Maintenance works on cooling system" classifierBehavior="_t5GkYE6eEfCK1sKa9aUuHg">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_t5GkYE6eEfCK1sKa9aUuHg" name="Maintenance on Cooling System " node="_SFs5cE6fEfCK1sKa9aUuHg _V-gXAE6fEfCK1sKa9aUuHg _b7NmAE6fEfCK1sKa9aUuHg _hSyHoE6fEfCK1sKa9aUuHg _xWnXoE6fEfCK1sKa9aUuHg _24vjcE6fEfCK1sKa9aUuHg _A7rA8E6gEfCK1sKa9aUuHg _GkoNgE6gEfCK1sKa9aUuHg _KyFFYE6gEfCK1sKa9aUuHg _cRVxkE6gEfCK1sKa9aUuHg _m_NCcE6gEfCK1sKa9aUuHg _vVXcIE6gEfCK1sKa9aUuHg _23kpUE6gEfCK1sKa9aUuHg _8D3IAE6gEfCK1sKa9aUuHg" group="_zlopYE6eEfCK1sKa9aUuHg _0lzF4E6eEfCK1sKa9aUuHg">
           <edge xmi:type="uml:ControlFlow" xmi:id="_Yvl-kE6fEfCK1sKa9aUuHg" inPartition="_zlopYE6eEfCK1sKa9aUuHg" target="_V-gXAE6fEfCK1sKa9aUuHg" source="_SFs5cE6fEfCK1sKa9aUuHg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_d7pMsE6fEfCK1sKa9aUuHg" target="_b7NmAE6fEfCK1sKa9aUuHg" source="_V-gXAE6fEfCK1sKa9aUuHg"/>
@@ -409,16 +446,16 @@
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_8D3IAE6gEfCK1sKa9aUuHg" name="End" incoming="_-MzKcE6gEfCK1sKa9aUuHg" inPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
         </ownedBehavior>
         <include xmi:type="uml:Include" xmi:id="_DfC5cE6cEfCK1sKa9aUuHg" addition="_atGJADclEfCqFuETt3x8NQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_NB6ycDclEfCqFuETt3x8NQ" name="Maintenance work on moveable parts">
         <include xmi:type="uml:Include" xmi:id="_g5YsIDclEfCqFuETt3x8NQ" addition="_atGJADclEfCqFuETt3x8NQ"/>
         <include xmi:type="uml:Include" xmi:id="_D6oCME6cEfCK1sKa9aUuHg" addition="_atGJADclEfCqFuETt3x8NQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_Y8dSsE6bEfCK1sKa9aUuHg" name="Cool Food and Drinks" subject="_QGaHsD43EfCGb_dmBhWPaQ">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_atGJADclEfCqFuETt3x8NQ" name="Installing and removing parts"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Y8dSsE6bEfCK1sKa9aUuHg" name="Cool Food and Drinks" subject="_QGaHsD43EfCGb_dmBhWPaQ">
         <include xmi:type="uml:Include" xmi:id="_limT0E6bEfCK1sKa9aUuHg" addition="_7LQ58DckEfCqFuETt3x8NQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_qIEDEE6bEfCK1sKa9aUuHg" name="Loading Battery" classifierBehavior="_RthxYE6cEfCK1sKa9aUuHg" subject="_QGaHsD43EfCGb_dmBhWPaQ">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qIEDEE6bEfCK1sKa9aUuHg" name="Loading Battery" classifierBehavior="_RthxYE6cEfCK1sKa9aUuHg" subject="_QGaHsD43EfCGb_dmBhWPaQ">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_RthxYE6cEfCK1sKa9aUuHg" name="Loading Battery Activity" node="_jzyMIE6cEfCK1sKa9aUuHg _zrXv4E6cEfCK1sKa9aUuHg _9A5U0E6cEfCK1sKa9aUuHg _Bo9sIE6dEfCK1sKa9aUuHg _F2_y0E6dEfCK1sKa9aUuHg _NMDU0E6dEfCK1sKa9aUuHg _U4I2wE6dEfCK1sKa9aUuHg _eLFo0E6dEfCK1sKa9aUuHg _j6hQ0E6dEfCK1sKa9aUuHg _J8t1kE6eEfCK1sKa9aUuHg _Qr_J8E6eEfCK1sKa9aUuHg _XgwpYE6eEfCK1sKa9aUuHg _cDlUUE6eEfCK1sKa9aUuHg" group="_Y6MMYE6cEfCK1sKa9aUuHg _abNTME6cEfCK1sKa9aUuHg">
           <edge xmi:type="uml:ControlFlow" xmi:id="_2Cc8AE6cEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg" target="_zrXv4E6cEfCK1sKa9aUuHg" source="_jzyMIE6cEfCK1sKa9aUuHg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_AcQBYE6dEfCK1sKa9aUuHg" inPartition="_abNTME6cEfCK1sKa9aUuHg" target="_9A5U0E6cEfCK1sKa9aUuHg" source="_zrXv4E6cEfCK1sKa9aUuHg"/>
@@ -449,9 +486,9 @@
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_XgwpYE6eEfCK1sKa9aUuHg" name="Remove Trolley from Loading Station" incoming="_a0dOwE6eEfCK1sKa9aUuHg" outgoing="_dVN7UE6eEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_cDlUUE6eEfCK1sKa9aUuHg" name="End" incoming="_dVN7UE6eEfCK1sKa9aUuHg" inPartition="_Y6MMYE6cEfCK1sKa9aUuHg"/>
         </ownedBehavior>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley" classifierBehavior="_R7uzME6hEfCK1sKa9aUuHg">
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_h_-EQDcmEfCqFuETt3x8NQ" name="Fill Trolley"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kO_gkDcmEfCqFuETt3x8NQ" name="Clean Trolley" classifierBehavior="_R7uzME6hEfCK1sKa9aUuHg">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_R7uzME6hEfCK1sKa9aUuHg" name="Clean Trolely Activity" node="__3xpEE6hEfCK1sKa9aUuHg _E_LAsE6iEfCK1sKa9aUuHg _NK_yoE6iEfCK1sKa9aUuHg _ZxvQsE6iEfCK1sKa9aUuHg _e6tVoE6iEfCK1sKa9aUuHg _qO4_oE6iEfCK1sKa9aUuHg _vdDtoE6iEfCK1sKa9aUuHg _0PErIE6iEfCK1sKa9aUuHg _4GawIE6iEfCK1sKa9aUuHg" group="_WaYIwE6hEfCK1sKa9aUuHg _YK-jsE6hEfCK1sKa9aUuHg">
           <edge xmi:type="uml:ControlFlow" xmi:id="_P0BDUE6iEfCK1sKa9aUuHg" target="_NK_yoE6iEfCK1sKa9aUuHg" source="_E_LAsE6iEfCK1sKa9aUuHg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_RD7zEE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg" target="_E_LAsE6iEfCK1sKa9aUuHg" source="__3xpEE6hEfCK1sKa9aUuHg"/>
@@ -474,44 +511,7 @@
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_0PErIE6iEfCK1sKa9aUuHg" name="Dry Trolley" incoming="_21KjoE6iEfCK1sKa9aUuHg" outgoing="_6aAjYE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_4GawIE6iEfCK1sKa9aUuHg" name="End" incoming="_6aAjYE6iEfCK1sKa9aUuHg" inPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
         </ownedBehavior>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_StNiME6bEfCK1sKa9aUuHg" memberEnd="_StRzoE6bEfCK1sKa9aUuHg _StSasE6bEfCK1sKa9aUuHg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_StQlgE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_StQlgU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_StRzoE6bEfCK1sKa9aUuHg" name="move trolley" type="_s8Jv4DckEfCqFuETt3x8NQ" association="_StNiME6bEfCK1sKa9aUuHg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_StSasE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_StNiME6bEfCK1sKa9aUuHg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_lCqPgE6bEfCK1sKa9aUuHg" memberEnd="_lCq2kk6bEfCK1sKa9aUuHg _lCrdoE6bEfCK1sKa9aUuHg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lCq2kE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lCq2kU6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_lCq2kk6bEfCK1sKa9aUuHg" name="cool food and drinks" type="_Y8dSsE6bEfCK1sKa9aUuHg" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_lCrdoE6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_lCqPgE6bEfCK1sKa9aUuHg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tjgPME6bEfCK1sKa9aUuHg" memberEnd="_tjg2QE6bEfCK1sKa9aUuHg _tjg2QU6bEfCK1sKa9aUuHg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tjgPMU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tjgPMk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QE6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_tjgPME6bEfCK1sKa9aUuHg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tjg2QU6bEfCK1sKa9aUuHg" name="cabin crew" type="_NECagC-fEfCi-dDc7XsS6w" association="_tjgPME6bEfCK1sKa9aUuHg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_v5U3EE6bEfCK1sKa9aUuHg" memberEnd="_v5WFMU6bEfCK1sKa9aUuHg _v5WFMk6bEfCK1sKa9aUuHg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5VeIE6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5WFME6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMU6bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_v5WFMk6bEfCK1sKa9aUuHg" name="maintenance crew" type="_OuxeAC-fEfCi-dDc7XsS6w" association="_v5U3EE6bEfCK1sKa9aUuHg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_yipCsE6bEfCK1sKa9aUuHg" memberEnd="_yipCs06bEfCK1sKa9aUuHg _yipCtE6bEfCK1sKa9aUuHg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yipCsU6bEfCK1sKa9aUuHg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yipCsk6bEfCK1sKa9aUuHg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCs06bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_yipCsE6bEfCK1sKa9aUuHg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_yipCtE6bEfCK1sKa9aUuHg" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_yipCsE6bEfCK1sKa9aUuHg"/>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="public" useCase="_Y8dSsE6bEfCK1sKa9aUuHg _qIEDEE6bEfCK1sKa9aUuHg" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
+      </ownedUseCase>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_09SrsD4-EfCGb_dmBhWPaQ" name="Weight" type="_kHjg0D5CEfCGb_dmBhWPaQ">
         <ownedComment xmi:type="uml:Comment" xmi:id="_pmAEgD5YEfCGb_dmBhWPaQ">
           <body>The final weight of the System in kg without any food trays inserted. </body>
@@ -544,6 +544,60 @@
           <body>hours in which the system can cool independently</body>
         </ownedComment>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_25D9QVD0EfCkdvWgC95Lzw" type="_d9UG0FDzEfCkdvWgC95Lzw" aggregation="composite" association="_25DWMFD0EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_25FLYFD0EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_25GZgFD0EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7r1Is1D0EfCkdvWgC95Lzw" type="_YLTE4FDzEfCkdvWgC95Lzw" aggregation="composite" association="_7r1IsFD0EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7r294FD0EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7r4MAFD0EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QdwfgVD1EfCkdvWgC95Lzw" type="_Z_owUFDzEfCkdvWgC95Lzw" aggregation="composite" association="_QdvRYFD1EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QdxGkFD1EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QdxGkVD1EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eDmqIFD1EfCkdvWgC95Lzw" type="__wqFgFDzEfCkdvWgC95Lzw" aggregation="composite" association="_eDk08FD1EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eDqUgFD1EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eDrioFD1EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GX-F0VD2EfCkdvWgC95Lzw" type="_4zzWMFD1EfCkdvWgC95Lzw" aggregation="composite" association="_GX83sFD2EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GYAiEFD2EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GYEMcFD2EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_s4T_IlD2EfCkdvWgC95Lzw" name="battery" type="_w0Ta8FDzEfCkdvWgC95Lzw" aggregation="composite" association="_s4TYEFD2EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s4T_I1D2EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s4T_JFD2EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jUuWwFD7EfCkdvWgC95Lzw" name="door" type="_Z_owUFDzEfCkdvWgC95Lzw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nJvggFD7EfCkdvWgC95Lzw" name="door Sensor" type="_21PCoFDzEfCkdvWgC95Lzw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CB9gIFD8EfCkdvWgC95Lzw" type="__mKMEFD7EfCkdvWgC95Lzw" aggregation="composite" association="_CB8SAFD8EfCkdvWgC95Lzw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CB9gIVD8EfCkdvWgC95Lzw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CB9gIlD8EfCkdvWgC95Lzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MhgoMFD8EfCkdvWgC95Lzw" name="control Unit" type="__mKMEFD7EfCkdvWgC95Lzw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vEZ0gFD8EfCkdvWgC95Lzw" name="hMI" type="_4zzWMFD1EfCkdvWgC95Lzw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1w_y4FD9EfCkdvWgC95Lzw" name="temperature Sensors" type="_bodvUFDzEfCkdvWgC95Lzw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5ET9wFD9EfCkdvWgC95Lzw" name="cooling Unit" type="_d9UG0FDzEfCkdvWgC95Lzw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_yM99YFD7EfCkdvWgC95Lzw" name="Connector38">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yM_LgFD7EfCkdvWgC95Lzw" partWithPort="_jUuWwFD7EfCkdvWgC95Lzw" role="_qxN9gFD7EfCkdvWgC95Lzw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yM_LgVD7EfCkdvWgC95Lzw" partWithPort="_nJvggFD7EfCkdvWgC95Lzw" role="_sBtVAFD7EfCkdvWgC95Lzw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_VK8jMFD8EfCkdvWgC95Lzw" name="Connector42">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VK9KQFD8EfCkdvWgC95Lzw" partWithPort="_nJvggFD7EfCkdvWgC95Lzw" role="_RTESsFD8EfCkdvWgC95Lzw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VK9KQVD8EfCkdvWgC95Lzw" partWithPort="_MhgoMFD8EfCkdvWgC95Lzw" role="_TyaC8FD8EfCkdvWgC95Lzw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_Y7g1UFD9EfCkdvWgC95Lzw" name="Connector43">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Y7hcYFD9EfCkdvWgC95Lzw" partWithPort="_MhgoMFD8EfCkdvWgC95Lzw" role="_ILOH8FD9EfCkdvWgC95Lzw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Y7hcYVD9EfCkdvWgC95Lzw" partWithPort="_vEZ0gFD8EfCkdvWgC95Lzw" role="_P-qPEFD9EfCkdvWgC95Lzw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_VPG_kFD-EfCkdvWgC95Lzw" name="Connector46">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VPHmoFD-EfCkdvWgC95Lzw" partWithPort="_1w_y4FD9EfCkdvWgC95Lzw" role="_65L0sFD9EfCkdvWgC95Lzw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VPHmoVD-EfCkdvWgC95Lzw" partWithPort="_MhgoMFD8EfCkdvWgC95Lzw" role="_R_Lf4FD-EfCkdvWgC95Lzw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_fk35gFD-EfCkdvWgC95Lzw" name="Connector47">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fk4gkFD-EfCkdvWgC95Lzw" partWithPort="_MhgoMFD8EfCkdvWgC95Lzw" role="_XUHkQFD-EfCkdvWgC95Lzw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fk4gkVD-EfCkdvWgC95Lzw" partWithPort="_5ET9wFD9EfCkdvWgC95Lzw" role="_aTW8kFD-EfCkdvWgC95Lzw"/>
+      </ownedConnector>
       <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_yaKrQExuEfCPhKwMmVgj0Q" name="StateMachine7">
         <region xmi:type="uml:Region" xmi:id="_zWyEgExuEfCPhKwMmVgj0Q" name="Region1">
           <transition xmi:type="uml:Transition" xmi:id="_G9izQExwEfCPhKwMmVgj0Q" name="Error Detected" source="_hSEscExvEfCPhKwMmVgj0Q" target="_l-G9wExvEfCPhKwMmVgj0Q"/>
@@ -586,6 +640,115 @@
           </subvertex>
         </region>
       </ownedBehavior>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_YLTE4FDzEfCkdvWgC95Lzw" name="Wheels"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Z_owUFDzEfCkdvWgC95Lzw" name="Door">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lVoQ0FD2EfCkdvWgC95Lzw" type="_21PCoFDzEfCkdvWgC95Lzw" aggregation="shared" association="_lVl0kFD2EfCkdvWgC95Lzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lVo34FD2EfCkdvWgC95Lzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lVo34VD2EfCkdvWgC95Lzw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_qxN9gFD7EfCkdvWgC95Lzw" name="Door Open" visibility="public" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_bodvUFDzEfCkdvWgC95Lzw" name="Temperature Sensors">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_65L0sFD9EfCkdvWgC95Lzw" name="Controller" type="_v41_wD5REfCGb_dmBhWPaQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_d9UG0FDzEfCkdvWgC95Lzw" name="Cooling Unit">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_nii0UlD2EfCkdvWgC95Lzw" type="_bodvUFDzEfCkdvWgC95Lzw" aggregation="shared" association="_niiNQFD2EfCkdvWgC95Lzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nii0U1D2EfCkdvWgC95Lzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nii0VFD2EfCkdvWgC95Lzw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_aTW8kFD-EfCkdvWgC95Lzw" name="Controller" type="_v41_wD5REfCGb_dmBhWPaQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_w0Ta8FDzEfCkdvWgC95Lzw" name="Battery"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0WJKAFDzEfCkdvWgC95Lzw" name="Display" visibility="public"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_21PCoFDzEfCkdvWgC95Lzw" name="Door Sensor">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_sBtVAFD7EfCkdvWgC95Lzw" name="Door Open" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_RTESsFD8EfCkdvWgC95Lzw" name="Door Signal" visibility="protected" type="_ZAXggExlEfCPhKwMmVgj0Q" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="__wqFgFDzEfCkdvWgC95Lzw" name="Loading Station"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_4zzWMFD1EfCkdvWgC95Lzw" name="HMI">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OKtCU1D2EfCkdvWgC95Lzw" type="_0WJKAFDzEfCkdvWgC95Lzw" aggregation="shared" association="_OKtCUFD2EfCkdvWgC95Lzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OKtpYFD2EfCkdvWgC95Lzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OKtpYVD2EfCkdvWgC95Lzw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_aWj7MVD2EfCkdvWgC95Lzw" type="__YDGUFD1EfCkdvWgC95Lzw" aggregation="shared" association="_aWjUIFD2EfCkdvWgC95Lzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aWj7MlD2EfCkdvWgC95Lzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aWj7M1D2EfCkdvWgC95Lzw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_P-qPEFD9EfCkdvWgC95Lzw" name="Controller" aggregation="composite" isConjugated="true"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="__YDGUFD1EfCkdvWgC95Lzw" name="Buttons"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="__mKMEFD7EfCkdvWgC95Lzw" name="Control Unit">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_TyaC8FD8EfCkdvWgC95Lzw" name="Door Signal" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_ILOH8FD9EfCkdvWgC95Lzw" name="HMI" visibility="package" type="_ZAXggExlEfCPhKwMmVgj0Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_R_Lf4FD-EfCkdvWgC95Lzw" name="Temperature Sensors" type="_v41_wD5REfCGb_dmBhWPaQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_XUHkQFD-EfCkdvWgC95Lzw" name="Cooling Unit" type="_v41_wD5REfCGb_dmBhWPaQ" aggregation="composite"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_25DWMFD0EfCkdvWgC95Lzw" memberEnd="_25D9QVD0EfCkdvWgC95Lzw _25HAkFD0EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_25DWMVD0EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_25D9QFD0EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_25HAkFD0EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_25DWMFD0EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7r1IsFD0EfCkdvWgC95Lzw" memberEnd="_7r1Is1D0EfCkdvWgC95Lzw _7r4zEFD0EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7r1IsVD0EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7r1IslD0EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_7r4zEFD0EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_7r1IsFD0EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QdvRYFD1EfCkdvWgC95Lzw" memberEnd="_QdwfgVD1EfCkdvWgC95Lzw _QdxGklD1EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qdv4cFD1EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QdwfgFD1EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QdxGklD1EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_QdvRYFD1EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eDk08FD1EfCkdvWgC95Lzw" memberEnd="_eDmqIFD1EfCkdvWgC95Lzw _eDsJsFD1EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eDmDEFD1EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eDmDEVD1EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eDsJsFD1EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_eDk08FD1EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GX83sFD2EfCkdvWgC95Lzw" memberEnd="_GX-F0VD2EfCkdvWgC95Lzw _GYHPwFD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX9ewFD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GX-F0FD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GYHPwFD2EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_GX83sFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OKtCUFD2EfCkdvWgC95Lzw" memberEnd="_OKtCU1D2EfCkdvWgC95Lzw _OKtpYlD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OKtCUVD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OKtCUlD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OKtpYlD2EfCkdvWgC95Lzw" type="_4zzWMFD1EfCkdvWgC95Lzw" association="_OKtCUFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aWjUIFD2EfCkdvWgC95Lzw" memberEnd="_aWj7MVD2EfCkdvWgC95Lzw _aWj7NFD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWjUIVD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWj7MFD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_aWj7NFD2EfCkdvWgC95Lzw" type="_4zzWMFD1EfCkdvWgC95Lzw" association="_aWjUIFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lVl0kFD2EfCkdvWgC95Lzw" memberEnd="_lVoQ0FD2EfCkdvWgC95Lzw _lVpe8FD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lVnpwFD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lVnpwVD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lVpe8FD2EfCkdvWgC95Lzw" type="_Z_owUFDzEfCkdvWgC95Lzw" association="_lVl0kFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_niiNQFD2EfCkdvWgC95Lzw" memberEnd="_nii0UlD2EfCkdvWgC95Lzw _nii0VVD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nii0UFD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nii0UVD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_nii0VVD2EfCkdvWgC95Lzw" type="_d9UG0FDzEfCkdvWgC95Lzw" association="_niiNQFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s4TYEFD2EfCkdvWgC95Lzw" memberEnd="_s4T_IlD2EfCkdvWgC95Lzw _s4UmMFD2EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s4T_IFD2EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s4T_IVD2EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s4UmMFD2EfCkdvWgC95Lzw" name="trolley cooler" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_s4TYEFD2EfCkdvWgC95Lzw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_CB8SAFD8EfCkdvWgC95Lzw" memberEnd="_CB9gIFD8EfCkdvWgC95Lzw _CB9gI1D8EfCkdvWgC95Lzw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CB85EFD8EfCkdvWgC95Lzw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CB85EVD8EfCkdvWgC95Lzw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_CB9gI1D8EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_CB8SAFD8EfCkdvWgC95Lzw"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bk4VIC-cEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -805,4 +968,35 @@
   <Allocations:AllocateActivityPartition xmi:id="_0l3-YE6eEfCK1sKa9aUuHg" base_ActivityPartition="_0lzF4E6eEfCK1sKa9aUuHg"/>
   <Allocations:AllocateActivityPartition xmi:id="_WadBQE6hEfCK1sKa9aUuHg" base_ActivityPartition="_WaYIwE6hEfCK1sKa9aUuHg"/>
   <Allocations:AllocateActivityPartition xmi:id="_YLC1IE6hEfCK1sKa9aUuHg" base_ActivityPartition="_YK-jsE6hEfCK1sKa9aUuHg"/>
+  <Blocks:Block xmi:id="_YLWvQFDzEfCkdvWgC95Lzw" base_Class="_YLTE4FDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_Z_rzoFDzEfCkdvWgC95Lzw" base_Class="_Z_owUFDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_bohZsFDzEfCkdvWgC95Lzw" base_Class="_bodvUFDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_d9XKIFDzEfCkdvWgC95Lzw" base_Class="_d9UG0FDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_w0ZhkFDzEfCkdvWgC95Lzw" base_Class="_w0Ta8FDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_0WM0YFDzEfCkdvWgC95Lzw" base_Class="_0WJKAFDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_21VJQFDzEfCkdvWgC95Lzw" base_Class="_21PCoFDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="__wtI0FDzEfCkdvWgC95Lzw" base_Class="__wqFgFDzEfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="_4z4OsFD1EfCkdvWgC95Lzw" base_Class="_4zzWMFD1EfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="__YFikFD1EfCkdvWgC95Lzw" base_Class="__YDGUFD1EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_qxTdEFD7EfCkdvWgC95Lzw" base_Port="_qxN9gFD7EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_sBvxQFD7EfCkdvWgC95Lzw" base_Port="_sBtVAFD7EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_yM_ykFD7EfCkdvWgC95Lzw" base_Element="_yM_LgFD7EfCkdvWgC95Lzw" propertyPath="_jUuWwFD7EfCkdvWgC95Lzw" base_ConnectorEnd="_yM_LgFD7EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_yNAZoFD7EfCkdvWgC95Lzw" base_Element="_yM_LgVD7EfCkdvWgC95Lzw" propertyPath="_nJvggFD7EfCkdvWgC95Lzw" base_ConnectorEnd="_yM_LgVD7EfCkdvWgC95Lzw"/>
+  <Blocks:Block xmi:id="__mMoUFD7EfCkdvWgC95Lzw" base_Class="__mKMEFD7EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_RTGu8FD8EfCkdvWgC95Lzw" base_Port="_RTESsFD8EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_Tyb4IFD8EfCkdvWgC95Lzw" base_Port="_TyaC8FD8EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_VK9KQlD8EfCkdvWgC95Lzw" base_Element="_VK9KQFD8EfCkdvWgC95Lzw" propertyPath="_nJvggFD7EfCkdvWgC95Lzw" base_ConnectorEnd="_VK9KQFD8EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_VK9xUFD8EfCkdvWgC95Lzw" base_Element="_VK9KQVD8EfCkdvWgC95Lzw" propertyPath="_MhgoMFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_VK9KQVD8EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_ILP9IFD9EfCkdvWgC95Lzw" base_Port="_ILOH8FD9EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_P-sEQFD9EfCkdvWgC95Lzw" base_Port="_P-qPEFD9EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Y7hcYlD9EfCkdvWgC95Lzw" base_Element="_Y7hcYFD9EfCkdvWgC95Lzw" propertyPath="_MhgoMFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_Y7hcYFD9EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Y7iDcFD9EfCkdvWgC95Lzw" base_Element="_Y7hcYVD9EfCkdvWgC95Lzw" propertyPath="_vEZ0gFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_Y7hcYVD9EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_65TJcFD9EfCkdvWgC95Lzw" base_Port="_65L0sFD9EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_R_SNkFD-EfCkdvWgC95Lzw" base_Port="_R_Lf4FD-EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_VPHmolD-EfCkdvWgC95Lzw" base_Element="_VPHmoFD-EfCkdvWgC95Lzw" propertyPath="_1w_y4FD9EfCkdvWgC95Lzw" base_ConnectorEnd="_VPHmoFD-EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_VPINsFD-EfCkdvWgC95Lzw" base_Element="_VPHmoVD-EfCkdvWgC95Lzw" propertyPath="_MhgoMFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_VPHmoVD-EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_XUKnkFD-EfCkdvWgC95Lzw" base_Port="_XUHkQFD-EfCkdvWgC95Lzw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_aTZY0FD-EfCkdvWgC95Lzw" base_Port="_aTW8kFD-EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_fk4gklD-EfCkdvWgC95Lzw" base_Element="_fk4gkFD-EfCkdvWgC95Lzw" propertyPath="_MhgoMFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_fk4gkFD-EfCkdvWgC95Lzw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_fk4gk1D-EfCkdvWgC95Lzw" base_Element="_fk4gkVD-EfCkdvWgC95Lzw" propertyPath="_5ET9wFD9EfCkdvWgC95Lzw" base_ConnectorEnd="_fk4gkVD-EfCkdvWgC95Lzw"/>
 </xmi:XMI>
