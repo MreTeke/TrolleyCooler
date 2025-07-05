@@ -88,12 +88,19 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_TQ_sAC-fEfCi-dDc7XsS6w" name="Catering Crew">
         <generalization xmi:type="uml:Generalization" xmi:id="_eJjxAC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_xbB54FmdEfCJ7KnSrpEP3w" name="Clean Trolley">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_0-SlQFmdEfCJ7KnSrpEP3w" name="Dirty Trolley"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_83brwFmdEfCJ7KnSrpEP3w" name="Clean Trolley" visibility="public" effect="create"/>
+        </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_OuxeAC-fEfCi-dDc7XsS6w" name="Maintenance Crew">
         <generalization xmi:type="uml:Generalization" xmi:id="_cCv1gC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_NECagC-fEfCi-dDc7XsS6w" name="Cabin Crew">
         <generalization xmi:type="uml:Generalization" xmi:id="_bFe8AC-fEfCi-dDc7XsS6w" general="_5ggwgC-eEfCi-dDc7XsS6w"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_DkCtsFmeEfCJ7KnSrpEP3w" name="Serve Food">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_GK40IFmeEfCJ7KnSrpEP3w" name="Food" visibility="public" effect="create"/>
+        </ownedBehavior>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_g5cJkC-dEfCi-dDc7XsS6w" name="Systemgoal" URI="">
@@ -643,6 +650,23 @@
           </subvertex>
         </region>
       </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_T45OgFmZEfCJ7KnSrpEP3w" name="Essen/Trinken kühlen">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_P2XXwFmaEfCJ7KnSrpEP3w" name="Power" visibility="public" effect="create"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZUCMEFmaEfCJ7KnSrpEP3w" name="Cold Foods" visibility="public" direction="out" effect="create"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cgb2oFmaEfCJ7KnSrpEP3w" name="Food" visibility="public" effect="create"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_fhu54FmZEfCJ7KnSrpEP3w" name="Check Temperature inside Trolley"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_lN1hEFmZEfCJ7KnSrpEP3w" name="Inform user about Temperature inside Trolley"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_qbt7MFmZEfCJ7KnSrpEP3w" name="Check Batterie Level">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fZkm8FmaEfCJ7KnSrpEP3w" name="Batterie Level" visibility="public" effect="create"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_nAjmcFmaEfCJ7KnSrpEP3w" name="Display information" visibility="public" direction="out" effect="create"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_s-Bf4FmZEfCJ7KnSrpEP3w" name="Inform user about Betterie Level"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_xO3C8FmZEfCJ7KnSrpEP3w" name="Check if trolley is connected to Power Source">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sFQPYFmaEfCJ7KnSrpEP3w" name="Power" visibility="public" effect="create"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_00xZsFmZEfCJ7KnSrpEP3w" name="Inform user about Power Connection"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_4vdGkFmZEfCJ7KnSrpEP3w" name="Display if Maintenance is needed"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_YLTE4FDzEfCkdvWgC95Lzw" name="Wheels"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Z_owUFDzEfCkdvWgC95Lzw" name="Door">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_lVoQ0FD2EfCkdvWgC95Lzw" type="_21PCoFDzEfCkdvWgC95Lzw" aggregation="shared" association="_lVl0kFD2EfCkdvWgC95Lzw">
