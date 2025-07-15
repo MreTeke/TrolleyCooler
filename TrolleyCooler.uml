@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:MWPProfile="http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23" xmlns:MWPProfile.Properties="http:///MWPProfile/Properties.ecore" xmlns:MWPProfile.Requirements="http:///MWPProfile/Requirements.ecore" xmlns:MWPProfile.Stakeholders="http:///MWPProfile/Stakeholders.ecore" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23 ../MWPProfile/MWPProfile.profile.uml http:///MWPProfile/Properties.ecore ../MWPProfile/MWPProfile.profile.uml http:///MWPProfile/Requirements.ecore ../MWPProfile/MWPProfile.profile.uml http:///MWPProfile/Stakeholders.ecore ../MWPProfile/MWPProfile.profile.uml http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ConstraintBlocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks" xmlns:MWPProfile="http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23" xmlns:MWPProfile.Properties="http:///MWPProfile/Properties.ecore" xmlns:MWPProfile.Requirements="http:///MWPProfile/Requirements.ecore" xmlns:MWPProfile.Stakeholders="http:///MWPProfile/Stakeholders.ecore" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks http:///schemas/MWPProfile/_rkDJQNisEe6N_aISTl-5xw/23 ../MWPProfile/MWPProfile.profile.uml#_rkDwUNisEe6N_aISTl-5xw http:///MWPProfile/Properties.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwktisEe6N_aISTl-5xw http:///MWPProfile/Requirements.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwVdisEe6N_aISTl-5xw http:///MWPProfile/Stakeholders.ecore ../MWPProfile/MWPProfile.profile.uml#_rkDwgdisEe6N_aISTl-5xw http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_bkD1wC-cEfCi-dDc7XsS6w" name="TrolleyCooler">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bmKHgi-cEfCi-dDc7XsS6w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -116,42 +116,96 @@
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_pzFicD5REfCGb_dmBhWPaQ" name="Temperature"/>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_sPsHwD5REfCGb_dmBhWPaQ" name="Celsius"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_v41_wD5REfCGb_dmBhWPaQ" name="Temperature[Celsius]"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_a-s50GALEfCF3uhA0I8CTA" name="Wirkungsgrad []"/>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_D-ZYwD5SEfCGb_dmBhWPaQ" name="hours"/>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_F_ZnMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_KhxmMD5SEfCGb_dmBhWPaQ" name="SelfSufficientRuntime [hours]"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_ZAXggExlEfCPhKwMmVgj0Q" name="Information"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_EgX8UExnEfCPhKwMmVgj0Q" name="Stowage"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_1NqhEGALEfCF3uhA0I8CTA" name="Energieverbrauch [Wh]"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_BSr4UExnEfCPhKwMmVgj0Q" name="Air"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_E-mqQGAMEfCF3uhA0I8CTA" name="Batterielaufzeit [h]"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_ZKWx4GAMEfCF3uhA0I8CTA" name="Batteriekapazität [Wh]"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_lx6OcExnEfCPhKwMmVgj0Q" name="Defect Parts"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_X1YIEC-dEfCi-dDc7XsS6w" name="Requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_FqmlcD5eEfCIqJH4kx29iQ" name="Cleaning Instructions"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_nWn3UD5iEfCIqJH4kx29iQ" name="Equipment"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_v3Dx4D5jEfCIqJH4kx29iQ" name="Doors"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_PRsMwD5kEfCIqJH4kx29iQ" name="Sealing"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5G03oD5kEfCIqJH4kx29iQ" name="Interface Characteristics"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_aYxZcD5lEfCIqJH4kx29iQ" name="Fit into Galley Stowage room"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_J3pUAD5mEfCIqJH4kx29iQ" name="Finish and Color"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_k2CNED5mEfCIqJH4kx29iQ" name="Maximum Load "/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_fYhmED5nEfCIqJH4kx29iQ" name="Injury Prevention"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_MrcmcD5oEfCIqJH4kx29iQ" name="Material Coating Corrosion"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_g38U8D5oEfCIqJH4kx29iQ" name="Material Surfaces Food-Contact"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_7Kc_cD5oEfCIqJH4kx29iQ" name="Interchangeability"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_3urdsD7MEfC-p4myUfuAug" name="Placards Protection"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Zu9sMD7NEfC-p4myUfuAug" name="Placards Size"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Nm1AQD7OEfC-p4myUfuAug" name="Operating Temperatures"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_327v4D7OEfC-p4myUfuAug" name="Atmospheric Pressure/Altitude"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_KpZJUD7PEfC-p4myUfuAug" name="Humidity"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_qFb5cD7PEfC-p4myUfuAug" name="Waterproofness"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_LyoM0D7QEfC-p4myUfuAug" name="Fluid Susceptibility"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5wPwAD7QEfC-p4myUfuAug" name="Fungus resistance"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_fWweUD7REfC-p4myUfuAug" name="Flammability"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_-DX8oD7REfC-p4myUfuAug" name="Vibrations"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_T9ttAD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_sq5YcD7SEfC-p4myUfuAug" name="Qualitative Safety"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_FLkR4D7TEfC-p4myUfuAug" name="Maintenance Concept"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_aH8lMD7TEfC-p4myUfuAug" name="Maintenance Plan"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_yVtwwD7TEfC-p4myUfuAug" name="Design for maintainability"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_FHo-sD7UEfC-p4myUfuAug" name="Airworthiness"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KtPOwGAREfCF3uhA0I8CTA" name="Integrated Battery"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WgQ7cGASEfCF3uhA0I8CTA" name="Battery Capacity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WwNb8GASEfCF3uhA0I8CTA" name="Shortcircut Protection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W12J4GASEfCF3uhA0I8CTA" name="Protection against Overcharge"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W4mi8GASEfCF3uhA0I8CTA" name="Protection against deep Discharge"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W5KjoGASEfCF3uhA0I8CTA" name="Replacement Time"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_U2AGASEfCF3uhA0I8CTA" name="Battery Lifetime"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XAWwwGASEfCF3uhA0I8CTA" name="Battery weight"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XBWPQGASEfCF3uhA0I8CTA" name="Water Protection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XDGiwGASEfCF3uhA0I8CTA" name="Charge Time"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XFvnEGASEfCF3uhA0I8CTA" name="Charge Inidcator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XGxh0GASEfCF3uhA0I8CTA" name="Battery flamebility"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYarcGASEfCF3uhA0I8CTA" name="Colling Temperatur"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_E3VrAGAUEfCl8OVSTydgFw" name="Operating Temperatur"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_E9_soGAUEfCl8OVSTydgFw" name="Vibration Resistant"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FDl-UGAUEfCl8OVSTydgFw" name="Maximum Noise"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FJX2MGAUEfCl8OVSTydgFw" name="Number of Sensors"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FPCZUGAUEfCl8OVSTydgFw" name="Temperatur Display"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FUTT0GAUEfCl8OVSTydgFw" name="Auto Shut-off"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FZf84GAUEfCl8OVSTydgFw" name="Stowage Volume"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FfCkMGAUEfCl8OVSTydgFw" name="Energy Consumption"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fk57oGAUEfCl8OVSTydgFw" name="Atlas Dimensions"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FqkewGAUEfCl8OVSTydgFw" name="Height"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ft6GoGAUEfCl8OVSTydgFw" name="Width"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fx3ZkGAUEfCl8OVSTydgFw" name="Depth"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F2mIkGAUEfCl8OVSTydgFw" name="Weight"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F5Pz8GAUEfCl8OVSTydgFw" name="Number of Trays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F9oksGAUEfCl8OVSTydgFw" name="Support Load"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GBETMGAUEfCl8OVSTydgFw" name="Trolley Lifetime"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GGipEGAUEfCl8OVSTydgFw" name="Corrosion Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GMoqAGAUEfCl8OVSTydgFw" name="Fungus Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GSFKsGAUEfCl8OVSTydgFw" name="Impact Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vvws8GAWEfCl8OVSTydgFw" name="Fire Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_v2CUEGAWEfCl8OVSTydgFw" name="Water Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_v7SAcGAWEfCl8OVSTydgFw" name="Wheels"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wAsr8GAWEfCl8OVSTydgFw" name="Rolling Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wG5akGAWEfCl8OVSTydgFw" name="Display"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wM1DcGAWEfCl8OVSTydgFw" name="Firmware Updates"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wSXqwGAWEfCl8OVSTydgFw" name="Data logging"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wYBm0GAWEfCl8OVSTydgFw" name="Alarm"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wdOP4GAWEfCl8OVSTydgFw" name="EMC Compliant"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wiVZYGAWEfCl8OVSTydgFw" name="No Radio emmitance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wnqlUGAWEfCl8OVSTydgFw" name="C25 Compliance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wtPo4GAWEfCl8OVSTydgFw" name="Battery Vibration Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wyyQMGAWEfCl8OVSTydgFw" name="Trolley Vibration Resistance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_w4QmEGAWEfCl8OVSTydgFw" name="Pressure Changes"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_w9cBAGAWEfCl8OVSTydgFw" name="ESD Protection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9m8-4GAZEfCl8OVSTydgFw" name="EMI Protection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9tIfYGAZEfCl8OVSTydgFw" name="Emergency Button"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9wLMUGAZEfCl8OVSTydgFw" name="Data Bus"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9yTTQGAZEfCl8OVSTydgFw" name="Maintenance log"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9zdJ0GAZEfCl8OVSTydgFw" name="Spare Parts list"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_91Ik0GAZEfCl8OVSTydgFw" name="Desinfective Cleanability "/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_92AHgGAZEfCl8OVSTydgFw" name="Replaceble Wheels"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_93bD0GAZEfCl8OVSTydgFw" name="Breaks"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_95HF4GAZEfCl8OVSTydgFw" name="Manual"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_97AjUGAZEfCl8OVSTydgFw" name="Door"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_99KfcGAZEfCl8OVSTydgFw" name="Interchangebility"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9-gjQGAZEfCl8OVSTydgFw" name="Temperature Stability"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-AtisGAZEfCl8OVSTydgFw" name="Operation Angle"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-DTjsGAZEfCl8OVSTydgFw" name="Warning"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-FJWwGAZEfCl8OVSTydgFw" name="Minimum external Temperature"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-HZZgGAZEfCl8OVSTydgFw" name="Startup Diagnosis"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-J8XMGAZEfCl8OVSTydgFw" name="Self Diagnosis Time"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-L8iUGAZEfCl8OVSTydgFw" name="Meintenance Intervall"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-PAdYGAZEfCl8OVSTydgFw" name="Meintenance accessibilitis"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-Q6h4GAZEfCl8OVSTydgFw" name="Battery Charging Point"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-UVpUGAZEfCl8OVSTydgFw" name="Loading Station"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-WQU4GAZEfCl8OVSTydgFw" name="Cooling Time"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-YhlwGAZEfCl8OVSTydgFw" name="Door Lock"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-bHmwGAZEfCl8OVSTydgFw" name="Battery Safety"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-dHK0GAZEfCl8OVSTydgFw" name="Trolley Material"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-fdUMGAZEfCl8OVSTydgFw" name="Display Information"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-ifaEGAZEfCl8OVSTydgFw" name="Forward Loads"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-k84MGAZEfCl8OVSTydgFw" name="Sidewards Loads"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-m4K0GAZEfCl8OVSTydgFw" name="Upwards Loads"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-qpQgGAZEfCl8OVSTydgFw" name="Inside Coating"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-r7p8GAZEfCl8OVSTydgFw" name="Insulation"/>
       </packagedElement>
       <packagedElement xmi:type="uml:DataType" xmi:id="_v-JY8ExnEfCPhKwMmVgj0Q" name="Cleaning"/>
       <packagedElement xmi:type="uml:DataType" xmi:id="_yFguEExnEfCPhKwMmVgj0Q" name="Charging"/>
@@ -330,6 +384,70 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_yipCs06bEfCK1sKa9aUuHg" name="loading battery" type="_qIEDEE6bEfCK1sKa9aUuHg" association="_yipCsE6bEfCK1sKa9aUuHg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_yipCtE6bEfCK1sKa9aUuHg" name="catering crew" type="_TQ_sAC-fEfCi-dDc7XsS6w" association="_yipCsE6bEfCK1sKa9aUuHg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XLXz8F_QEfCOsp6rqh9ZdA" name="Parametrics">
+      <packagedElement xmi:type="uml:Class" xmi:id="_dKI4cF_QEfCOsp6rqh9ZdA" name="Energieverbrauch">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_0wtgIF_bEfCOsp6rqh9ZdA" name="Constraint5">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_0wv8YF_bEfCOsp6rqh9ZdA" name="constraintSpec">
+            <language>natural language</language>
+            <body>Energieverbrauch= Kühlleistung * Zeit / Wirkungsgrad</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q8E-UF_QEfCOsp6rqh9ZdA" name="Kühlleistung" type="_GiD4ED5BEfCGb_dmBhWPaQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O_FtMGALEfCF3uhA0I8CTA"/>
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_a1tzMF_aEfCOsp6rqh9ZdA" value="1.0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_tka5kF_QEfCOsp6rqh9ZdA" name="Zeit [s]" type="_KhxmMD5SEfCGb_dmBhWPaQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2QfR0F_QEfCOsp6rqh9ZdA" name="Wirkungsgrad" type="_a-s50GALEfCF3uhA0I8CTA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_6dtgMF_QEfCOsp6rqh9ZdA" name="Energieverbrauch" type="_1NqhEGALEfCF3uhA0I8CTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_S1pTYF_cEfCOsp6rqh9ZdA" name="Batterielaufzeit">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_b221MF_cEfCOsp6rqh9ZdA" name="Constraint1">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_b221MV_cEfCOsp6rqh9ZdA" name="constraintSpec">
+            <language>natural language</language>
+            <body>Batterielaufzeit= Batteriekapazität/Energieverbrauch</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1QFuUF_cEfCOsp6rqh9ZdA" name="Batteriekapazität" type="_ZKWx4GAMEfCF3uhA0I8CTA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_29vi8F_cEfCOsp6rqh9ZdA" name="Energieverbrauch" type="_GiD4ED5BEfCGb_dmBhWPaQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zNvcEF_cEfCOsp6rqh9ZdA" name="Batterielaufzeit" type="_E-mqQGAMEfCF3uhA0I8CTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BdtrgGAOEfCF3uhA0I8CTA" name="Trolley Analysis Context">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2UPnQGAOEfCF3uhA0I8CTA" name="trolley cooler" type="_QGaHsD43EfCGb_dmBhWPaQ" aggregation="composite" association="_2UNyEGAOEfCF3uhA0I8CTA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2UPnQWAOEfCF3uhA0I8CTA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2UPnQmAOEfCF3uhA0I8CTA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3Jcw8GAOEfCF3uhA0I8CTA" name="energieverbrauch" type="_dKI4cF_QEfCOsp6rqh9ZdA" aggregation="composite" association="_3Jbi0GAOEfCF3uhA0I8CTA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3Jcw8WAOEfCF3uhA0I8CTA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Jcw8mAOEfCF3uhA0I8CTA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_J-SI8GAPEfCF3uhA0I8CTA" name="Property3" type="_S1pTYF_cEfCOsp6rqh9ZdA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_aqPv8GAPEfCF3uhA0I8CTA" name="batterielaufzeit" type="_S1pTYF_cEfCOsp6rqh9ZdA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_C_lpcGF4EfCCk8uDhDJx3g" name="Property5" type="_dKI4cF_QEfCOsp6rqh9ZdA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q8XEgGF4EfCCk8uDhDJx3g" name="trolley Cooler" type="_QGaHsD43EfCGb_dmBhWPaQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oJKooGAOEfCF3uhA0I8CTA" memberEnd="_oJMd0GAOEfCF3uhA0I8CTA _oJNE4WAOEfCF3uhA0I8CTA" navigableOwnedEnd="_oJMd0GAOEfCF3uhA0I8CTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oJLPsGAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oJLPsWAOEfCF3uhA0I8CTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oJNE4WAOEfCF3uhA0I8CTA" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_oJKooGAOEfCF3uhA0I8CTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oJMd0GAOEfCF3uhA0I8CTA" name="batterielaufzeit" type="_S1pTYF_cEfCOsp6rqh9ZdA" aggregation="composite" association="_oJKooGAOEfCF3uhA0I8CTA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oJMd0WAOEfCF3uhA0I8CTA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oJNE4GAOEfCF3uhA0I8CTA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2UNyEGAOEfCF3uhA0I8CTA" memberEnd="_2UPnQGAOEfCF3uhA0I8CTA _2UQOUGAOEfCF3uhA0I8CTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2UPAMGAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2UPAMWAOEfCF3uhA0I8CTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2UQOUGAOEfCF3uhA0I8CTA" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_2UNyEGAOEfCF3uhA0I8CTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3Jbi0GAOEfCF3uhA0I8CTA" memberEnd="_3Jcw8GAOEfCF3uhA0I8CTA _3JdYAGAOEfCF3uhA0I8CTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3JcJ4GAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3JcJ4WAOEfCF3uhA0I8CTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3JdYAGAOEfCF3uhA0I8CTA" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_3Jbi0GAOEfCF3uhA0I8CTA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="private" useCase="_Y8dSsE6bEfCK1sKa9aUuHg _qIEDEE6bEfCK1sKa9aUuHg" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
@@ -777,6 +895,23 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_CB9gI1D8EfCkdvWgC95Lzw" type="_QGaHsD43EfCGb_dmBhWPaQ" association="_CB8SAFD8EfCkdvWgC95Lzw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_kGdwwF20EfCE9ML0q_n1FQ" client="_T45OgFmZEfCJ7KnSrpEP3w" supplier="_d9UG0FDzEfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_mu5yoF20EfCE9ML0q_n1FQ" client="_fhu54FmZEfCJ7KnSrpEP3w" supplier="_bodvUFDzEfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_vWtV8F20EfCE9ML0q_n1FQ" client="_lN1hEFmZEfCJ7KnSrpEP3w" supplier="_4zzWMFD1EfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_wIYqgF20EfCE9ML0q_n1FQ" client="_s-Bf4FmZEfCJ7KnSrpEP3w" supplier="_4zzWMFD1EfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_w-LqEF20EfCE9ML0q_n1FQ" client="_00xZsFmZEfCJ7KnSrpEP3w" supplier="_4zzWMFD1EfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_xp3rYF20EfCE9ML0q_n1FQ" client="_4vdGkFmZEfCJ7KnSrpEP3w" supplier="_QGaHsD43EfCGb_dmBhWPaQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_70z1YF20EfCE9ML0q_n1FQ" client="_xO3C8FmZEfCJ7KnSrpEP3w" supplier="__mKMEFD7EfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_8gsrAF20EfCE9ML0q_n1FQ" client="_QGaHsD43EfCGb_dmBhWPaQ" supplier="__mKMEFD7EfCkdvWgC95Lzw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_JlXroGFtEfCCk8uDhDJx3g" client="_MudlYD5AEfCGb_dmBhWPaQ" supplier="_WgQ7cGASEfCF3uhA0I8CTA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_OUoQEGFtEfCCk8uDhDJx3g" client="_MudlYD5AEfCGb_dmBhWPaQ" supplier="_-WQU4GAZEfCl8OVSTydgFw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_SQx8kGFtEfCCk8uDhDJx3g" client="_09SrsD4-EfCGb_dmBhWPaQ" supplier="_F2mIkGAUEfCl8OVSTydgFw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_VsGM4GFtEfCCk8uDhDJx3g" client="_09SrsD4-EfCGb_dmBhWPaQ" supplier="_XAWwwGASEfCF3uhA0I8CTA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZowPsGFtEfCCk8uDhDJx3g" client="_TuG4ED5AEfCGb_dmBhWPaQ" supplier="_FfCkMGAUEfCl8OVSTydgFw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_cb00QGFtEfCCk8uDhDJx3g" client="_YxJ7MD5AEfCGb_dmBhWPaQ" supplier="_9-gjQGAZEfCl8OVSTydgFw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_fDokAGFtEfCCk8uDhDJx3g" client="_YxJ7MD5AEfCGb_dmBhWPaQ" supplier="_XYarcGASEfCF3uhA0I8CTA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_l5RmIGFtEfCCk8uDhDJx3g" client="_gNUx0D5AEfCGb_dmBhWPaQ" supplier="_wAsr8GAWEfCl8OVSTydgFw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_oJeHIGFtEfCCk8uDhDJx3g" client="_gNUx0D5AEfCGb_dmBhWPaQ" supplier="_v7SAcGAWEfCl8OVSTydgFw"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bk1R0C-cEfCi-dDc7XsS6w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bk4VIC-cEfCi-dDc7XsS6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -889,8 +1024,6 @@
   <Blocks:ValueType xmi:id="_DYPVgD5DEfCGb_dmBhWPaQ" base_DataType="_DYM5QD5DEfCGb_dmBhWPaQ" quantityKind="_7AiDsD5CEfCGb_dmBhWPaQ" unit="_88y8ED5CEfCGb_dmBhWPaQ"/>
   <Blocks:ValueType xmi:id="_v43N4D5REfCGb_dmBhWPaQ" base_DataType="_v41_wD5REfCGb_dmBhWPaQ" quantityKind="_pzFicD5REfCGb_dmBhWPaQ" unit="_sPsHwD5REfCGb_dmBhWPaQ"/>
   <Blocks:ValueType xmi:id="_Kh0CcD5SEfCGb_dmBhWPaQ" base_DataType="_KhxmMD5SEfCGb_dmBhWPaQ" quantityKind="_F_ZnMD5SEfCGb_dmBhWPaQ" unit="_D-ZYwD5SEfCGb_dmBhWPaQ"/>
-  <Requirements:Requirement xmi:id="_Fq6HcD5eEfCIqJH4kx29iQ" base_NamedElement="_FqmlcD5eEfCIqJH4kx29iQ" id="REQ-SH-010" text="The Supplier shall provide written instructions for the cleaning and sanitizing of all food contact surfaces.&#xA;" base_Class="_FqmlcD5eEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_JlefkD5eEfCIqJH4kx29iQ" classification="SHALL" rationale="an instruction ensures correct handling and cleaning of the product. " source="User group analysis" base_Class="_FqmlcD5eEfCIqJH4kx29iQ" stakeholder="_ErSLkD5gEfCIqJH4kx29iQ"/>
   <ModelElements:Stakeholder xmi:id="_yFi_gD5fEfCIqJH4kx29iQ" base_Classifier="_r1a5gC-eEfCi-dDc7XsS6w"/>
   <ModelElements:Stakeholder xmi:id="_1MneID5fEfCIqJH4kx29iQ" base_Classifier="_5ggwgC-eEfCi-dDc7XsS6w"/>
   <ModelElements:Stakeholder xmi:id="_2krdQD5fEfCIqJH4kx29iQ" base_Classifier="_t_LJYC-gEfCi-dDc7XsS6w"/>
@@ -911,60 +1044,6 @@
   <ModelElements:Stakeholder xmi:id="_ErSLkD5gEfCIqJH4kx29iQ" base_Classifier="_TQ_sAC-fEfCi-dDc7XsS6w"/>
   <ModelElements:Stakeholder xmi:id="_Fcg0MD5gEfCIqJH4kx29iQ" base_Classifier="_OuxeAC-fEfCi-dDc7XsS6w"/>
   <ModelElements:Stakeholder xmi:id="_GOSPYD5gEfCIqJH4kx29iQ" base_Classifier="_NECagC-fEfCi-dDc7XsS6w"/>
-  <Requirements:Requirement xmi:id="_nWt98D5iEfCIqJH4kx29iQ" base_NamedElement="_nWn3UD5iEfCIqJH4kx29iQ" id="REQ-SH-001" text="The Equipment shall consist of the following components:&#xA;1. Base, Frame, side panels, and top assembly&#xA;2. Door assembly(s) including latch&#xA;3. Work surface&#xA;4. Handgrips&#xA;5. Caster wheel system&#xA;6. Braking system&#xA;7. Cooling system" base_Class="_nWn3UD5iEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_0m720D5iEfCIqJH4kx29iQ" rationale="Standardized Equipment is given by ATLAS Standard and EASA CS-25." source="Research" base_Class="_nWn3UD5iEfCIqJH4kx29iQ" stakeholder="_-GCV4D5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_v3KfkD5jEfCIqJH4kx29iQ" base_NamedElement="_v3Dx4D5jEfCIqJH4kx29iQ" id="REQ-SH-002" text="Full/Half-size trolleys shall be provided with a door at each end. The doors shall be capable of opening 270° and shall have a hold-open device." base_Class="_v3Dx4D5jEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_5doqkD5jEfCIqJH4kx29iQ" classification="SHALL" rationale="Two doors provide accessability. Especially during cleaning process and during catering on flight." source="Research" base_Class="_v3Dx4D5jEfCIqJH4kx29iQ" stakeholder="_1MneID5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_PRupAD5kEfCIqJH4kx29iQ" base_NamedElement="_PRsMwD5kEfCIqJH4kx29iQ" id="REQ-MOE-001" text="The structure and sealing of the Trolley walls and doors shall be designed to ensure no cold transfer out of the Trolley compartment to maintain specific temperature.&#xA;" base_Class="_PRsMwD5kEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_cRgSID5kEfCIqJH4kx29iQ" classification="SHALL" rationale="A correct sealing improves cooling capacity. " source="Engineering design" base_Class="_PRsMwD5kEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_5G7lUD5kEfCIqJH4kx29iQ" base_NamedElement="_5G03oD5kEfCIqJH4kx29iQ" id="REQ-SH-003" text="The Supplier shall establish an Interface Control Document (ICD) with detailed definition of all&#xA;interfaces with catering facilities, A/C cabin and galley. All interface parameters including envelope (internal and external dimensions), caster wheel contact area with imposed maximum floor loads, and acceptable locations/loading areas and retention devices shall be defined, including tolerances to guarantee interchangeability." base_Class="_5G03oD5kEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_DjQaQD5lEfCIqJH4kx29iQ" classification="SHALL" rationale="Interfaces to the AC need to be defined correctly." source="" base_Class="_5G03oD5kEfCIqJH4kx29iQ" stakeholder="_DukrsD5gEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_aYz1sD5lEfCIqJH4kx29iQ" base_NamedElement="_aYxZcD5lEfCIqJH4kx29iQ" id="REQ-SH-004" text="Equipment design shall assure proper fit to intended onboard stowage locations and ease of use,&#xA;engaging all associated features of galley/stowage design to meet both Equipment and&#xA;galley/stowage requirements." base_Class="_aYxZcD5lEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_xT2OED5lEfCIqJH4kx29iQ" verificationMethod="TEST" classification="SHALL" rationale="The Equipment shall fit into the Galley stowages to ensure proper use. " source="Customer (Airline)" base_Class="_aYxZcD5lEfCIqJH4kx29iQ" stakeholder="_yFi_gD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_J3sXUD5mEfCIqJH4kx29iQ" base_NamedElement="_J3pUAD5mEfCIqJH4kx29iQ" id="REQ-SH-005" text="Painted surfaces shall be regularly structured and plain to meet the color, texture and gloss finish&#xA;as defined in the interface colour specifications." base_Class="_J3pUAD5mEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_WKoIkD5mEfCIqJH4kx29iQ" classification="SHALL" rationale="To Ensure Customer Needs are fulfileld" source="Customer (Airline)" base_Class="_J3pUAD5mEfCIqJH4kx29iQ" stakeholder="_yFi_gD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_k2ITsD5mEfCIqJH4kx29iQ" base_NamedElement="_k2CNED5mEfCIqJH4kx29iQ" id="REQ-SH-006" text="The Equipment must withstand all occurring loads in accordance with the airworthiness&#xA;requirements for emergency landing conditions according to CS/FAR 25.561.&#xA;" base_Class="_k2CNED5mEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_uZQPwD5mEfCIqJH4kx29iQ" verificationMethod="TEST" rationale="Emergency Landing Conditions" source="Research" base_Class="_k2CNED5mEfCIqJH4kx29iQ" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_fYnssD5nEfCIqJH4kx29iQ" base_NamedElement="_fYhmED5nEfCIqJH4kx29iQ" text="The Equipment shall not present an injury hazard whether installed, uninstalled, or due to in-&#xA;service wear and tear. The Equipment shall be constructed without sharp corners, sharp edges,&#xA;or other potential mechanical hazards." base_Class="_fYhmED5nEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_2rOQgD5nEfCIqJH4kx29iQ" classification="SHALL" rationale="Preventing Injurys because of sharp edges or malfunctions. " source="User Analysis" base_Class="_fYhmED5nEfCIqJH4kx29iQ" stakeholder="_1MneID5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_MreboD5oEfCIqJH4kx29iQ" base_NamedElement="_MrcmcD5oEfCIqJH4kx29iQ" id="REQ-SH-008" text="Material not inherently corrosion resistant must be finished with a protective treatment or coating." base_Class="_MrcmcD5oEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_VaD8YD5oEfCIqJH4kx29iQ" rationale="To prevent corrosion a coating is needed" source="Research" base_Class="_MrcmcD5oEfCIqJH4kx29iQ" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_g4CbkD5oEfCIqJH4kx29iQ" base_NamedElement="_g38U8D5oEfCIqJH4kx29iQ" id="REQ-SH-009" text="Food-contact surface materials must be non-toxic, corrosion resistant, and non-absorbent." base_Class="_g38U8D5oEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_oIejUD5oEfCIqJH4kx29iQ" verificationMethod="ANALYSIS" rationale="To prevent contamination a correct material surface is needed. " source="Research" base_Class="_g38U8D5oEfCIqJH4kx29iQ" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_7KjGED5oEfCIqJH4kx29iQ" base_NamedElement="_7Kc_cD5oEfCIqJH4kx29iQ" id="REQ-MOE-002" text="NELI Equipment of the same size shall be directly and completely interchangeable." base_Class="_7Kc_cD5oEfCIqJH4kx29iQ"/>
-  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_JLNkcD5pEfCIqJH4kx29iQ" verificationMethod="TEST" classification="SHALL" rationale="Interchangeability is needed for mobility of the product. Trolleys can and will be switched during operation." source="User Analysis" base_Class="_7Kc_cD5oEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_3u1OsD7MEfC-p4myUfuAug" base_NamedElement="_3urdsD7MEfC-p4myUfuAug" id="REQ-SH-009" text="Placards and markings must be capable of withstanding exposure to consumable fluids used in the&#xA;corresponding A/C zone. " base_Class="_3urdsD7MEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_I7E4QD7NEfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be ensured, that the placards withstand the exposureof different fluids. " source="Research" base_Class="_3urdsD7MEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_ZvB9oD7NEfC-p4myUfuAug" base_NamedElement="_Zu9sMD7NEfC-p4myUfuAug" id="REQ-SH-011" text="Warning, information, and instruction placards shall not be smaller than 37 mm x 14 mm." base_Class="_Zu9sMD7NEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_g1fqAD7NEfC-p4myUfuAug" rationale="All placards must be readable. " source="Research" base_Class="_Zu9sMD7NEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_Nm-xQD7OEfC-p4myUfuAug" base_NamedElement="_Nm1AQD7OEfC-p4myUfuAug" id="REQ-SH-012" text="The Equipment must meet the requirements of EUROCAE ED14/RTCA DO-160 Section 4,&#xA;Category A1.&#xA;The temperature testing includes operating low and high temperatures, ground survival temperatures and the simulation of short-time operating temperatures and the loss of in-flight cooling. The actual temperature ranges extremes include a non-operational ground survival temperature as low as -55 C and an operational high temperature of 70 C." base_Class="_Nm1AQD7OEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_ZnXZ8D7OEfC-p4myUfuAug" verificationMethod="TEST" rationale="The Trolley must be operable during high and low temperatures. " source="Research" base_Class="_Nm1AQD7OEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_33GH8D7OEfC-p4myUfuAug" base_NamedElement="_327v4D7OEfC-p4myUfuAug" id="REQ-SH-013" text="The Equipment shall meet the requirements of EUROCAE ED14/RTCA DO-160" base_Class="_327v4D7OEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_6MIFoD7OEfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be verified that the Trolley is operable in high altitude." source="Research" base_Class="_327v4D7OEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_KphFID7PEfC-p4myUfuAug" base_NamedElement="_KpZJUD7PEfC-p4myUfuAug" id="REQ-SH-014" text="The Equipment shall comply with its applicable performance standards during and after testing to&#xA;the conditions defined in EUROCAE ED14/RTCA DO-160" base_Class="_KpZJUD7PEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_UalWkD7PEfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be verified that the Trolley is not damaged by high humidity operation." source="Research" base_Class="_KpZJUD7PEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_qFmRgD7PEfC-p4myUfuAug" base_NamedElement="_qFb5cD7PEfC-p4myUfuAug" id="REQ-SH-015" text="The Equipment shall comply with its applicable performance standards after testing to the&#xA;conditions defined in EUROCAE ED14/RTCA DO-160." base_Class="_qFb5cD7PEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_6Ra_4D7PEfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be verified that the Trolley is fully operable before and after contact with dripping/pooled water. " source="Research" base_Class="_qFb5cD7PEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_LytsYD7QEfC-p4myUfuAug" base_NamedElement="_LyoM0D7QEfC-p4myUfuAug" id="REQ-SH-016" text="The Equipment shall comply with its applicable performance standards after testing to the&#xA;conditions defined in EUROCAE ED14/RTCA DO-160" base_Class="_LyoM0D7QEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_cWJpgD7QEfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be verified that different Fluids (Cleaners, AC Fluids etc.) do not effect the Trolley. " source="Research" base_Class="_LyoM0D7QEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_5wVPkD7QEfC-p4myUfuAug" base_NamedElement="_5wPwAD7QEfC-p4myUfuAug" id="REQ-SH-017" text="The Equipment shall comply with its applicable performance standards after testing to the &#xA;conditions defined in EUROCAE ED14/RTCA DO-160" base_Class="_5wPwAD7QEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_CU88AD7REfC-p4myUfuAug" verificationMethod="TEST" rationale="It needs to be verified that the Trolley is resistant to fungus." source="Research" base_Class="_5wPwAD7QEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_fW0vwD7REfC-p4myUfuAug" base_NamedElement="_fWweUD7REfC-p4myUfuAug" id="REQ-SH-018" text="The Equipment shall comply with its applicable performance standards after testing to the&#xA;conditions defined in EUROCAE ED14/RTCA DO-160 section 26" base_Class="_fWweUD7REfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_nrTucD7REfC-p4myUfuAug" verificationMethod="TEST" rationale="This analysis and test verifies the assembly will not provide a source to fire. " source="Research" base_Class="_fWweUD7REfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_-DgfgD7REfC-p4myUfuAug" base_NamedElement="_-DX8oD7REfC-p4myUfuAug" id="REQ-SH-019" text="The Equipment shall comply with its applicable performance standards after testing to the&#xA;conditions defined in EUROCAE ED14/RTCA DO-160 section 8 " base_Class="_-DX8oD7REfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_AbzMkD7SEfC-p4myUfuAug" verificationMethod="TEST" rationale="The trolley must withstand the operational vibrations of the AC." source="Research" base_Class="_-DX8oD7REfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_T9wJQD7SEfC-p4myUfuAug" base_NamedElement="_T9ttAD7SEfC-p4myUfuAug" id="REQ-SH-020" text="The design of the Equipment must follow the fail-safe concept." base_Class="_T9ttAD7SEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_kAfNED7SEfC-p4myUfuAug" verificationMethod="ANALYSIS" rationale="The design of the Equipment must follow the fail-safe concept to reduce injury." source="Research" base_Class="_T9ttAD7SEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_srB7UD7SEfC-p4myUfuAug" base_NamedElement="_sq5YcD7SEfC-p4myUfuAug" id="REQ-SH-021" text="In-service experience and known problems with Customers shall be fully considered during the concept and definition phases to ensure that lessons learned from experience." base_Class="_sq5YcD7SEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_7PPysD7SEfC-p4myUfuAug" verificationMethod="ANALYSIS" classification="SHALL" base_Class="_sq5YcD7SEfC-p4myUfuAug" stakeholder="_BU--ID5gEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_FLnVMD7TEfC-p4myUfuAug" base_NamedElement="_FLkR4D7TEfC-p4myUfuAug" id="REQ-SH-022" text="Fatigue life limited parts shall be avoided. Any life limit identified and proposed by the Equipment&#xA;Supplier shall be fully justified by relevant data" base_Class="_FLkR4D7TEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_LmIhkD7TEfC-p4myUfuAug" verificationMethod="ANALYSIS" classification="SHALL" rationale="Reduce Maintenance Work and possible malfunction of the Trolley." source="User analysis" base_Class="_FLkR4D7TEfC-p4myUfuAug" stakeholder="_Fcg0MD5gEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_aIEhAD7TEfC-p4myUfuAug" base_NamedElement="_aH8lMD7TEfC-p4myUfuAug" id="REQ-SH-023" text="The maintenance task and its interval shall be compatible with the overall targets for the scheduled maintenance program." base_Class="_aH8lMD7TEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_oNs-8D7TEfC-p4myUfuAug" classification="SHALL" rationale="Reduce extra maintenance " source="User analysis" base_Class="_aH8lMD7TEfC-p4myUfuAug" stakeholder="_Fcg0MD5gEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_yV1skD7TEfC-p4myUfuAug" base_NamedElement="_yVtwwD7TEfC-p4myUfuAug" id="REQ-SH-024" text="Equipment shall be modular in design and assembly which means that in case of needed&#xA;maintenance actions the defective/damaged part(s) of the Equipment can be replaced easily." base_Class="_yVtwwD7TEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_6RkNAD7TEfC-p4myUfuAug" verificationMethod="ANALYSIS" classification="SHALL" rationale="Reducing maintenance time." source="Use Case Analysis" base_Class="_yVtwwD7TEfC-p4myUfuAug" stakeholder="_Fcg0MD5gEfCIqJH4kx29iQ"/>
-  <Requirements:Requirement xmi:id="_FHyIoD7UEfC-p4myUfuAug" base_NamedElement="_FHo-sD7UEfC-p4myUfuAug" id="REQ-SH-025" text="Equipment must comply with all applicable airworthiness requirements in EASA CS-25 and US 14 CFR Part 25." base_Class="_FHo-sD7UEfC-p4myUfuAug"/>
-  <MWPProfile.Requirements:StakeholderRequirement xmi:id="_TgEc0D7UEfC-p4myUfuAug" verificationMethod="ANALYSIS" rationale="" base_Class="_FHo-sD7UEfC-p4myUfuAug" stakeholder="_8jtngD5fEfCIqJH4kx29iQ"/>
   <PortsAndFlows:ItemFlow xmi:id="_Ap3PsExlEfCPhKwMmVgj0Q" base_InformationFlow="_ApvT4ExlEfCPhKwMmVgj0Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_PlIVIExlEfCPhKwMmVgj0Q" base_InformationFlow="_PlEqwExlEfCPhKwMmVgj0Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_QpMaMExlEfCPhKwMmVgj0Q" base_InformationFlow="_QpJ98ExlEfCPhKwMmVgj0Q"/>
@@ -1027,4 +1106,184 @@
   <Blocks:NestedConnectorEnd xmi:id="_fk4gklD-EfCkdvWgC95Lzw" base_Element="_fk4gkFD-EfCkdvWgC95Lzw" propertyPath="_MhgoMFD8EfCkdvWgC95Lzw" base_ConnectorEnd="_fk4gkFD-EfCkdvWgC95Lzw"/>
   <Blocks:NestedConnectorEnd xmi:id="_fk4gk1D-EfCkdvWgC95Lzw" base_Element="_fk4gkVD-EfCkdvWgC95Lzw" propertyPath="_5ET9wFD9EfCkdvWgC95Lzw" base_ConnectorEnd="_fk4gkVD-EfCkdvWgC95Lzw"/>
   <ActionLanguage:TextualRepresentation xmi:id="_X8_RAFWyEfC7zpCi2mABFg" base_Comment="_X8048FWyEfC7zpCi2mABFg" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <Allocations:Allocate xmi:id="_B6ezIF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_kGdwwF20EfCE9ML0q_n1FQ" base_Abstraction="_kGdwwF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_DQgx8F21EfCE9ML0q_n1FQ" base_DirectedRelationship="_mu5yoF20EfCE9ML0q_n1FQ" base_Abstraction="_mu5yoF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_EYgUwF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_vWtV8F20EfCE9ML0q_n1FQ" base_Abstraction="_vWtV8F20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_GGReIF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_wIYqgF20EfCE9ML0q_n1FQ" base_Abstraction="_wIYqgF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_I3Q_EF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_w-LqEF20EfCE9ML0q_n1FQ" base_Abstraction="_w-LqEF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_J1XmEF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_xp3rYF20EfCE9ML0q_n1FQ" base_Abstraction="_xp3rYF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_LhOq8F21EfCE9ML0q_n1FQ" base_DirectedRelationship="_70z1YF20EfCE9ML0q_n1FQ" base_Abstraction="_70z1YF20EfCE9ML0q_n1FQ"/>
+  <Allocations:Allocate xmi:id="_MQvcUF21EfCE9ML0q_n1FQ" base_DirectedRelationship="_8gsrAF20EfCE9ML0q_n1FQ" base_Abstraction="_8gsrAF20EfCE9ML0q_n1FQ"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_dKVswF_QEfCOsp6rqh9ZdA" base_Class="_dKI4cF_QEfCOsp6rqh9ZdA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_S1tk0F_cEfCOsp6rqh9ZdA" base_Class="_S1pTYF_cEfCOsp6rqh9ZdA"/>
+  <Blocks:ValueType xmi:id="_a_PsYGALEfCF3uhA0I8CTA" base_DataType="_a-s50GALEfCF3uhA0I8CTA"/>
+  <Blocks:ValueType xmi:id="_1N2uUGALEfCF3uhA0I8CTA" base_DataType="_1NqhEGALEfCF3uhA0I8CTA"/>
+  <Blocks:ValueType xmi:id="_E-yQcGAMEfCF3uhA0I8CTA" base_DataType="_E-mqQGAMEfCF3uhA0I8CTA"/>
+  <Blocks:ValueType xmi:id="_ZKeGoGAMEfCF3uhA0I8CTA" base_DataType="_ZKWx4GAMEfCF3uhA0I8CTA"/>
+  <Blocks:Block xmi:id="_Bd21cGAOEfCF3uhA0I8CTA" base_Class="_BdtrgGAOEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_KtXxoGAREfCF3uhA0I8CTA" base_NamedElement="_KtPOwGAREfCF3uhA0I8CTA" id="1" text="The Trolley must have an integrated Battery" base_Class="_KtPOwGAREfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_cV6VoGAREfCF3uhA0I8CTA" base_Class="_KtPOwGAREfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_WgSJkGASEfCF3uhA0I8CTA" base_NamedElement="_WgQ7cGASEfCF3uhA0I8CTA" id="2" text="Battery must support at least 7 hours of cooling operation." base_Class="_WgQ7cGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_WgVz8GASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_WgQ7cGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_WwOqEGASEfCF3uhA0I8CTA" base_NamedElement="_WwNb8GASEfCF3uhA0I8CTA" id="3" text="Battery must be protected against short circuits." base_Class="_WwNb8GASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_WwS7gGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_WwNb8GASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_W13_EGASEfCF3uhA0I8CTA" base_NamedElement="_W12J4GASEfCF3uhA0I8CTA" id="4" text="Battery must be protected against short circuits." base_Class="_W12J4GASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_W183kGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_W12J4GASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_W4nxEGASEfCF3uhA0I8CTA" base_NamedElement="_W4mi8GASEfCF3uhA0I8CTA" id="5" text="Battery must be protected against deep discharge." base_Class="_W4mi8GASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_W4spkGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_W4mi8GASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_W5LxwGASEfCF3uhA0I8CTA" base_NamedElement="_W5KjoGASEfCF3uhA0I8CTA" id="6" text="Battery shall be replaceable in maximum 5 minutes." base_Class="_W5KjoGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_W5M_4GASEfCF3uhA0I8CTA" verificationMethod="TEST" classification="SHALL" base_Class="_W5KjoGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_W_X5UGASEfCF3uhA0I8CTA" base_NamedElement="_W_U2AGASEfCF3uhA0I8CTA" id="7" text="Battery shall withstand 1000 charge cycles." base_Class="_W_U2AGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_W_fOEGASEfCF3uhA0I8CTA" verificationMethod="TEST" classification="SHALL" base_Class="_W_U2AGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XAYl8GASEfCF3uhA0I8CTA" base_NamedElement="_XAWwwGASEfCF3uhA0I8CTA" id="8" text="Battery shall not exceed x kg." base_Class="_XAWwwGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XAcQUGASEfCF3uhA0I8CTA" verificationMethod="TEST" classification="SHALL" base_Class="_XAWwwGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XBXdYGASEfCF3uhA0I8CTA" base_NamedElement="_XBWPQGASEfCF3uhA0I8CTA" id="9" text="Battery must have IP65 protection." base_Class="_XBWPQGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XBZSkGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_XBWPQGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XDIX8GASEfCF3uhA0I8CTA" base_NamedElement="_XDGiwGASEfCF3uhA0I8CTA" id="10" text="Battery shall be fully rechargeable within 2 hours." base_Class="_XDGiwGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XDJmEGASEfCF3uhA0I8CTA" verificationMethod="TEST" classification="SHALL" base_Class="_XDGiwGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XFw1MGASEfCF3uhA0I8CTA" base_NamedElement="_XFvnEGASEfCF3uhA0I8CTA" id="11" text="Battery shall have a charge level indicator." base_Class="_XFvnEGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XF1tsGASEfCF3uhA0I8CTA" classification="SHALL" base_Class="_XFvnEGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XGyv8GASEfCF3uhA0I8CTA" base_NamedElement="_XGxh0GASEfCF3uhA0I8CTA" id="12" text="Battery must be non-flammable." base_Class="_XGxh0GASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XG0lIGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_XGxh0GASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_XYcgoGASEfCF3uhA0I8CTA" base_NamedElement="_XYarcGASEfCF3uhA0I8CTA" id="13" text="Trolley must maintain food at 4 °C. " base_Class="_XYarcGASEfCF3uhA0I8CTA"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_XYiAMGASEfCF3uhA0I8CTA" verificationMethod="TEST" base_Class="_XYarcGASEfCF3uhA0I8CTA"/>
+  <Requirements:Requirement xmi:id="_E3jtcGAUEfCl8OVSTydgFw" base_NamedElement="_E3VrAGAUEfCl8OVSTydgFw" id="14" text="Cooling must also  operate at 40 °C ambient temperature." base_Class="_E3VrAGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_E3rpQGAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_E3VrAGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_E-CI4GAUEfCl8OVSTydgFw" base_NamedElement="_E9_soGAUEfCl8OVSTydgFw" id="15" text="Cooling system must be vibration-resistant. " base_Class="_E9_soGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_E-LS0GAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_E9_soGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FDnzgGAUEfCl8OVSTydgFw" base_NamedElement="_FDl-UGAUEfCl8OVSTydgFw" id="16" text="Cooling system shall not exceed X dB noise." base_Class="_FDl-UGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FDuhMGAUEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_FDl-UGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FJaScGAUEfCl8OVSTydgFw" base_NamedElement="_FJX2MGAUEfCl8OVSTydgFw" id="17" text="Cooling System must have at least 2 Thermo Sensors." base_Class="_FJX2MGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FJgZEGAUEfCl8OVSTydgFw" base_Class="_FJX2MGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FPE1kGAUEfCl8OVSTydgFw" base_NamedElement="_FPCZUGAUEfCl8OVSTydgFw" id="18" text="The temperature of the inner cavity shall be displayed to the user. " base_Class="_FPCZUGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FPJuEGAUEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_FPCZUGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FUUh8GAUEfCl8OVSTydgFw" base_NamedElement="_FUTT0GAUEfCl8OVSTydgFw" id="19" text="Cooling must auto-shutoff below 0 °C." base_Class="_FUTT0GAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FUaBgGAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_FUTT0GAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FZhLAGAUEfCl8OVSTydgFw" base_NamedElement="_FZf84GAUEfCl8OVSTydgFw" id="20" text="Trolley must cool a volume of at least X liters." base_Class="_FZf84GAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FZn4sGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_FZf84GAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_FfDyUGAUEfCl8OVSTydgFw" base_NamedElement="_FfCkMGAUEfCl8OVSTydgFw" id="21" text="Cooling system shall consume max X W." base_Class="_FfCkMGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FfJ48GAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" classification="SHALL" base_Class="_FfCkMGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_Fk7w0GAUEfCl8OVSTydgFw" base_NamedElement="_Fk57oGAUEfCl8OVSTydgFw" id="22" text="Trolley must be ATLAS-compatible." base_Class="_Fk57oGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FlApUGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_Fk57oGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_Fqm7AGAUEfCl8OVSTydgFw" base_NamedElement="_FqkewGAUEfCl8OVSTydgFw" id="23" text="Trolley must have a height of 1030mm." base_Class="_FqkewGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FqsakGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_FqkewGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_Ft770GAUEfCl8OVSTydgFw" base_NamedElement="_Ft6GoGAUEfCl8OVSTydgFw" id="24" text="Trolley must have a width of 304 mm." base_Class="_Ft6GoGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FuA0UGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_Ft6GoGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_Fx4nsGAUEfCl8OVSTydgFw" base_NamedElement="_Fx3ZkGAUEfCl8OVSTydgFw" id="25" text="Trolley must have a depth of 810 mm." base_Class="_Fx3ZkGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_FyAjgGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_Fx3ZkGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_F2ok0GAUEfCl8OVSTydgFw" base_NamedElement="_F2mIkGAUEfCl8OVSTydgFw" id="26" text="Trolley must not exceed 30 kg." base_Class="_F2mIkGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_F2tdUGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_F2mIkGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_F5RCEGAUEfCl8OVSTydgFw" base_NamedElement="_F5Pz8GAUEfCl8OVSTydgFw" id="27" text="Trolley shall fit x number of trays." base_Class="_F5Pz8GAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_F5XIsGAUEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" base_Class="_F5Pz8GAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_F9qZ4GAUEfCl8OVSTydgFw" base_NamedElement="_F9oksGAUEfCl8OVSTydgFw" id="28" text="Trolley must support 100 kg load." base_Class="_F9oksGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_F9xHkGAUEfCl8OVSTydgFw" verificationMethod="ANALYSIS" base_Class="_F9oksGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_GBFhUGAUEfCl8OVSTydgFw" base_NamedElement="_GBETMGAUEfCl8OVSTydgFw" id="29" text="Trolley shall have 10 years durability." base_Class="_GBETMGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_GBLA4GAUEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_GBETMGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_GGkeQGAUEfCl8OVSTydgFw" base_NamedElement="_GGipEGAUEfCl8OVSTydgFw" id="30" text="Trolley must be corrosion-resistant." base_Class="_GGipEGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_GGsaEGAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_GGipEGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_GMpREGAUEfCl8OVSTydgFw" base_NamedElement="_GMoqAGAUEfCl8OVSTydgFw" id="31" text="Trolley must be resistant against fungus. " base_Class="_GMoqAGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_GMuJkGAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_GMoqAGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_GSGY0GAUEfCl8OVSTydgFw" base_NamedElement="_GSFKsGAUEfCl8OVSTydgFw" id="32" text="Trolley must be impact-resistant." base_Class="_GSFKsGAUEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_GSL4YGAUEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_GSFKsGAUEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_vvx7EGAWEfCl8OVSTydgFw" base_NamedElement="_vvws8GAWEfCl8OVSTydgFw" id="33" text="Trolley must be fire-resistant." base_Class="_vvws8GAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_vv5P0GAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_vvws8GAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_v2DiMGAWEfCl8OVSTydgFw" base_NamedElement="_v2CUEGAWEfCl8OVSTydgFw" id="34" text="Trolley must have IP65 protection." base_Class="_v2CUEGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_v2HMkGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_v2CUEGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_v7T1oGAWEfCl8OVSTydgFw" base_NamedElement="_v7SAcGAWEfCl8OVSTydgFw" id="35" text="Trolley shall have 4 integrated wheels to move it." base_Class="_v7SAcGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_v7ZVMGAWEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_v7SAcGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wAuhIGAWEfCl8OVSTydgFw" base_NamedElement="_wAsr8GAWEfCl8OVSTydgFw" id="36" text="The maximum inertia force to move the trolley shall be less than X kN." base_Class="_wAsr8GAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wAyLgGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wAsr8GAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wG7PwGAWEfCl8OVSTydgFw" base_NamedElement="_wG5akGAWEfCl8OVSTydgFw" id="37" text="Trolley shall have a display." base_Class="_wG5akGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wHAIQGAWEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_wG5akGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wM2RkGAWEfCl8OVSTydgFw" base_NamedElement="_wM1DcGAWEfCl8OVSTydgFw" id="38" text="Trolley shall allow firmware updates." base_Class="_wM1DcGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wM7KEGAWEfCl8OVSTydgFw" classification="SHALL" base_Class="_wM1DcGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wSYR0GAWEfCl8OVSTydgFw" base_NamedElement="_wSXqwGAWEfCl8OVSTydgFw" id="39" text="Trolley shall support data logging." base_Class="_wSXqwGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wSbVIGAWEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_wSXqwGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wYC08GAWEfCl8OVSTydgFw" base_NamedElement="_wYBm0GAWEfCl8OVSTydgFw" id="40" text="Trolley shall have temperature alarm." base_Class="_wYBm0GAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wYGfUGAWEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_wYBm0GAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wdPeAGAWEfCl8OVSTydgFw" base_NamedElement="_wdOP4GAWEfCl8OVSTydgFw" id="41" text="Trolley must be EMC compliant." base_Class="_wdOP4GAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wdTIYGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wdOP4GAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wiWAcGAWEfCl8OVSTydgFw" base_NamedElement="_wiVZYGAWEfCl8OVSTydgFw" id="42" text="Trolley must not emit radio frequency energy." base_Class="_wiVZYGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wiaR4GAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wiVZYGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wnrMYGAWEfCl8OVSTydgFw" base_NamedElement="_wnqlUGAWEfCl8OVSTydgFw" id="43" text="Trolley must comply with EASA CS-25.1309" base_Class="_wnqlUGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wnvd0GAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wnqlUGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wtQP8GAWEfCl8OVSTydgFw" base_NamedElement="_wtPo4GAWEfCl8OVSTydgFw" id="44" text="Battery must be vibration resistant." base_Class="_wtPo4GAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wtTTQGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wtPo4GAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_wyy3QGAWEfCl8OVSTydgFw" base_NamedElement="_wyyQMGAWEfCl8OVSTydgFw" id="45" text="Trolley must be vibration-resistant." base_Class="_wyyQMGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_wy2hoGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_wyyQMGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_w4RNIGAWEfCl8OVSTydgFw" base_NamedElement="_w4QmEGAWEfCl8OVSTydgFw" id="46" text="Trolley must withstand pressure changes." base_Class="_w4QmEGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_w4UQcGAWEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" base_Class="_w4QmEGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_w9coEGAWEfCl8OVSTydgFw" base_NamedElement="_w9cBAGAWEfCl8OVSTydgFw" id="47" text="Trolley must be ESD protected." base_Class="_w9cBAGAWEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_w9g5gGAWEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_w9cBAGAWEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9m_bIGAZEfCl8OVSTydgFw" base_NamedElement="_9m8-4GAZEfCl8OVSTydgFw" id="48" text="Trolley must be EMI protected." base_Class="_9m8-4GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9nEToGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_9m8-4GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9tJtgGAZEfCl8OVSTydgFw" base_NamedElement="_9tIfYGAZEfCl8OVSTydgFw" id="49" text="Trolley must have an electrical emergency stop button." base_Class="_9tIfYGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9tPNEGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_9tIfYGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9wMacGAZEfCl8OVSTydgFw" base_NamedElement="_9wLMUGAZEfCl8OVSTydgFw" id="50" text="Trolley must support aircraft data bus." base_Class="_9wLMUGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9wQE0GAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_9wLMUGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9yT6UGAZEfCl8OVSTydgFw" base_NamedElement="_9yTTQGAZEfCl8OVSTydgFw" id="51" text="Trolley sahll include maintenance log." base_Class="_9yTTQGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9yYLwGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_9yTTQGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9zeX8GAZEfCl8OVSTydgFw" base_NamedElement="_9zdJ0GAZEfCl8OVSTydgFw" id="52" text="Trolley shall include spare parts list." base_Class="_9zdJ0GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9ze_AGAZEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_9zdJ0GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_91KaAGAZEfCl8OVSTydgFw" base_NamedElement="_91Ik0GAZEfCl8OVSTydgFw" id="53" text="Trolley must be cleanable with disinfectants." base_Class="_91Ik0GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_91PSgGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_91Ik0GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_92BVoGAZEfCl8OVSTydgFw" base_NamedElement="_92AHgGAZEfCl8OVSTydgFw" id="54" text="Trolley must have replaceable wheels." base_Class="_92AHgGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_92DK0GAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_92AHgGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_93cR8GAZEfCl8OVSTydgFw" base_NamedElement="_93bD0GAZEfCl8OVSTydgFw" id="55" text="Trolley must have breaks." base_Class="_93bD0GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_93dgEGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_93bD0GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_95Hs8GAZEfCl8OVSTydgFw" base_NamedElement="_95HF4GAZEfCl8OVSTydgFw" id="56" text="Trolley shall include user manual." base_Class="_95HF4GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_95MlcGAZEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_95HF4GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_97BxcGAZEfCl8OVSTydgFw" base_NamedElement="_97AjUGAZEfCl8OVSTydgFw" id="57" text="Full/Half-size trolleys shall be provided with a door at each end. The doors shall be capable of opening 270° and shall have a hold-open device." base_Class="_97AjUGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_97Fb0GAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_97AjUGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_99MUoGAZEfCl8OVSTydgFw" base_NamedElement="_99KfcGAZEfCl8OVSTydgFw" id="58" text="Trolleys of the same size shall be directly and completely interchangeable." base_Class="_99KfcGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_99OJ0GAZEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_99KfcGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_9-hxYGAZEfCl8OVSTydgFw" base_NamedElement="_9-gjQGAZEfCl8OVSTydgFw" id="59" text="The fully charged cooling system shall not deviate more than ±1 °C over 8 hours." base_Class="_9-gjQGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_9-lbwGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_9-gjQGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-AuJwGAZEfCl8OVSTydgFw" base_NamedElement="_-AtisGAZEfCl8OVSTydgFw" id="60" text="The cooling system shall remain operational at tilt angles up to 15°." base_Class="_-AtisGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-Av-8GAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-AtisGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-DUKwGAZEfCl8OVSTydgFw" base_NamedElement="_-DTjsGAZEfCl8OVSTydgFw" id="61" text="The trolley shall display a warning when temperature limits are exceeded." base_Class="_-DTjsGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-DZqUGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-DTjsGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-FJ90GAZEfCl8OVSTydgFw" base_NamedElement="_-FJWwGAZEfCl8OVSTydgFw" id="62" text="The cooling system must remain operational at ambient temperatures down to&#xD;&#xA;-10 °C." base_Class="_-FJWwGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-FOPQGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_-FJWwGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-HanoGAZEfCl8OVSTydgFw" base_NamedElement="_-HZZgGAZEfCl8OVSTydgFw" id="63" text="The trolley must perform an automatic self-diagnosis of the &#xD;&#xA;cooling system at startup." base_Class="_-HZZgGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-HbOsGAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_-HZZgGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-J9lUGAZEfCl8OVSTydgFw" base_NamedElement="_-J8XMGAZEfCl8OVSTydgFw" id="64" text="The automatic self-diagnosis of the cooling system shall be less than 10s. " base_Class="_-J8XMGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-KAooGAZEfCl8OVSTydgFw" verificationMethod="DEMONSTRATION" classification="SHALL" base_Class="_-J8XMGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-L9wcGAZEfCl8OVSTydgFw" base_NamedElement="_-L8iUGAZEfCl8OVSTydgFw" id="65" text="The Trolley shall display automatic reminders for maintenance intervals. Which can be reset during maintenance." base_Class="_-L8iUGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-MAzwGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-L8iUGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-PCSkGAZEfCl8OVSTydgFw" base_NamedElement="_-PAdYGAZEfCl8OVSTydgFw" id="66" text="All maintenance components shall be accessible without special tools. " base_Class="_-PAdYGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-PEu0GAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-PAdYGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-Q7wAGAZEfCl8OVSTydgFw" base_NamedElement="_-Q6h4GAZEfCl8OVSTydgFw" id="67" text="&quot;The system shall have physical connention point with the galley, &#xA;for battery recharge." base_Class="_-Q6h4GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-RABcGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-Q6h4GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-UWQYGAZEfCl8OVSTydgFw" base_NamedElement="_-UVpUGAZEfCl8OVSTydgFw" id="68" text="The system shall include a loading station, where the trolley can be inserted to charge. " base_Class="_-UVpUGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-UbI4GAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-UVpUGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-WSKEGAZEfCl8OVSTydgFw" base_NamedElement="_-WQU4GAZEfCl8OVSTydgFw" id="69" text="The cooling system shall be able to cool down the air from 20°C to 4°C in 1 hour." base_Class="_-WQU4GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-WV0cGAZEfCl8OVSTydgFw" verificationMethod="TEST" classification="SHALL" base_Class="_-WQU4GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-YiM0GAZEfCl8OVSTydgFw" base_NamedElement="_-YhlwGAZEfCl8OVSTydgFw" id="70" text="The trolley must have a door-lock." base_Class="_-YhlwGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-Yja8GAZEfCl8OVSTydgFw" verificationMethod="TEST" base_Class="_-YhlwGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-bIN0GAZEfCl8OVSTydgFw" base_NamedElement="_-bHmwGAZEfCl8OVSTydgFw" id="71" text="Battery must comply with UN 38.3." base_Class="_-bHmwGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-bNtYGAZEfCl8OVSTydgFw" base_Class="_-bHmwGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-dHx4GAZEfCl8OVSTydgFw" base_NamedElement="_-dHK0GAZEfCl8OVSTydgFw" id="72" text="The trolley shall be constructed from food-grade stainless steel for hygiene and durability." base_Class="_-dHK0GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-dMDUGAZEfCl8OVSTydgFw" classification="SHALL" base_Class="_-dHK0GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-fd7QGAZEfCl8OVSTydgFw" base_NamedElement="_-fdUMGAZEfCl8OVSTydgFw" id="73" text="The trolley should display flight informations on the screen." base_Class="_-fdUMGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-ffJYGAZEfCl8OVSTydgFw" classification="SHALL" base_Class="_-fdUMGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-igoMGAZEfCl8OVSTydgFw" base_NamedElement="_-ifaEGAZEfCl8OVSTydgFw" id="74" text="The Trolley, while in loading position shall withstand an ultimate load of 9g Forward, without any damage of the Trolley or the loading station. " base_Class="_-ifaEGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-ilgsGAZEfCl8OVSTydgFw" verificationMethod="ANALYSIS" classification="SHALL" base_Class="_-ifaEGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-k-GUGAZEfCl8OVSTydgFw" base_NamedElement="_-k84MGAZEfCl8OVSTydgFw" id="75" text="The Trolley, while in loading position shall withstand an ultimate load of 9g to the RH side, without any damage of the Trolley or the loading station. " base_Class="_-k84MGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-lCXwGAZEfCl8OVSTydgFw" verificationMethod="ANALYSIS" classification="SHALL" base_Class="_-k84MGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-m4x4GAZEfCl8OVSTydgFw" base_NamedElement="_-m4K0GAZEfCl8OVSTydgFw" id="76" text="The Trolley, while in loading position shall withstand an ultimate load of 3g upwards, without any damage of the Trolley or the loading station. " base_Class="_-m4K0GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-m6AAGAZEfCl8OVSTydgFw" verificationMethod="ANALYSIS" classification="SHALL" base_Class="_-m4K0GAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-qsT0GAZEfCl8OVSTydgFw" base_NamedElement="_-qpQgGAZEfCl8OVSTydgFw" id="77" text="The trolley inner walls should be coated with anti-bacterial coating." base_Class="_-qpQgGAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-qyacGAZEfCl8OVSTydgFw" classification="SHOULD" base_Class="_-qpQgGAZEfCl8OVSTydgFw"/>
+  <Requirements:Requirement xmi:id="_-r8RAGAZEfCl8OVSTydgFw" base_NamedElement="_-r7p8GAZEfCl8OVSTydgFw" id="78" text="Trolley must passively cool for 24 hours." base_Class="_-r7p8GAZEfCl8OVSTydgFw"/>
+  <MWPProfile.Requirements:ExtendedRequirement xmi:id="_-r-tQGAZEfCl8OVSTydgFw" base_Class="_-r7p8GAZEfCl8OVSTydgFw"/>
+  <Requirements:Trace xmi:id="_NdyusGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_JlXroGFtEfCCk8uDhDJx3g" base_Abstraction="_JlXroGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_P0v_AGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_OUoQEGFtEfCCk8uDhDJx3g" base_Abstraction="_OUoQEGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_TeCZ4GFtEfCCk8uDhDJx3g" base_DirectedRelationship="_SQx8kGFtEfCCk8uDhDJx3g" base_Abstraction="_SQx8kGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_XL0TMGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_VsGM4GFtEfCCk8uDhDJx3g" base_Abstraction="_VsGM4GFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_amNWcGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_ZowPsGFtEfCCk8uDhDJx3g" base_Abstraction="_ZowPsGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_dT_LUGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_cb00QGFtEfCCk8uDhDJx3g" base_Abstraction="_cb00QGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_f7PhcGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_fDokAGFtEfCCk8uDhDJx3g" base_Abstraction="_fDokAGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_mrwzAGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_l5RmIGFtEfCCk8uDhDJx3g" base_Abstraction="_l5RmIGFtEfCCk8uDhDJx3g"/>
+  <Requirements:Trace xmi:id="_pFYVwGFtEfCCk8uDhDJx3g" base_DirectedRelationship="_oJeHIGFtEfCCk8uDhDJx3g" base_Abstraction="_oJeHIGFtEfCCk8uDhDJx3g"/>
 </xmi:XMI>
