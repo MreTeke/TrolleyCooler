@@ -414,10 +414,6 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zNvcEF_cEfCOsp6rqh9ZdA" name="Batterielaufzeit" type="_E-mqQGAMEfCF3uhA0I8CTA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_BdtrgGAOEfCF3uhA0I8CTA" name="Trolley Analysis Context">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_2UPnQGAOEfCF3uhA0I8CTA" name="trolley cooler" type="_QGaHsD43EfCGb_dmBhWPaQ" aggregation="composite" association="_2UNyEGAOEfCF3uhA0I8CTA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2UPnQWAOEfCF3uhA0I8CTA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2UPnQmAOEfCF3uhA0I8CTA" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_3Jcw8GAOEfCF3uhA0I8CTA" name="energieverbrauch" type="_dKI4cF_QEfCOsp6rqh9ZdA" aggregation="composite" association="_3Jbi0GAOEfCF3uhA0I8CTA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3Jcw8WAOEfCF3uhA0I8CTA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Jcw8mAOEfCF3uhA0I8CTA" value="1"/>
@@ -425,7 +421,10 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_J-SI8GAPEfCF3uhA0I8CTA" name="Property3" type="_S1pTYF_cEfCOsp6rqh9ZdA"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_aqPv8GAPEfCF3uhA0I8CTA" name="batterielaufzeit" type="_S1pTYF_cEfCOsp6rqh9ZdA"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_C_lpcGF4EfCCk8uDhDJx3g" name="Property5" type="_dKI4cF_QEfCOsp6rqh9ZdA"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_q8XEgGF4EfCCk8uDhDJx3g" name="trolley Cooler" type="_QGaHsD43EfCGb_dmBhWPaQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_P_vLYmGLEfCM59kyHBx-eQ" name="trolley cooler" type="_QGaHsD43EfCGb_dmBhWPaQ" aggregation="composite" association="_P_t9QGGLEfCM59kyHBx-eQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P_vycGGLEfCM59kyHBx-eQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P_vycWGLEfCM59kyHBx-eQ" value="1"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_oJKooGAOEfCF3uhA0I8CTA" memberEnd="_oJMd0GAOEfCF3uhA0I8CTA _oJNE4WAOEfCF3uhA0I8CTA" navigableOwnedEnd="_oJMd0GAOEfCF3uhA0I8CTA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oJLPsGAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
@@ -437,17 +436,17 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oJNE4GAOEfCF3uhA0I8CTA" value="1"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_2UNyEGAOEfCF3uhA0I8CTA" memberEnd="_2UPnQGAOEfCF3uhA0I8CTA _2UQOUGAOEfCF3uhA0I8CTA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2UPAMGAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2UPAMWAOEfCF3uhA0I8CTA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_2UQOUGAOEfCF3uhA0I8CTA" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_2UNyEGAOEfCF3uhA0I8CTA"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_3Jbi0GAOEfCF3uhA0I8CTA" memberEnd="_3Jcw8GAOEfCF3uhA0I8CTA _3JdYAGAOEfCF3uhA0I8CTA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3JcJ4GAOEfCF3uhA0I8CTA" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3JcJ4WAOEfCF3uhA0I8CTA" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_3JdYAGAOEfCF3uhA0I8CTA" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_3Jbi0GAOEfCF3uhA0I8CTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_P_t9QGGLEfCM59kyHBx-eQ" memberEnd="_P_vLYmGLEfCM59kyHBx-eQ _P_vycmGLEfCM59kyHBx-eQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P_vLYGGLEfCM59kyHBx-eQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P_vLYWGLEfCM59kyHBx-eQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_P_vycmGLEfCM59kyHBx-eQ" name="trolley analysis context" type="_BdtrgGAOEfCF3uhA0I8CTA" association="_P_t9QGGLEfCM59kyHBx-eQ"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QGaHsD43EfCGb_dmBhWPaQ" name="Trolley Cooler" visibility="private" useCase="_Y8dSsE6bEfCK1sKa9aUuHg _qIEDEE6bEfCK1sKa9aUuHg" classifierBehavior="_yaKrQExuEfCPhKwMmVgj0Q">
